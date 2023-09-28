@@ -1,6 +1,19 @@
 import Head from 'next/head';
 
-export default function Home() {
+import CardItem from '@/components/card-item/card-item';
+import { PrismaClient } from '@prisma/client';
+
+import styles from '@/styles/home-page.module.scss';
+
+interface IProps {
+  temples: {
+    id: number;
+    name: string;
+    main_image: string;
+  }[];
+}
+
+export default function Home({ temples }: IProps) {
   return (
     <>
       <Head>
@@ -10,8 +23,34 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Hello word</h1>
+        <div className={styles.temples}>
+          {temples.map(temple => (
+            <CardItem
+              key={temple.id}
+              name={temple.name}
+              main_image={temple.main_image}
+            />
+          ))}
+        </div>
       </main>
     </>
   );
+}
+
+export async function getStaticProps() {
+  const prisma = new PrismaClient();
+
+  const temples = await prisma.temples.findMany({
+    select: {
+      id: true,
+      name: true,
+      main_image: true
+    }
+  });
+
+  return {
+    props: {
+      temples
+    }
+  };
 }
