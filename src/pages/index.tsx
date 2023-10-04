@@ -1,9 +1,7 @@
 import Head from 'next/head';
 
-import CardItem from '@/components/card-item/card-item';
+import ArchitectureList from '@/components/architecture-list/architecture-list';
 import { PrismaClient } from '@prisma/client';
-
-import styles from '@/styles/home-page.module.scss';
 
 interface IProps {
   temples: {
@@ -23,15 +21,7 @@ export default function Home({ temples }: IProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className={styles.temples}>
-          {temples.map(temple => (
-            <CardItem
-              key={temple.id}
-              name={temple.name}
-              main_image={temple.main_image}
-            />
-          ))}
-        </div>
+        <ArchitectureList list={temples} />
       </main>
     </>
   );
