@@ -18,19 +18,38 @@
       {
         "groups": [
           // `react` first, `next` second, then packages starting with a character
-          ["^react$", "^next", "^[a-z]"],
+          [
+            "^react$",
+            "^next",
+            "^[a-z]"
+          ],
           // Packages starting with `@`
-          ["^@"],
+          [
+            "^@"
+          ],
           // Packages starting with `~`
-          ["^~"],
+          [
+            "^~"
+          ],
           // Imports starting with `../`
-          ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
+          [
+            "^\\.\\.(?!/?$)",
+            "^\\.\\./?$"
+          ],
           // Imports starting with `./`
-          ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
+          [
+            "^\\./(?=.*/)(?!/?$)",
+            "^\\.(?!/?$)",
+            "^\\./?$"
+          ],
           // Style imports
-          ["^.+\\.s?css$"],
+          [
+            "^.+\\.s?css$"
+          ],
           // Side effect imports
-          ["^\\u0000"]
+          [
+            "^\\u0000"
+          ]
         ]
       }
     ],
@@ -38,6 +57,7 @@
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "import/prefer-default-export": "off"
   }
 }
