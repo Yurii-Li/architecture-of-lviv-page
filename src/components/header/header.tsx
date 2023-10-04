@@ -1,8 +1,6 @@
-import styles from './header.module.scss';
-
 export default function Header() {
   return (
-    <header className={styles.header}>
+    <header className="header">
       <div>Logo</div>
     </header>
   );
