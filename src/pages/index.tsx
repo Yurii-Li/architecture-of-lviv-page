@@ -1,7 +1,8 @@
 import Head from 'next/head';
 
 import ArchitectureList from '@/components/architecture-list/architecture-list';
-import { PrismaClient } from '@prisma/client';
+import { CategoriesEnum } from '@/enums/categories.enum';
+import { prisma } from '@/lib/prisma';
 
 interface IProps {
   temples: {
@@ -28,9 +29,12 @@ export default function Home({ temples }: IProps) {
 }
 
 export async function getStaticProps() {
-  const prisma = new PrismaClient();
-
-  const temples = await prisma.temples.findMany({
+  const temples = await prisma.architectural_landmarks.findMany({
+    where: {
+      category: {
+        name: CategoriesEnum.TEMPLES
+      }
+    },
     select: {
       id: true,
       name: true,
