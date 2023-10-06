@@ -5,7 +5,7 @@ import { Pagination } from 'antd';
 import ArchitectureList from '@/components/architecture-list/architecture-list';
 import { CategoriesEnum } from '@/enums/categories.enum';
 import { IArchitectureCard } from '@/interfaces/architecture.interface';
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
 
 interface IProps {
   count: number;
@@ -42,8 +42,6 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
     category: CategoriesEnum;
   };
 
-  const prisma = new PrismaClient();
-
   if (!Object.values(CategoriesEnum).includes(category)) {
     return {
       notFound: true
@@ -51,10 +49,19 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   }
 
   const [count, data] = await prisma.$transaction([
-    // @ts-ignore
-    prisma[category].count(),
-    // @ts-ignore
-    prisma[category].findMany({
+    prisma.architectural_landmarks.count({
+      where: {
+        category: {
+          name: category
+        }
+      }
+    }),
+    prisma.architectural_landmarks.findMany({
+      where: {
+        category: {
+          name: category
+        }
+      },
       select: {
         id: true,
         name: true,
