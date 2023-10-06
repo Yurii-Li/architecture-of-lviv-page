@@ -1,7 +1,9 @@
+import { ReactNode } from 'react';
 import Head from 'next/head';
 
 import ArchitectureList from '@/components/architecture-list/architecture-list';
 import { CategoriesEnum } from '@/enums/categories.enum';
+import MainLayout from '@/layouts/main-layout/main-layout';
 import { prisma } from '@/lib/prisma';
 
 interface IProps {
@@ -27,6 +29,10 @@ export default function Home({ temples }: IProps) {
     </>
   );
 }
+
+Home.getLayout = function getLayout(page: ReactNode) {
+  return <MainLayout>{page}</MainLayout>;
+};
 
 export async function getStaticProps() {
   const temples = await prisma.architectural_landmarks.findMany({
