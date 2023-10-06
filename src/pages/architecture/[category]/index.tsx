@@ -5,6 +5,8 @@ import { Pagination } from 'antd';
 import ArchitectureList from '@/components/architecture-list/architecture-list';
 import { CategoriesEnum } from '@/enums/categories.enum';
 import { IArchitectureCard } from '@/interfaces/architecture.interface';
+import ArchitectureLayout from '@/layouts/architecture-layout/architecture-layout';
+import MainLayout from '@/layouts/main-layout/main-layout';
 import { prisma } from '@/lib/prisma';
 
 interface IProps {
@@ -35,6 +37,14 @@ export default function CategoryPage({ count, data }: IProps) {
     </>
   );
 }
+
+CategoryPage.getLayout = function getLayout(page: React.ReactNode) {
+  return (
+    <MainLayout>
+      <ArchitectureLayout>{page}</ArchitectureLayout>
+    </MainLayout>
+  );
+};
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const { page, category } = query as {
@@ -68,7 +78,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
         main_image: true
       },
       take: 20,
-      skip: (Number(page) - 1) * 20
+      skip: (Number(page) - 1) * 20 || 0
     })
   ]);
 
