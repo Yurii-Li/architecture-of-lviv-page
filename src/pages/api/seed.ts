@@ -8,12 +8,35 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  await prisma.temples.deleteMany();
-  await prisma.defense_structures.deleteMany();
-  await prisma.museums.deleteMany();
+  await prisma.categories.deleteMany();
+  await prisma.architectural_landmarks.deleteMany();
+
+  await prisma.categories.createMany({
+    data: [
+      {
+        name: 'temples'
+      },
+      {
+        name: 'defense_structures'
+      },
+      {
+        name: 'museums'
+      }
+    ]
+  });
+
+  const categories = await prisma.categories.findMany();
+
+  const temples =
+    categories.find(category => category.name === 'temples')?.id || 1;
+  const defenseStructures =
+    categories.find(category => category.name === 'defense_structures')?.id ||
+    1;
+  const museums =
+    categories.find(category => category.name === 'museums')?.id || 1;
 
   // Храми
-  await prisma.temples.createMany({
+  await prisma.architectural_landmarks.createMany({
     data: [
       {
         name: 'Латинський кафедральний собор',
@@ -45,7 +68,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37200'
         ],
         location: 'площа Катедральна, 1',
-        date_of_foundation: '1360-1493 рр.'
+        date_of_foundation: '1360-1493 рр.',
+        category_id: temples
       },
       {
         name: 'Церква Святого Архистратига Михаїла (Костел кармелітів босих)',
@@ -69,7 +93,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40638'
         ],
         location: 'вулиця Володимира Винниченка, 22',
-        date_of_foundation: '1634 рік'
+        date_of_foundation: '1634 рік',
+        category_id: temples
       },
       {
         name: 'Архикатедральний собор Святого Юра',
@@ -96,7 +121,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37177'
         ],
         location: 'площа Святого Юра, 5',
-        date_of_foundation: '1744-1770 рр.'
+        date_of_foundation: '1744-1770 рр.',
+        category_id: temples
       },
       {
         name: 'Бернардинський монастир',
@@ -117,7 +143,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37237'
         ],
         location: 'площа Соборна, 1-3А',
-        date_of_foundation: '1600-1630 рр.'
+        date_of_foundation: '1600-1630 рр.',
+        category_id: temples
       },
       {
         name: 'Вірменський кафедральний собор Успіння Пресвятої Богородиці',
@@ -136,7 +163,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37229'
         ],
         location: 'вулиця Вірменська, 7-13',
-        date_of_foundation: '1363-1370 рр.'
+        date_of_foundation: '1363-1370 рр.',
+        category_id: temples
       },
       {
         name: 'Гарнизонний храм святих апостолів Петра і Павла (Костел єзуїтів)',
@@ -162,7 +190,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37281'
         ],
         location: 'вулиця Театральна, 11',
-        date_of_foundation: '1610-1630 рр.'
+        date_of_foundation: '1610-1630 рр.',
+        category_id: temples
       },
       {
         name: 'Домініканський собор (Церква Пресвятої Євхаристії)',
@@ -182,7 +211,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37250'
         ],
         location: 'площа Музейна, 1',
-        date_of_foundation: '1745-1764 рр.'
+        date_of_foundation: '1745-1764 рр.',
+        category_id: temples
       },
       {
         name: 'Княжий Храм Святого Миколая Чудотворця',
@@ -203,7 +233,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37145'
         ],
         location: 'вулиця Богдана Хмельницького, 28А',
-        date_of_foundation: 'XIII ст.'
+        date_of_foundation: 'XIII ст.',
+        category_id: temples
       },
       {
         name: 'Костел і монастир бенедиктинок',
@@ -220,7 +251,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41220'
         ],
         location: 'вулиця Вічева, 2',
-        date_of_foundation: '1595 р.'
+        date_of_foundation: '1595 р.',
+        category_id: temples
       },
       {
         name: 'Львівський музей історії релігії',
@@ -243,7 +275,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33438'
         ],
         location: 'площа Музейна, 1',
-        date_of_foundation: '1973 р.'
+        date_of_foundation: '1973 р.',
+        category_id: temples
       },
       {
         name: 'Церква Іоанна Хрестителя',
@@ -260,7 +293,8 @@ export default async function handler(
         main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37164',
         images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/37164'],
         location: 'вулиця Ужгородська, 1',
-        date_of_foundation: '1250 р.'
+        date_of_foundation: '1250 р.',
+        category_id: temples
       },
       {
         name: 'Церква Святих Ольги і Єлизавети',
@@ -276,7 +310,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41218'
         ],
         location: 'площа Кропивницького, 1',
-        date_of_foundation: '1903-1912 рр.'
+        date_of_foundation: '1903-1912 рр.',
+        category_id: temples
       },
       {
         name: 'Церква Успіння Пресвятої Богородиці (Волоська)',
@@ -300,13 +335,14 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37157'
         ],
         location: 'вулиця Руська, 5/7',
-        date_of_foundation: 'XIV-XVI ст.'
+        date_of_foundation: 'XIV-XVI ст.',
+        category_id: temples
       }
     ]
   });
 
   // Оборонні споруди
-  await prisma.defense_structures.createMany({
+  await prisma.architectural_landmarks.createMany({
     data: [
       {
         name: 'Глинянська брама',
@@ -326,7 +362,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42129'
         ],
         location: 'вулиця Валова, 20',
-        date_of_foundation: '17 ст.'
+        date_of_foundation: '17 ст.',
+        category_id: defenseStructures
       },
       {
         name: 'Львівська цитадель',
@@ -345,7 +382,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41523'
         ],
         location: 'вулиця Павла Грабовського, 11',
-        date_of_foundation: '1850-1856 рр.'
+        date_of_foundation: '1850-1856 рр.',
+        category_id: defenseStructures
       },
       {
         name: 'Музей-Арсенал (Міський арсенал)',
@@ -371,7 +409,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32806'
         ],
         location: 'вулиця Підвальна, 5',
-        date_of_foundation: '1554-1556 рр.'
+        date_of_foundation: '1554-1556 рр.',
+        category_id: defenseStructures
       },
       {
         name: 'Порохова вежа',
@@ -391,13 +430,14 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37137'
         ],
         location: 'вулиця Підвальна, 4',
-        date_of_foundation: '1554-1556 рр.'
+        date_of_foundation: '1554-1556 рр.',
+        category_id: defenseStructures
       }
     ]
   });
 
   // Музеї
-  await prisma.museums.createMany({
+  await prisma.architectural_landmarks.createMany({
     data: [
       {
         name: 'Музей "Личаківський цвинтар"',
@@ -423,7 +463,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37320'
         ],
         location: 'вулиця Пекарська, 95',
-        date_of_foundation: '1784 р.'
+        date_of_foundation: '1784 р.',
+        category_id: museums
       },
       {
         name: 'Музей Івана Георгія Пінзеля (Костел кларисок)',
@@ -445,7 +486,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32764'
         ],
         location: 'площа Митна, 2',
-        date_of_foundation: '1607 р.'
+        date_of_foundation: '1607 р.',
+        category_id: museums
       },
       {
         name: 'Музей науки',
@@ -466,7 +508,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/36913'
         ],
         location: 'вулиця Стрийська, 200А',
-        date_of_foundation: '2022 р.'
+        date_of_foundation: '2022 р.',
+        category_id: museums
       },
       {
         name: 'Аптека-музей "Під чорним орлом"',
@@ -491,7 +534,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32723'
         ],
         location: 'вулиця Друкарська, 2',
-        date_of_foundation: '1735 р.'
+        date_of_foundation: '1735 р.',
+        category_id: museums
       },
       {
         name: 'Арт Центр Дзиґа',
@@ -504,7 +548,8 @@ export default async function handler(
         main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32728',
         images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/32728'],
         location: 'вулиця Вірменська, 35',
-        date_of_foundation: '1993 р.'
+        date_of_foundation: '1993 р.',
+        category_id: museums
       },
       {
         name: 'Археологічний музей Інституту українознавства',
@@ -526,7 +571,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32813'
         ],
         location: 'вулиця Володимира Винниченка, 24',
-        date_of_foundation: '2001 р.'
+        date_of_foundation: '2001 р.',
+        category_id: museums
       },
       {
         name: 'Державний природознавчий музей',
@@ -541,7 +587,8 @@ export default async function handler(
         main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32423',
         images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/32423'],
         location: 'вулиця Театральна, 18',
-        date_of_foundation: '1870 р.'
+        date_of_foundation: '1870 р.',
+        category_id: museums
       },
       {
         name: 'Дім Франка',
@@ -563,7 +610,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41104'
         ],
         location: 'вулиця Івана Франка, 150-152',
-        date_of_foundation: '1940 р.'
+        date_of_foundation: '1940 р.',
+        category_id: museums
       },
       {
         name: 'Історичний комплекс музею імені Андрея Шептицького',
@@ -584,7 +632,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33542'
         ],
         location: 'вулиця Михайла Драгоманова, 42',
-        date_of_foundation: '1913 р.'
+        date_of_foundation: '1913 р.',
+        category_id: museums
       },
       {
         name: 'Львівська національна галерея мистецтв імені Бориса Возницького (Палац Лозинського)',
@@ -601,7 +650,8 @@ export default async function handler(
         main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/25665',
         images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/25665'],
         location: 'вулиця Василя Стефаника, 3',
-        date_of_foundation: '1914 р.'
+        date_of_foundation: '1914 р.',
+        category_id: museums
       },
       {
         name: 'Львівський Будинок вчених',
@@ -627,7 +677,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32855'
         ],
         location: 'вулиця Листопадового Чину, 6',
-        date_of_foundation: '1897-1898 рр.'
+        date_of_foundation: '1897-1898 рр.',
+        category_id: museums
       },
       {
         name: 'Львівський музей історії релігії',
@@ -649,7 +700,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33438'
         ],
         location: 'площа Музейна, 1',
-        date_of_foundation: '1973 р.'
+        date_of_foundation: '1973 р.',
+        category_id: museums
       },
       {
         name: 'Львівський музей пивоваріння "Львіварня"',
@@ -676,7 +728,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32760'
         ],
         location: 'вулиця Клепарівська, 18',
-        date_of_foundation: '2016 р.'
+        date_of_foundation: '2016 р.',
+        category_id: museums
       },
       {
         name: 'Львівський палац мистецтв',
@@ -699,7 +752,8 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32736'
         ],
         location: 'вулиця Миколи Коперника, 17',
-        date_of_foundation: '1996 р.'
+        date_of_foundation: '1996 р.',
+        category_id: museums
       }
     ]
   });
