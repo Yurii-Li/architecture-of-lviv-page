@@ -6,8 +6,8 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  await prisma.categories.deleteMany();
   await prisma.architectural_landmarks.deleteMany();
+  await prisma.categories.deleteMany();
 
   await prisma.categories.createMany({
     data: [
@@ -69,7 +69,8 @@ export default async function handler(
         date_of_foundation: '1360-1493 рр.',
         category_id: temples,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.357429677264!2d24.0305101!3d49.8407785!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adda91dbdfdf9%3A0x1c11956e83fa3219!2z0JvQsNGC0LjQvdGB0YzQutC40Lkg0LrQsNGC0LXQtNGA0LDQu9GM0L3QuNC5INGB0L7QsdC-0YA!5e0!3m2!1suk!2sua!4v1697301671268!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.357429677264!2d24.0305101!3d49.8407785!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adda91dbdfdf9%3A0x1c11956e83fa3219!2z0JvQsNGC0LjQvdGB0YzQutC40Lkg0LrQsNGC0LXQtNGA0LDQu9GM0L3QuNC5INGB0L7QsdC-0YA!5e0!3m2!1suk!2sua!4v1697301671268!5m2!1suk!2sua',
+        online_tour_link: '//latin-cathedral-lviv.virtual.ua/ua/embed-tour/'
       },
       {
         name: 'Церква Святого Архистратига Михаїла (Костел кармелітів босих)',
@@ -126,7 +127,8 @@ export default async function handler(
         date_of_foundation: '1744-1770 рр.',
         category_id: temples,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.200518455952!2d24.010335876833032!3d49.83868973122249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add777b87f055%3A0xb2d38fb7e99bca0a!2z0JDRgNGF0LjQutCw0YLQtdC00YDQsNC70YzQvdC40Lkg0KHQvtCx0L7RgCDQodCy0Y_RgtC-0LPQviDQrtGA0LAsINC_0LsuINCh0LLRj9GC0L7Qs9C-INCu0YDQsCwgNSwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1697302744012!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.200518455952!2d24.010335876833032!3d49.83868973122249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add777b87f055%3A0xb2d38fb7e99bca0a!2z0JDRgNGF0LjQutCw0YLQtdC00YDQsNC70YzQvdC40Lkg0KHQvtCx0L7RgCDQodCy0Y_RgtC-0LPQviDQrtGA0LAsINC_0LsuINCh0LLRj9GC0L7Qs9C-INCu0YDQsCwgNSwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1697302744012!5m2!1suk!2sua',
+        online_tour_link: '//st-george-cathedral-lviv.virtual.ua/ua/embed-tour/'
       },
       {
         name: 'Бернардинський монастир',
@@ -224,7 +226,8 @@ export default async function handler(
         date_of_foundation: '1745-1764 рр.',
         category_id: temples,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.984262155266!2d24.031248276833153!3d49.84275323093241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add059b7b3cf1%3A0x97bdfa1e04fc9cc!2z0KbQtcyB0YDQutCy0LAg0J_RgNC10YHQstGP0YLQvsyB0Zcg0ITQstGF0LDRgNC4zIHRgdGC0ZbRlw!5e0!3m2!1suk!2sua!4v1697303017064!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.984262155266!2d24.031248276833153!3d49.84275323093241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add059b7b3cf1%3A0x97bdfa1e04fc9cc!2z0KbQtcyB0YDQutCy0LAg0J_RgNC10YHQstGP0YLQvsyB0Zcg0ITQstGF0LDRgNC4zIHRgdGC0ZbRlw!5e0!3m2!1suk!2sua!4v1697303017064!5m2!1suk!2sua',
+        online_tour_link: '//dominican-cathedral-lviv.virtual.ua/ua/embed-tour/'
       },
       {
         name: 'Княжий Храм Святого Миколая Чудотворця',
@@ -287,7 +290,9 @@ export default async function handler(
         date_of_foundation: '1903-1912 рр.',
         category_id: temples,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.2930041871!2d24.002149676832936!3d49.836951831346575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add8266bcedd7%3A0x74026b340a5c8ae2!2z0KXRgNCw0Lwg0KHQstCyLiDQntC70YzQs9C4INGWINCE0LvQuNC30LDQstC10YLQuA!5e0!3m2!1suk!2sua!4v1697303482845!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.2930041871!2d24.002149676832936!3d49.836951831346575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add8266bcedd7%3A0x74026b340a5c8ae2!2z0KXRgNCw0Lwg0KHQstCyLiDQntC70YzQs9C4INGWINCE0LvQuNC30LDQstC10YLQuA!5e0!3m2!1suk!2sua!4v1697303482845!5m2!1suk!2sua',
+        online_tour_link:
+          '//st-elisabeth-cathedral-lviv.virtual.ua/ua/embed-tour/'
       },
       {
         name: 'Церква Успіння Пресвятої Богородиці (Волоська)',
@@ -314,7 +319,9 @@ export default async function handler(
         date_of_foundation: 'XIV-XVI ст.',
         category_id: temples,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.020854119605!2d24.03444345474484!3d49.84206567760051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6c8cca689b%3A0x55738f8bd7ef873a!2z0KPRgdC_0LXQvdGB0YzQutCwINGG0LXRgNC60LLQsCwg0LLQtdC20LAg0JrQvtGA0L3Rj9C60YLQsCDRliDQutCw0L_Qu9C40YbRjyDRgtGA0YzQvtGFINCh0LLRj9GC0LjRgtC10LvRltCyINCf0KbQow!5e0!3m2!1suk!2sua!4v1697303691880!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.020854119605!2d24.03444345474484!3d49.84206567760051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6c8cca689b%3A0x55738f8bd7ef873a!2z0KPRgdC_0LXQvdGB0YzQutCwINGG0LXRgNC60LLQsCwg0LLQtdC20LAg0JrQvtGA0L3Rj9C60YLQsCDRliDQutCw0L_Qu9C40YbRjyDRgtGA0YzQvtGFINCh0LLRj9GC0LjRgtC10LvRltCyINCf0KbQow!5e0!3m2!1suk!2sua!4v1697303691880!5m2!1suk!2sua',
+        online_tour_link:
+          '//assumption-church-lviv.virtual.ua/ua/embed-tour/269853/'
       }
     ]
   });
@@ -394,7 +401,8 @@ export default async function handler(
         date_of_foundation: '1554-1556 рр.',
         category_id: defenseStructures,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.058036092557!2d24.032639076833075!3d49.841367031031446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add96988cd2ab%3A0xca4f69001f83d980!2z0JzRg9C30LXQuSDQkNGA0YHQtdC90LDQuw!5e0!3m2!1suk!2sua!4v1697303941411!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.058036092557!2d24.032639076833075!3d49.841367031031446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add96988cd2ab%3A0xca4f69001f83d980!2z0JzRg9C30LXQuSDQkNGA0YHQtdC90LDQuw!5e0!3m2!1suk!2sua!4v1697303941411!5m2!1suk!2sua',
+        online_tour_link: '//arsenal-museum.virtual.ua/ru/embed-tour/'
       },
       {
         name: 'Порохова вежа',
@@ -417,7 +425,8 @@ export default async function handler(
         date_of_foundation: '1554-1556 рр.',
         category_id: defenseStructures,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.980531374379!2d24.032889276833146!3d49.84282333092745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6cbffe0d01%3A0xa33f619e972b9468!2z0J_QvtGA0L7RhdC-0LLQsCDQstC10LbQsCwg0LLRg9C70LjRhtGPINCf0ZbQtNCy0LDQu9GM0L3QsCwgNCwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1697303980366!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.980531374379!2d24.032889276833146!3d49.84282333092745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6cbffe0d01%3A0xa33f619e972b9468!2z0J_QvtGA0L7RhdC-0LLQsCDQstC10LbQsCwg0LLRg9C70LjRhtGPINCf0ZbQtNCy0LDQu9GM0L3QsCwgNCwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1697303980366!5m2!1suk!2sua',
+        online_tour_link: '//gunpowder-tower-lviv.virtual.ua/UA/embed-tour/'
       }
     ]
   });
@@ -449,7 +458,8 @@ export default async function handler(
         date_of_foundation: '1973 р.',
         category_id: temples,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.964698131627!2d24.031146876833187!3d49.843120830906095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adec0948405f7%3A0x60eb66ebaa755e8c!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0LzRg9C30LXQuSDRltGB0YLQvtGA0ZbRlyDRgNC10LvRltCz0ZbRlw!5e0!3m2!1suk!2sua!4v1697304085231!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.964698131627!2d24.031146876833187!3d49.843120830906095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adec0948405f7%3A0x60eb66ebaa755e8c!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0LzRg9C30LXQuSDRltGB0YLQvtGA0ZbRlyDRgNC10LvRltCz0ZbRlw!5e0!3m2!1suk!2sua!4v1697304085231!5m2!1suk!2sua',
+        online_tour_link: '//museum-history-religion.virtual.ua/ua/embed-tour/'
       },
       {
         name: 'Музей "Церква Іоанна Хрестителя"',
@@ -498,7 +508,8 @@ export default async function handler(
         date_of_foundation: '1784 р.',
         category_id: museums,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.531836212236!2d24.053516076832672!3d49.832463731666856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add4f68c422d3%3A0x1d56256364fa4cc0!2zTdGD0LfQtdC5LdC30LDQv9C-0LLRltC00L3QuNC6IMKr0JvQuNGH0LDQutGW0LLRgdGM0LrQuNC5INGG0LLQuNC90YLQsNGAwrs!5e0!3m2!1suk!2sua!4v1697304275424!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.531836212236!2d24.053516076832672!3d49.832463731666856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add4f68c422d3%3A0x1d56256364fa4cc0!2zTdGD0LfQtdC5LdC30LDQv9C-0LLRltC00L3QuNC6IMKr0JvQuNGH0LDQutGW0LLRgdGM0LrQuNC5INGG0LLQuNC90YLQsNGAwrs!5e0!3m2!1suk!2sua!4v1697304275424!5m2!1suk!2sua',
+        online_tour_link: '//lychakiv-cemetery.virtual.ua/ua/embed-tour/'
       },
       {
         name: 'Музей Івана Георгія Пінзеля (Костел кларисок)',
@@ -547,7 +558,9 @@ export default async function handler(
         date_of_foundation: '2022 р.',
         category_id: museums,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.2448961207697!2d24.01435847683126!3d49.80026343396473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae73cecd42323%3A0x8eadfeaa29a95614!2z0JzRg9C30LXQuSDQvdCw0YPQutC4INCb0YzQstGW0LI!5e0!3m2!1suk!2sua!4v1697304495360!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.2448961207697!2d24.01435847683126!3d49.80026343396473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae73cecd42323%3A0x8eadfeaa29a95614!2z0JzRg9C30LXQuSDQvdCw0YPQutC4INCb0YzQstGW0LI!5e0!3m2!1suk!2sua!4v1697304495360!5m2!1suk!2sua',
+        online_tour_link:
+          'https://kuula.co/share/collection/7FqFK?logo=0&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1'
       },
       {
         name: 'Аптека-музей "Під чорним орлом"',
@@ -575,7 +588,8 @@ export default async function handler(
         date_of_foundation: '1735 р.',
         category_id: museums,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.988008898518!2d24.02983977683316!3d49.84268283093759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d04f8c285%3A0x40e2b720ff31d419!2z0JDQv9GC0LXQutCwLdC80YPQt9C10Lk!5e0!3m2!1suk!2sua!4v1697305705932!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.988008898518!2d24.02983977683316!3d49.84268283093759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d04f8c285%3A0x40e2b720ff31d419!2z0JDQv9GC0LXQutCwLdC80YPQt9C10Lk!5e0!3m2!1suk!2sua!4v1697305705932!5m2!1suk!2sua',
+        online_tour_link: '//pharmacy-museum-lviv.virtual.ua/ua/embed-tour/'
       },
       {
         name: 'Арт Центр Дзиґа',
@@ -732,7 +746,9 @@ export default async function handler(
         date_of_foundation: '1897-1898 рр.',
         category_id: museums,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.0724745753887!2d24.018835076833046!3d49.841095731050814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add716898f5e1%3A0x9f35ab750998d3df!2z0JHRg9C00LjQvdC-0Log0LLRh9C10L3QuNGF!5e0!3m2!1suk!2sua!4v1697307280635!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.0724745753887!2d24.018835076833046!3d49.841095731050814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add716898f5e1%3A0x9f35ab750998d3df!2z0JHRg9C00LjQvdC-0Log0LLRh9C10L3QuNGF!5e0!3m2!1suk!2sua!4v1697307280635!5m2!1suk!2sua',
+        online_tour_link:
+          '//house-scientists-lviv.virtual.ua/ua/embed-tour/269827/'
       },
       {
         name: 'Львівський музей пивоваріння "Львіварня"',
@@ -788,7 +804,8 @@ export default async function handler(
         date_of_foundation: '1996 р.',
         category_id: museums,
         google_maps_link:
-          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.243922492254!2d24.024304576832908!3d49.837874131280735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6fcf5f425b%3A0xccdedeecfc37df9e!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0J_QsNC70LDRhiDQnNC40YHRgtC10YbRgtCy!5e0!3m2!1suk!2sua!4v1697307402971!5m2!1suk!2sua'
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.243922492254!2d24.024304576832908!3d49.837874131280735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6fcf5f425b%3A0xccdedeecfc37df9e!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0J_QsNC70LDRhiDQnNC40YHRgtC10YbRgtCy!5e0!3m2!1suk!2sua!4v1697307402971!5m2!1suk!2sua',
+        online_tour_link: '//arts-palace-lviv.virtual.ua/ua/embed-tour/'
       }
     ]
   });
