@@ -6,7 +6,7 @@ import { createCache, extractStyle, StyleProvider } from '@ant-design/cssinjs';
 
 function MyDocument() {
   return (
-    <Html lang="en">
+    <Html lang="uk">
       <Head />
       <body>
         <Main />
