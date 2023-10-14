@@ -1,8 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-import { PrismaClient } from '@prisma/client';
-
-const prisma = new PrismaClient();
+import { prisma } from '@/lib/prisma';
 
 export default async function handler(
   req: NextApiRequest,
@@ -69,7 +67,9 @@ export default async function handler(
         ],
         location: 'площа Катедральна, 1',
         date_of_foundation: '1360-1493 рр.',
-        category_id: temples
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.357429677264!2d24.0305101!3d49.8407785!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adda91dbdfdf9%3A0x1c11956e83fa3219!2z0JvQsNGC0LjQvdGB0YzQutC40Lkg0LrQsNGC0LXQtNGA0LDQu9GM0L3QuNC5INGB0L7QsdC-0YA!5e0!3m2!1suk!2sua!4v1697301671268!5m2!1suk!2sua'
       },
       {
         name: 'Церква Святого Архистратига Михаїла (Костел кармелітів босих)',
@@ -94,7 +94,9 @@ export default async function handler(
         ],
         location: 'вулиця Володимира Винниченка, 22',
         date_of_foundation: '1634 рік',
-        category_id: temples
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.0015711695337!2d24.0370328!3d49.842428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6c9f88190b%3A0x70adc0d9d0030e00!2z0LLRg9C70LjRhtGPINCS0L7Qu9C-0LTQuNC80LjRgNCwINCS0LjQvdC90LjRh9C10L3QutCwLCAyMiwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1697302413747!5m2!1suk!2sua'
       },
       {
         name: 'Архикатедральний собор Святого Юра',
@@ -122,7 +124,9 @@ export default async function handler(
         ],
         location: 'площа Святого Юра, 5',
         date_of_foundation: '1744-1770 рр.',
-        category_id: temples
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.200518455952!2d24.010335876833032!3d49.83868973122249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add777b87f055%3A0xb2d38fb7e99bca0a!2z0JDRgNGF0LjQutCw0YLQtdC00YDQsNC70YzQvdC40Lkg0KHQvtCx0L7RgCDQodCy0Y_RgtC-0LPQviDQrtGA0LAsINC_0LsuINCh0LLRj9GC0L7Qs9C-INCu0YDQsCwgNSwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1697302744012!5m2!1suk!2sua'
       },
       {
         name: 'Бернардинський монастир',
@@ -144,7 +148,9 @@ export default async function handler(
         ],
         location: 'площа Соборна, 1-3А',
         date_of_foundation: '1600-1630 рр.',
-        category_id: temples
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.154192214204!2d24.031904776833006!3d49.83956023116037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6c1cf1bd15%3A0xf98d031cfb204a67!2z0JHQtdGA0L3QsNGA0LTQuNC90YHRjNC60LjQuSDQvNC-0L3QsNGB0YLQuNGA!5e0!3m2!1suk!2sua!4v1697302804205!5m2!1suk!2sua'
       },
       {
         name: 'Вірменський кафедральний собор Успіння Пресвятої Богородиці',
@@ -164,7 +170,9 @@ export default async function handler(
         ],
         location: 'вулиця Вірменська, 7-13',
         date_of_foundation: '1363-1370 рр.',
-        category_id: temples
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9543785454703!2d24.028133376833193!3d49.84331473089239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d6f749457%3A0x58185d5eeb47db21!2z0JLRltGA0LzQtdC90YHRjNC60LjQuSDRgdC-0LHQvtGA!5e0!3m2!1suk!2sua!4v1697302843327!5m2!1suk!2sua'
       },
       {
         name: 'Гарнизонний храм святих апостолів Петра і Павла (Костел єзуїтів)',
@@ -191,7 +199,9 @@ export default async function handler(
         ],
         location: 'вулиця Театральна, 11',
         date_of_foundation: '1610-1630 рр.',
-        category_id: temples
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.196046666368!2d24.029315!3d49.8415366!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6ded2db1ad%3A0x47cd10fac352de07!2z0JPQsNGA0L3RltC30L7QvdC90LjQuSDRhdGA0LDQvCDRgdCy0Y_RgtC40YUg0LDQv9C-0YHRgtC-0LvRltCyINCf0LXRgtGA0LAg0ZYg0J_QsNCy0LvQsCDQo9CT0JrQpg!5e0!3m2!1suk!2sua!4v1697302955622!5m2!1suk!2sua'
       },
       {
         name: 'Домініканський собор (Церква Пресвятої Євхаристії)',
@@ -212,7 +222,9 @@ export default async function handler(
         ],
         location: 'площа Музейна, 1',
         date_of_foundation: '1745-1764 рр.',
-        category_id: temples
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.984262155266!2d24.031248276833153!3d49.84275323093241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add059b7b3cf1%3A0x97bdfa1e04fc9cc!2z0KbQtcyB0YDQutCy0LAg0J_RgNC10YHQstGP0YLQvsyB0Zcg0ITQstGF0LDRgNC4zIHRgdGC0ZbRlw!5e0!3m2!1suk!2sua!4v1697303017064!5m2!1suk!2sua'
       },
       {
         name: 'Княжий Храм Святого Миколая Чудотворця',
@@ -234,7 +246,9 @@ export default async function handler(
         ],
         location: 'вулиця Богдана Хмельницького, 28А',
         date_of_foundation: 'XIII ст.',
-        category_id: temples
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.7356272552115!2d24.02623357683336!3d49.847424830598825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add0d1dbe0f89%3A0x3439e65e3b077826!2z0JrQvdGP0LbQuNC5INCl0YDQsNC8INCh0LLRj9GC0L7Qs9C-INCc0LjQutC-0LvQsNGPINCf0KbQow!5e0!3m2!1suk!2sua!4v1697303059937!5m2!1suk!2sua'
       },
       {
         name: 'Костел і монастир бенедиктинок',
@@ -252,49 +266,9 @@ export default async function handler(
         ],
         location: 'вулиця Вічева, 2',
         date_of_foundation: '1595 р.',
-        category_id: temples
-      },
-      {
-        name: 'Львівський музей історії релігії',
-        description:
-          'Комунальний заклад "Львівський музей історії релігії" з 1973 року працює в приміщенні Домініканського монастиря ХІV-XVIII століть у Львові.\n' +
-          '\n' +
-          'Цей витвір австрійського архітектора Яна де Вітте і належить до найкращих зразків барокової архітектури міста.\n' +
-          '\n' +
-          'Експозиція музею розповідає про історію світових і національних релігій та церковних організацій всіх часів: релігії стародавнього світу, юдаїзм, раннє християнство, вірменську церкву, римсько-католицьку церкву, українську греко-католицьку церкву, православ’я в Україні, протестантизм, іслам, буддизм.\n' +
-          '\n' +
-          'Деякі з 50 тисяч експонатів мають унікальну культову, мистецьку та історичну вартість. Зокрема, представлена велика збірка ікон XVI-XIX століть, чимала колекція Біблій (у тому числі Острозька Біблія 1581 року та видана у Парижі 1563 року), релікварій святого Аронтія ХІ століття тощо.\n' +
-          '\n' +
-          'Музей практикує різні форми науково-освітньої роботи: лекції, екскурсії, концерти органної та камерної музики.\n' +
-          '\n',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33447',
-        images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33447',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33449',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33448',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33438'
-        ],
-        location: 'площа Музейна, 1',
-        date_of_foundation: '1973 р.',
-        category_id: temples
-      },
-      {
-        name: 'Церква Іоанна Хрестителя',
-        description:
-          'Дуже давня церква Іоанна Хрестителя - одна з небагатьох споруд, що збереглися у Львові з князівських часів. Знаходиться в районі Старого Ринку біля підніжжя Високого Замку.\n' +
-          '\n' +
-          'За легендою, тут поховано угорську принцесу Констанцію, дружину галицько-волинського князя Лева Даниловича, короля Русі.\n' +
-          '\n' +
-          'Перша письмова згадка про церкву Іоанна Хрестителя у Львові датується 1371 роком. Будівля перебудована в ХІХ столітті в псевдороманському стилі, проте донині дійшли окремі фрагменти первісної архітектури.\n' +
-          '\n' +
-          'Наразі приміщення займає Музей найдавніших пам\'яток Львова (філія Львівської Національної галереї мистецтв). Експозиція розповідає про культуру, ремесла та побут у часи, що належать до заснування міста. Найцінніший експонат - ікона "Львівська Богородиця" (XIV століття). Також експонується пластична панорама Львова XVIII століття.\n' +
-          '\n' +
-          'З 2009 року в храмі щонеділі та у свята проводяться богослужіння УГКЦ.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37164',
-        images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/37164'],
-        location: 'вулиця Ужгородська, 1',
-        date_of_foundation: '1250 р.',
-        category_id: temples
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.830131395536!2d24.0295087768333!3d49.84564923072578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add12aead4ecb%3A0x7d986501d300e12b!2z0JrQvtGB0YLQtdC7INGWINC80L7QvdCw0YHRgtC40YAg0LHQtdC90LXQtNC40LrRgtC40L3QvtC6!5e0!3m2!1suk!2sua!4v1697303382085!5m2!1suk!2sua'
       },
       {
         name: 'Церква Святих Ольги і Єлизавети',
@@ -311,7 +285,9 @@ export default async function handler(
         ],
         location: 'площа Кропивницького, 1',
         date_of_foundation: '1903-1912 рр.',
-        category_id: temples
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.2930041871!2d24.002149676832936!3d49.836951831346575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add8266bcedd7%3A0x74026b340a5c8ae2!2z0KXRgNCw0Lwg0KHQstCyLiDQntC70YzQs9C4INGWINCE0LvQuNC30LDQstC10YLQuA!5e0!3m2!1suk!2sua!4v1697303482845!5m2!1suk!2sua'
       },
       {
         name: 'Церква Успіння Пресвятої Богородиці (Волоська)',
@@ -336,7 +312,9 @@ export default async function handler(
         ],
         location: 'вулиця Руська, 5/7',
         date_of_foundation: 'XIV-XVI ст.',
-        category_id: temples
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.020854119605!2d24.03444345474484!3d49.84206567760051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6c8cca689b%3A0x55738f8bd7ef873a!2z0KPRgdC_0LXQvdGB0YzQutCwINGG0LXRgNC60LLQsCwg0LLQtdC20LAg0JrQvtGA0L3Rj9C60YLQsCDRliDQutCw0L_Qu9C40YbRjyDRgtGA0YzQvtGFINCh0LLRj9GC0LjRgtC10LvRltCyINCf0KbQow!5e0!3m2!1suk!2sua!4v1697303691880!5m2!1suk!2sua'
       }
     ]
   });
@@ -363,7 +341,9 @@ export default async function handler(
         ],
         location: 'вулиця Валова, 20',
         date_of_foundation: '17 ст.',
-        category_id: defenseStructures
+        category_id: defenseStructures,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.139030285918!2d24.03294777683301!3d49.839845131139974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6bf3e93727%3A0x86fb84356bd13b8b!2z0JPQu9C40L3Rj9C90YHRjNC60LAg0LHRgNCw0LzQsCwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1697303787269!5m2!1suk!2sua'
       },
       {
         name: 'Львівська цитадель',
@@ -383,7 +363,9 @@ export default async function handler(
         ],
         location: 'вулиця Павла Грабовського, 11',
         date_of_foundation: '1850-1856 рр.',
-        category_id: defenseStructures
+        category_id: defenseStructures,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10293.807160041437!2d24.0267880349739!3d49.83396798231581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add65bda8020b%3A0x58aa795acfabb8e4!2sCitadel%20Inn%20-%20Gastro%20Boutique%20Hotel%20(Hotel%20%26%20Restaurant)!5e0!3m2!1suk!2sua!4v1697303876599!5m2!1suk!2sua'
       },
       {
         name: 'Музей-Арсенал (Міський арсенал)',
@@ -410,7 +392,9 @@ export default async function handler(
         ],
         location: 'вулиця Підвальна, 5',
         date_of_foundation: '1554-1556 рр.',
-        category_id: defenseStructures
+        category_id: defenseStructures,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.058036092557!2d24.032639076833075!3d49.841367031031446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add96988cd2ab%3A0xca4f69001f83d980!2z0JzRg9C30LXQuSDQkNGA0YHQtdC90LDQuw!5e0!3m2!1suk!2sua!4v1697303941411!5m2!1suk!2sua'
       },
       {
         name: 'Порохова вежа',
@@ -431,7 +415,9 @@ export default async function handler(
         ],
         location: 'вулиця Підвальна, 4',
         date_of_foundation: '1554-1556 рр.',
-        category_id: defenseStructures
+        category_id: defenseStructures,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.980531374379!2d24.032889276833146!3d49.84282333092745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6cbffe0d01%3A0xa33f619e972b9468!2z0J_QvtGA0L7RhdC-0LLQsCDQstC10LbQsCwg0LLRg9C70LjRhtGPINCf0ZbQtNCy0LDQu9GM0L3QsCwgNCwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1697303980366!5m2!1suk!2sua'
       }
     ]
   });
@@ -439,6 +425,52 @@ export default async function handler(
   // Музеї
   await prisma.architectural_landmarks.createMany({
     data: [
+      {
+        name: 'Львівський музей історії релігії',
+        description:
+          'Комунальний заклад "Львівський музей історії релігії" з 1973 року працює в приміщенні Домініканського монастиря ХІV-XVIII століть у Львові.\n' +
+          '\n' +
+          'Цей витвір австрійського архітектора Яна де Вітте і належить до найкращих зразків барокової архітектури міста.\n' +
+          '\n' +
+          'Експозиція музею розповідає про історію світових і національних релігій та церковних організацій всіх часів: релігії стародавнього світу, юдаїзм, раннє християнство, вірменську церкву, римсько-католицьку церкву, українську греко-католицьку церкву, православ’я в Україні, протестантизм, іслам, буддизм.\n' +
+          '\n' +
+          'Деякі з 50 тисяч експонатів мають унікальну культову, мистецьку та історичну вартість. Зокрема, представлена велика збірка ікон XVI-XIX століть, чимала колекція Біблій (у тому числі Острозька Біблія 1581 року та видана у Парижі 1563 року), релікварій святого Аронтія ХІ століття тощо.\n' +
+          '\n' +
+          'Музей практикує різні форми науково-освітньої роботи: лекції, екскурсії, концерти органної та камерної музики.\n' +
+          '\n',
+        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33447',
+        images: [
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33447',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33449',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33448',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33438'
+        ],
+        location: 'площа Музейна, 1',
+        date_of_foundation: '1973 р.',
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.964698131627!2d24.031146876833187!3d49.843120830906095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adec0948405f7%3A0x60eb66ebaa755e8c!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0LzRg9C30LXQuSDRltGB0YLQvtGA0ZbRlyDRgNC10LvRltCz0ZbRlw!5e0!3m2!1suk!2sua!4v1697304085231!5m2!1suk!2sua'
+      },
+      {
+        name: 'Музей "Церква Іоанна Хрестителя"',
+        description:
+          'Дуже давня церква Іоанна Хрестителя - одна з небагатьох споруд, що збереглися у Львові з князівських часів. Знаходиться в районі Старого Ринку біля підніжжя Високого Замку.\n' +
+          '\n' +
+          'За легендою, тут поховано угорську принцесу Констанцію, дружину галицько-волинського князя Лева Даниловича, короля Русі.\n' +
+          '\n' +
+          'Перша письмова згадка про церкву Іоанна Хрестителя у Львові датується 1371 роком. Будівля перебудована в ХІХ столітті в псевдороманському стилі, проте донині дійшли окремі фрагменти первісної архітектури.\n' +
+          '\n' +
+          'Наразі приміщення займає Музей найдавніших пам\'яток Львова (філія Львівської Національної галереї мистецтв). Експозиція розповідає про культуру, ремесла та побут у часи, що належать до заснування міста. Найцінніший експонат - ікона "Львівська Богородиця" (XIV століття). Також експонується пластична панорама Львова XVIII століття.\n' +
+          '\n' +
+          'З 2009 року в храмі щонеділі та у свята проводяться богослужіння УГКЦ.',
+        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37164',
+        images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/37164'],
+        location: 'вулиця Ужгородська, 1',
+        date_of_foundation: '1250 р.',
+        category_id: temples,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10291.065229370122!2d24.0311965!3d49.8468484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add0d6a939de3%3A0xfa981bf50f04ade8!2z0JzRg9C30LXQuSDCq9Cl0YDQsNC8INCG0LLQsNC90LAg0KXRgNC10YHRgtC40YLQtdC70Y_Cuw!5e0!3m2!1suk!2sua!4v1697304188100!5m2!1suk!2sua'
+      },
       {
         name: 'Музей "Личаківський цвинтар"',
         description:
@@ -462,9 +494,11 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37321',
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37320'
         ],
-        location: 'вулиця Пекарська, 95',
+        location: 'вулиця Мечникова, 33',
         date_of_foundation: '1784 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.531836212236!2d24.053516076832672!3d49.832463731666856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add4f68c422d3%3A0x1d56256364fa4cc0!2zTdGD0LfQtdC5LdC30LDQv9C-0LLRltC00L3QuNC6IMKr0JvQuNGH0LDQutGW0LLRgdGM0LrQuNC5INGG0LLQuNC90YLQsNGAwrs!5e0!3m2!1suk!2sua!4v1697304275424!5m2!1suk!2sua'
       },
       {
         name: 'Музей Івана Георгія Пінзеля (Костел кларисок)',
@@ -487,7 +521,9 @@ export default async function handler(
         ],
         location: 'площа Митна, 2',
         date_of_foundation: '1607 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.151440826541!2d24.03416457683301!3d49.8396119311566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6bea6f5445%3A0x659fb4dd9781ca7c!2z0L_Qu9C-0YnQsCDQnNC40YLQvdCwLCAyLCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDc5MDAw!5e0!3m2!1suk!2sua!4v1697304456316!5m2!1suk!2sua'
       },
       {
         name: 'Музей науки',
@@ -509,7 +545,9 @@ export default async function handler(
         ],
         location: 'вулиця Стрийська, 200А',
         date_of_foundation: '2022 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.2448961207697!2d24.01435847683126!3d49.80026343396473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae73cecd42323%3A0x8eadfeaa29a95614!2z0JzRg9C30LXQuSDQvdCw0YPQutC4INCb0YzQstGW0LI!5e0!3m2!1suk!2sua!4v1697304495360!5m2!1suk!2sua'
       },
       {
         name: 'Аптека-музей "Під чорним орлом"',
@@ -535,7 +573,9 @@ export default async function handler(
         ],
         location: 'вулиця Друкарська, 2',
         date_of_foundation: '1735 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.988008898518!2d24.02983977683316!3d49.84268283093759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d04f8c285%3A0x40e2b720ff31d419!2z0JDQv9GC0LXQutCwLdC80YPQt9C10Lk!5e0!3m2!1suk!2sua!4v1697305705932!5m2!1suk!2sua'
       },
       {
         name: 'Арт Центр Дзиґа',
@@ -549,7 +589,9 @@ export default async function handler(
         images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/32728'],
         location: 'вулиця Вірменська, 35',
         date_of_foundation: '1993 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9525690224323!2d24.03125727683313!3d49.84334873088987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6cdde4f9cf%3A0x3998555dd6b61c5f!2z0JDRgNGC0YbQtdC90YLRgCDQlNCX0JjSkNCQ!5e0!3m2!1suk!2sua!4v1697305740431!5m2!1suk!2sua'
       },
       {
         name: 'Археологічний музей Інституту українознавства',
@@ -570,9 +612,11 @@ export default async function handler(
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32814',
           'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32813'
         ],
-        location: 'вулиця Володимира Винниченка, 24',
+        location: 'вулиця Козельницька, 4',
         date_of_foundation: '2001 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.3811341606283!2d24.02102207683195!3d49.81650143280608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae7f2da6a363b%3A0xeab15b20edc63a03!2z0IbQvdGB0YLQuNGC0YPRgiDRg9C60YDQsNGX0L3QvtC30L3QsNCy0YHRgtCy0LAg0ZbQvC7Qhi7QmtGA0LjQvyfRj9C60LXQstC40YfQsA!5e0!3m2!1suk!2sua!4v1697305965065!5m2!1suk!2sua'
       },
       {
         name: 'Державний природознавчий музей',
@@ -588,7 +632,9 @@ export default async function handler(
         images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/32423'],
         location: 'вулиця Театральна, 18',
         date_of_foundation: '1870 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9963326153893!2d24.026539076833178!3d49.842526430948624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d814af1d3%3A0x88513dd89be3d3bd!2z0JTQtdGA0LbQsNCy0L3QuNC5INC_0YDQuNGA0L7QtNC-0LfQvdCw0LLRh9C40Lkg0LzRg9C30LXQuSDQndCQ0J0g0KPQutGA0LDRl9C90Lg!5e0!3m2!1suk!2sua!4v1697306010681!5m2!1suk!2sua'
       },
       {
         name: 'Дім Франка',
@@ -611,7 +657,9 @@ export default async function handler(
         ],
         location: 'вулиця Івана Франка, 150-152',
         date_of_foundation: '1940 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.0761296675537!2d24.02900437683215!3d49.82223433239703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae7f574262733%3A0x747c1f490c13827e!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0L3QsNGG0ZbQvtC90LDQu9GM0L3QuNC5INC70ZbRgtC10YDQsNGC0YPRgNC90L4t0LzQtdC80L7RgNGW0LDQu9GM0L3QuNC5INC80YPQt9C10Lkg0IbQstCw0L3QsCDQpNGA0LDQvdC60LAgKNCU0ZbQvCDQpNGA0LDQvdC60LAp!5e0!3m2!1suk!2sua!4v1697306051393!5m2!1suk!2sua'
       },
       {
         name: 'Історичний комплекс музею імені Андрея Шептицького',
@@ -633,7 +681,9 @@ export default async function handler(
         ],
         location: 'вулиця Михайла Драгоманова, 42',
         date_of_foundation: '1913 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20592.59656846975!2d24.010979774167353!3d49.8222636269443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add65d965b53f%3A0x7d947f0016676640!2z0J3QsNGG0ZbQvtC90LDQu9GM0L3QuNC5INC80YPQt9C10Lkg0ZbQvNC10L3RliDQkC7QqNC10L_RgtC40YbRjNC60L7Qs9C-ICgyLdC5INC60L7RgNC_0YPRgSk!5e0!3m2!1suk!2sua!4v1697307150668!5m2!1suk!2sua'
       },
       {
         name: 'Львівська національна галерея мистецтв імені Бориса Возницького (Палац Лозинського)',
@@ -651,7 +701,9 @@ export default async function handler(
         images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/25665'],
         location: 'вулиця Василя Стефаника, 3',
         date_of_foundation: '1914 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.2886617372465!2d24.02299857683283!3d49.83703343134072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6fc106e0b1%3A0xb65653855455046!2z0JvRjNCy0ZbQstGB0YzQutCwINC90LDRhtGW0L7QvdCw0LvRjNC90LAg0LPQsNC70LXRgNC10Y8g0LzQuNGB0YLQtdGG0YLQsiDRltC80LXQvdGWINCRLtCTLiDQktC-0LfQvdC40YbRjNC60L7Qs9C-!5e0!3m2!1suk!2sua!4v1697307187822!5m2!1suk!2sua'
       },
       {
         name: 'Львівський Будинок вчених',
@@ -678,30 +730,9 @@ export default async function handler(
         ],
         location: 'вулиця Листопадового Чину, 6',
         date_of_foundation: '1897-1898 рр.',
-        category_id: museums
-      },
-      {
-        name: 'Львівський музей історії релігії',
-        description:
-          'омунальний заклад "Львівський музей історії релігії" з 1973 року працює в приміщенні Домініканського монастиря ХІV-XVIII століть у Львові.\n' +
-          '\n' +
-          'Цей витвір австрійського архітектора Яна де Вітте і належить до найкращих зразків барокової архітектури міста.\n' +
-          '\n' +
-          'Експозиція музею розповідає про історію світових і національних релігій та церковних організацій всіх часів: релігії стародавнього світу, юдаїзм, раннє християнство, вірменську церкву, римсько-католицьку церкву, українську греко-католицьку церкву, православ’я в Україні, протестантизм, іслам, буддизм.\n' +
-          '\n' +
-          'Деякі з 50 тисяч експонатів мають унікальну культову, мистецьку та історичну вартість. Зокрема, представлена велика збірка ікон XVI-XIX століть, чимала колекція Біблій (у тому числі Острозька Біблія 1581 року та видана у Парижі 1563 року), релікварій святого Аронтія ХІ століття тощо.\n' +
-          '\n' +
-          'Музей практикує різні форми науково-освітньої роботи: лекції, екскурсії, концерти органної та камерної музики.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33447',
-        images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33447',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33449',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33448',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33438'
-        ],
-        location: 'площа Музейна, 1',
-        date_of_foundation: '1973 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.0724745753887!2d24.018835076833046!3d49.841095731050814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add716898f5e1%3A0x9f35ab750998d3df!2z0JHRg9C00LjQvdC-0Log0LLRh9C10L3QuNGF!5e0!3m2!1suk!2sua!4v1697307280635!5m2!1suk!2sua'
       },
       {
         name: 'Львівський музей пивоваріння "Львіварня"',
@@ -729,7 +760,9 @@ export default async function handler(
         ],
         location: 'вулиця Клепарівська, 18',
         date_of_foundation: '2016 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.7278458287497!2d24.0130655768334!3d49.84757103058859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add9fe362a8ab%3A0x234e560980b647cb!2z0JzRg9C30LXQudC90L4t0LrRg9C70YzRgtGD0YDQvdC40Lkg0LrQvtC80L_Qu9C10LrRgSDQv9C40LLQvdC-0Zcg0ZbRgdGC0L7RgNGW0ZcgLSDQm9GM0LLRltCy0LDRgNC90Y8!5e0!3m2!1suk!2sua!4v1697307368230!5m2!1suk!2sua'
       },
       {
         name: 'Львівський палац мистецтв',
@@ -753,7 +786,9 @@ export default async function handler(
         ],
         location: 'вулиця Миколи Коперника, 17',
         date_of_foundation: '1996 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.243922492254!2d24.024304576832908!3d49.837874131280735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6fcf5f425b%3A0xccdedeecfc37df9e!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0J_QsNC70LDRhiDQnNC40YHRgtC10YbRgtCy!5e0!3m2!1suk!2sua!4v1697307402971!5m2!1suk!2sua'
       }
     ]
   });
