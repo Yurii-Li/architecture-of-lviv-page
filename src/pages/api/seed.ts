@@ -1063,8 +1063,8 @@ export default async function handler(
           'Друга зала присвячена бойовим будням вогнеборців.\n' +
           '\n' +
           'Експозицію завершує зала, присвячена Чорнобильській катастрофі.',
-        main_image: '',
-        images: [],
+        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32769',
+        images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/32769'],
         location: 'вулиця Підвальна, 6',
         date_of_foundation: '',
         category_id: museums
