@@ -3,15 +3,12 @@ import Head from 'next/head';
 
 import ArchitectureList from '@/components/architecture-list/architecture-list';
 import { CategoriesEnum } from '@/enums/categories.enum';
+import { IArchitectureCard } from '@/interfaces/architecture.interface';
 import MainLayout from '@/layouts/main-layout/main-layout';
 import { prisma } from '@/lib/prisma';
 
 interface IProps {
-  temples: {
-    id: number;
-    name: string;
-    main_image: string;
-  }[];
+  temples: IArchitectureCard[];
 }
 
 export default function Home({ temples }: IProps) {
@@ -44,7 +41,12 @@ export async function getStaticProps() {
     select: {
       id: true,
       name: true,
-      main_image: true
+      main_image: true,
+      category: {
+        select: {
+          name: true
+        }
+      }
     }
   });
 

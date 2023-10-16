@@ -19,7 +19,9 @@ export default function ArchitectureList({ list }: IListProps) {
         <Link
           key={item.id}
           href={{
-            pathname: `/architecture/${query.category}/${item.id}`
+            pathname: `/architecture/${query.category || item.category.name}/${
+              item.id
+            }`
           }}
         >
           <ArchitectureCard architecture={item} />
