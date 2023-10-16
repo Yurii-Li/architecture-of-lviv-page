@@ -3,10 +3,9 @@ import { useRouter } from 'next/router';
 import { Pagination } from 'antd';
 
 import ArchitectureList from '@/components/architecture-list/architecture-list';
+import NavMenu from '@/components/nav-menu/nav-menu';
 import { CategoriesEnum } from '@/enums/categories.enum';
 import { IArchitectureCard } from '@/interfaces/architecture.interface';
-import ArchitectureLayout from '@/layouts/architecture-layout/architecture-layout';
-import MainLayout from '@/layouts/main-layout/main-layout';
 import { prisma } from '@/lib/prisma';
 
 interface IProps {
@@ -22,6 +21,7 @@ export default function CategoryPage({ count, data }: IProps) {
 
   return (
     <>
+      <NavMenu />
       <ArchitectureList list={data} />
       <Pagination
         onChange={page => {
@@ -37,14 +37,6 @@ export default function CategoryPage({ count, data }: IProps) {
     </>
   );
 }
-
-CategoryPage.getLayout = function getLayout(page: React.ReactNode) {
-  return (
-    <MainLayout>
-      <ArchitectureLayout>{page}</ArchitectureLayout>
-    </MainLayout>
-  );
-};
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const { page, category } = query as {

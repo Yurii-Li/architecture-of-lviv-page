@@ -1,10 +1,9 @@
-import { ReactNode } from 'react';
 import Head from 'next/head';
 
 import ArchitectureList from '@/components/architecture-list/architecture-list';
+import NavMenu from '@/components/nav-menu/nav-menu';
 import { CategoriesEnum } from '@/enums/categories.enum';
 import { IArchitectureCard } from '@/interfaces/architecture.interface';
-import MainLayout from '@/layouts/main-layout/main-layout';
 import { prisma } from '@/lib/prisma';
 
 interface IProps {
@@ -21,15 +20,12 @@ export default function Home({ temples }: IProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <NavMenu />
         <ArchitectureList list={temples} />
       </main>
     </>
   );
 }
-
-Home.getLayout = function getLayout(page: ReactNode) {
-  return <MainLayout>{page}</MainLayout>;
-};
 
 export async function getStaticProps() {
   const temples = await prisma.architectural_landmarks.findMany({
