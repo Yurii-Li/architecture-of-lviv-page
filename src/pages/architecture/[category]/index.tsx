@@ -75,7 +75,12 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
       select: {
         id: true,
         name: true,
-        main_image: true
+        main_image: true,
+        category: {
+          select: {
+            name: true
+          }
+        }
       },
       take: 20,
       skip: (Number(page) - 1) * 20 || 0
