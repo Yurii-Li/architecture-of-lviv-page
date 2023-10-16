@@ -1,10 +1,8 @@
-import { ReactNode } from 'react';
 import { GetServerSideProps } from 'next';
 import Image from 'next/image';
 import { Card, Carousel } from 'antd';
 
 import { CategoriesEnum } from '@/enums/categories.enum';
-import MainLayout from '@/layouts/main-layout/main-layout';
 import { prisma } from '@/lib/prisma';
 import { architectural_landmarks } from '@prisma/client';
 
@@ -31,6 +29,7 @@ export default function LandmarkPage({ data }: IProps) {
         {data.images.map(image => (
           <div key={data.id}>
             <Image
+              priority
               src={image}
               alt={data.name}
               width={1000}
@@ -78,10 +77,6 @@ export default function LandmarkPage({ data }: IProps) {
     </div>
   );
 }
-
-LandmarkPage.getLayout = function getLayout(page: ReactNode) {
-  return <MainLayout>{page}</MainLayout>;
-};
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const { id, category } = query as {
