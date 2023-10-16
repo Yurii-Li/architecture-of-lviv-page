@@ -456,7 +456,7 @@ export default async function handler(
         ],
         location: 'площа Музейна, 1',
         date_of_foundation: '1973 р.',
-        category_id: temples,
+        category_id: museums,
         google_maps_link:
           'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.964698131627!2d24.031146876833187!3d49.843120830906095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adec0948405f7%3A0x60eb66ebaa755e8c!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0LzRg9C30LXQuSDRltGB0YLQvtGA0ZbRlyDRgNC10LvRltCz0ZbRlw!5e0!3m2!1suk!2sua!4v1697304085231!5m2!1suk!2sua',
         online_tour_link: '//museum-history-religion.virtual.ua/ua/embed-tour/'
@@ -477,7 +477,7 @@ export default async function handler(
         images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/37164'],
         location: 'вулиця Ужгородська, 1',
         date_of_foundation: '1250 р.',
-        category_id: temples,
+        category_id: museums,
         google_maps_link:
           'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10291.065229370122!2d24.0311965!3d49.8468484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add0d6a939de3%3A0xfa981bf50f04ade8!2z0JzRg9C30LXQuSDCq9Cl0YDQsNC8INCG0LLQsNC90LAg0KXRgNC10YHRgtC40YLQtdC70Y_Cuw!5e0!3m2!1suk!2sua!4v1697304188100!5m2!1suk!2sua'
       },
