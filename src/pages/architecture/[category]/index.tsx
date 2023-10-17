@@ -8,13 +8,14 @@ import { CategoriesEnum } from '@/enums/categories.enum';
 import { IArchitectureCard } from '@/interfaces/architecture.interface';
 import { prisma } from '@/lib/prisma';
 
+import styles from './category.module.scss';
+
 interface IProps {
   count: number;
   data: IArchitectureCard[];
 }
 
 export default function CategoryPage({ count, data }: IProps) {
-  // Отримати query параметри
   const { query, push } = useRouter();
 
   const currentPage = Number(query.page) || 1;
@@ -24,6 +25,7 @@ export default function CategoryPage({ count, data }: IProps) {
       <NavMenu />
       <ArchitectureList list={data} />
       <Pagination
+        className={styles.pagination}
         onChange={page => {
           push({
             pathname: `/architecture/${query.category}`,
