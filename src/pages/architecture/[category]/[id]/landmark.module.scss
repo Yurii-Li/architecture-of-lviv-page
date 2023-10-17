@@ -3,40 +3,40 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-}
 
-.title {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-top: 20px;
-}
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
+  }
 
-.dateOfFoundation {
-  margin-bottom: 20px;
-  color: #666;
-}
+  .dateOfFoundation {
+    margin-bottom: 20px;
+    color: #666;
+  }
 
-.carousel {
-  max-width: 1000px;
-}
+  .carousel {
+    max-width: 1000px;
 
-.carouselImage {
-  border-radius: 10px;
-}
+    .carouselImage {
+      border-radius: 10px;
+    }
+  }
 
-.subTittle {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin: 20px 0 10px 0;
-}
+  .subTittle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+  }
 
-.description {
-  font-size: 1.2rem;
-}
+  .description {
+    font-size: 1.2rem;
+  }
 
-.iframeStyles {
-  width: 100%;
-  height: 600px;
-  border: none;
-  border-radius: 10px;
+  .iframeStyles {
+    width: 100%;
+    height: 600px;
+    border: none;
+    border-radius: 10px;
+  }
 }
