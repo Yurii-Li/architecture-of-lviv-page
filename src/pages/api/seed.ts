@@ -19,6 +19,12 @@ export default async function handler(
       },
       {
         name: 'museums'
+      },
+      {
+        name: 'parks'
+      },
+      {
+        name: 'monuments'
       }
     ]
   });
@@ -32,6 +38,9 @@ export default async function handler(
     1;
   const museums =
     categories.find(category => category.name === 'museums')?.id || 1;
+  const parks = categories.find(category => category.name === 'parks')?.id || 1;
+  const monuments =
+    categories.find(category => category.name === 'monuments')?.id || 1;
 
   // Храми
   await prisma.architectural_landmarks.createMany({
@@ -1111,5 +1120,122 @@ export default async function handler(
     ]
   });
 
-  return res.status(200).json({ name: 'hello' });
+  // Парки
+  await prisma.architectural_landmarks.createMany({
+    data: [
+      {
+        name: 'Парк культури та відпочинку імені Богдана Хмельницького',
+        description:
+          'Парк культури та відпочинку імені Богдана Хмельницького розташований у центральній частині Львова, на схилі пагорба між вулицями Стрийською, Героїв Майдану, Вітовського та Зарицьких. Зона відпочинку та розваг існувала тут ще у XIX столітті. Сучасний парк був закладений у 1951 році та облаштований за радянськими традиціями створення типових парків культури та відпочинку трудящих. З тих часів збереглася центральна алея довжиною понад 800 метрів, колонада центрального входу та приміщення кінотеатру "Дружба". У 1970 році центральний вхід прикрасили фонтани. З 1984 року Парк культури має статус пам\'ятки садово-паркового мистецтва місцевого значення. На території функціонують дитяча зона розваг "Жу-Жу Парк" і парк рухомих фігур динозаврів. Працюють вуличні кафе та ресторан. Регулярно проводяться різноманітні фестивалі та ярмарки.\n',
+        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42597',
+        images: [
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42597',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42596',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42595',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42594'
+        ],
+        location: 'вулиця Дмитра Вітовського, 51',
+        date_of_foundation: '1951 р.',
+        category_id: parks,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d643.4181445903304!2d24.021929656691793!3d49.829818784936876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add63820d301f%3A0xed0384dac856c50!2z0J_QsNGA0Log0LrRg9C70YzRgtGD0YDQuCDRgtCwINCy0ZbQtNC_0L7Rh9C40L3QutGDINGW0LzQtdC90ZYg0JHQvtCz0LTQsNC90LAg0KXQvNC10LvRjNC90LjRhtGM0LrQvtCz0L4!5e0!3m2!1suk!2sua!4v1697552260044!5m2!1suk!2sua'
+      },
+      {
+        name: 'Стрийський парк',
+        description:
+          "Стрийський парк – один із найстаріших та найкрасивіших парків Львова, пам'ятка садово-паркового мистецтва національного значення.\n" +
+          '\n' +
+          'До Другої світової війни вважався одним із найкрасивіших парків Польщі.\n' +
+          '\n' +
+          'Закладений в 1879 році Арнольдом Рерінгом на місці цвинтаря. Нині займає площу 56 гектарів. Складається з трьох частин: зона нижніх партерів (дном балки), лісопаркова зона (на схилах балки), верхня тераса.\n' +
+          '\n' +
+          'У Стрийському парку знаходяться Львівська дитяча залізниця, пам\'ятник Яну Кілінському (учаснику польського повстання під командуванням Тадеуша Костюшка) та пам\'ятник українському футболу (на честь перемоги львівського клубу "Сокіл" над краківською командою).\n' +
+          '\n' +
+          'Також Стрийський парк може похвалитися декоративним ставком та прекрасними алеями.\n' +
+          '\n' +
+          'Вхід вільний.\n',
+        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42138',
+        images: [
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42138',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42137',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42136',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42135',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42134',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42133'
+        ],
+        location: 'вулиця Стрийська, 15',
+        date_of_foundation: '1879 р.',
+        category_id: parks,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.0340444832714!2d24.022406076805513!3d49.82302533234057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae78ac19b0467%3A0x2b2237553544c794!2z0KHRgtGA0LjQudGB0YzQutC40Lkg0L_QsNGA0Lo!5e0!3m2!1suk!2sua!4v1697552489502!5m2!1suk!2sua',
+        online_tour_link: '//stryjskyj-park-lviv.virtual.ua/ua/embed-tour/'
+      }
+    ]
+  });
+
+  // Пам'ятники
+  await prisma.architectural_landmarks.createMany({
+    data: [
+      {
+        name: "Пам'ятник Адамові Міцкевичу",
+        description:
+          "Колона Адама Міцкевича – один з двох пам'ятників видатному польському поетові, створеним в Україні до його сторіччя (другий знаходиться в Івано-Франківську).\n" +
+          '\n' +
+          'Ідею проєкту монумента як колони запропонував письменник Адам Креховецький. Урочисте закладання першого каменю в постамент на Маріацькій площі (зараз площа Адама Міцкевича) відбулося в день століття Міцкевича в 1898 році.\n' +
+          '\n' +
+          "Спорудження монумента тривало п'ять років, він був відкритий 30 жовтня 1904 року. Вважається одним з найкращих пам'ятників Міцкевичу в світі.",
+        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41451',
+        images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/41451'],
+        location: 'площа Адама Міцкевича',
+        date_of_foundation: '1904 р.',
+        category_id: monuments,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.64187322494!2d24.0300241!3d49.8394423!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add56971dd2fd%3A0xdb88944b7ac8c270!2z0J_QsNC8J9GP0YLQvdC40Log0JDQtNCw0LzQvtCy0ZYg0JzRltGG0LrQtdCy0LjRh9GD!5e0!3m2!1suk!2sua!4v1697552969572!5m2!1suk!2sua',
+        online_tour_link: '//mickevych-monument-lviv.virtual.ua/ua/embed-tour/'
+      },
+      {
+        name: "Пам'ятник Данилові Галицькому",
+        description:
+          "Пам'ятник королю Данилові Галицькому, засновнику Львова та творцю Галицько-Волинської держави, встановлено до 745-річчя міста.\n" +
+          '\n' +
+          "Князь Данило Романович із галицької гілки роду Рюриковичів силою об'єднав країну, розгромивши в 1245 році полки угорських та польських феодалів, а також галицьких бояр.\n" +
+          '\n' +
+          "Проєкт пам'ятника розробили скульптори Ярич та Романович, а також архітектор Чурилик. Пам'ятник є кінною фігурою з бронзи на гранітному п'єдесталі.",
+        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41519',
+        images: [
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41519',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41518'
+        ],
+        location: 'площа Галицька',
+        date_of_foundation: '2001 р.',
+        category_id: monuments,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.1592479500987!2d24.02996587680635!3d49.83946523116724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7ff1d539eb%3A0xe74b3f0f16293dce!2z0J_QsNC8J9GP0YLQvdC40Log0LrQvtGA0L7Qu9GOINCU0LDQvdC40LvRgyDQk9Cw0LvQuNGG0YzQutC-0LzRgw!5e0!3m2!1suk!2sua!4v1697553265558!5m2!1suk!2sua',
+        online_tour_link: '//danylo-monument-lviv.virtual.ua/ua/embed-tour/'
+      },
+      {
+        name: "Пам'ятник Тарасові Шевченку",
+        description:
+          "Пам'ятник видатному українському поетові та громадському діячеві Тарасові Шевченку було відкрито в центрі Львова лише в 1992 році.\n" +
+          '\n' +
+          'Питання про спорудження вирішувалося цілих 5 років, на двох конкурсах проєктів переможця не було визначено, і в результаті компромісу було вирішено використати "відносно кращий" проєкт скульпторів Володимира та Андрія Сухорських та архітекторів Юрія Диби та Юрія Хромей.\n' +
+          '\n' +
+          'Пам\'ятник виготовили в Аргентині. Урочисте відкриття відбулося на річницю ухвалення декларації незалежності України. Через 4 роки було відкрито другий елемент пам\'ятника – 12-метрова бронзова "Хвиля Національного Відродження".',
+        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41522',
+        images: [
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41522',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41521',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41520'
+        ],
+        location: 'проспект Свободи',
+        date_of_foundation: '1992 р.',
+        category_id: monuments,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.0803829864303!2d24.02579437680641!3d49.840947131061355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6df012ae6b%3A0xed47f6b8efbbfd20!2z0J_QsNC8J9GP0YLQvdC40Log0KLQsNGA0LDRgdC-0LLRliDQqNC10LLRh9C10L3QutGD!5e0!3m2!1suk!2sua!4v1697553572391!5m2!1suk!2sua',
+        online_tour_link: '//shevchenko-monument-lviv.virtual.ua/ua/embed-tour/'
+      }
+    ]
+  });
+
+  return res.status(200).json({ status: 'ok' });
 }
