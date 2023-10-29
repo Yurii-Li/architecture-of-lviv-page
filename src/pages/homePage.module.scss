@@ -1,0 +1,25 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+
+  .mainSection {
+    height: 100vh;
+    position: relative;
+
+    .mainText {
+      color: white;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+
+      .title {
+        font-size: 6rem;
+      }
+      .subtitle {
+        font-size: 2rem;
+      }
+    }
+  }
+}

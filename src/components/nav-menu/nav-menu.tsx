@@ -7,6 +7,7 @@ export default function NavMenu() {
   return (
     <Menu
       mode="horizontal"
+      style={{ background: 'transparent', border: 'none' }}
       items={[
         {
           key: '1',

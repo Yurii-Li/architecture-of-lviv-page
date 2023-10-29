@@ -1,16 +1,10 @@
 import Head from 'next/head';
 
-import ArchitectureList from '@/components/architecture-list/architecture-list';
 import NavMenu from '@/components/nav-menu/nav-menu';
-import { CategoriesEnum } from '@/enums/categories.enum';
-import { IArchitectureCard } from '@/interfaces/architecture.interface';
-import { prisma } from '@/lib/prisma';
 
-interface IProps {
-  temples: IArchitectureCard[];
-}
+import styles from './homePage.module.scss';
 
-export default function Home({ temples }: IProps) {
+export default function Home() {
   return (
     <>
       <Head>
@@ -19,36 +13,17 @@ export default function Home({ temples }: IProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <div className={styles.homePage}>
         <NavMenu />
-        <ArchitectureList list={temples} />
-      </main>
+        <section className={styles.mainSection}>
+          <div className={styles.mainText}>
+            <h1 className={styles.title}>Львів</h1>
+            <h2 className={styles.subtitle}>
+              Місто, де Історія Живе у Кожному Камінці!
+            </h2>
+          </div>
+        </section>
+      </div>
     </>
   );
-}
-
-export async function getStaticProps() {
-  const temples = await prisma.architectural_landmarks.findMany({
-    where: {
-      category: {
-        name: CategoriesEnum.TEMPLES
-      }
-    },
-    select: {
-      id: true,
-      name: true,
-      main_image: true,
-      category: {
-        select: {
-          name: true
-        }
-      }
-    }
-  });
-
-  return {
-    props: {
-      temples
-    }
-  };
 }
