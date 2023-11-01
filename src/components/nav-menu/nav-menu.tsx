@@ -1,12 +1,18 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { Menu } from 'antd';
 
 import { CategoriesEnum } from '@/enums/categories.enum';
 
 export default function NavMenu() {
+  const { pathname } = useRouter();
+
+  const mainPage = pathname === '/' ? { color: '#fff' } : '';
+
   return (
     <Menu
       mode="horizontal"
+      style={{ background: 'transparent', border: 'none', ...mainPage }}
       items={[
         {
           key: '1',
