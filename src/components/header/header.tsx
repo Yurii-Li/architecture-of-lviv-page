@@ -1,13 +1,16 @@
 import Link from 'next/link';
 
+import Search from '@/components/search/search';
+
 import styles from './header.module.scss';
 
 export default function Header() {
   return (
     <header className={styles.header}>
-      <Link href="/" className={styles.logo}>
-        Logo
-      </Link>
+      <div>
+        <Link href="/">Logo</Link>
+      </div>
+      <Search />
     </header>
   );
 }
