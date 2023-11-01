@@ -35,7 +35,7 @@ export default function Search() {
         value: item.name,
         label: (
           <Link href={`/architecture/${item.category.name}/${item.id}`}>
-            {item.name}
+            <div>{item.name}</div>
           </Link>
         )
       }))}
