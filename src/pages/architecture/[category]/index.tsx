@@ -24,18 +24,20 @@ export default function CategoryPage({ count, data }: IProps) {
     <>
       <NavMenu />
       <ArchitectureList list={data} />
-      <Pagination
-        className={styles.pagination}
-        onChange={page => {
-          push({
-            pathname: `/architecture/${query.category}`,
-            query: { page }
-          });
-        }}
-        defaultPageSize={20}
-        current={currentPage}
-        total={count}
-      />
+      {count > 20 && (
+        <Pagination
+          className={styles.pagination}
+          onChange={page => {
+            push({
+              pathname: `/architecture/${query.category}`,
+              query: { page }
+            });
+          }}
+          defaultPageSize={20}
+          current={currentPage}
+          total={count}
+        />
+      )}
     </>
   );
 }
