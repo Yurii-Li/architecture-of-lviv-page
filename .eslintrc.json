@@ -59,5 +59,15 @@
     "import/no-duplicates": "error",
     "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "src/pages/api/**/*.ts"
+      ],
+        "rules": {
+            "consistent-return": "off"
+        }
+    }
+  ]
 }

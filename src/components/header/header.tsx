@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import Search from '@/components/search/search';
+
 import styles from './header.module.scss';
 
 export default function Header() {
@@ -8,6 +10,7 @@ export default function Header() {
       <div>
         <Link href="/">Logo</Link>
       </div>
+      <Search />
     </header>
   );
 }

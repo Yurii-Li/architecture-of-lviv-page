@@ -1,0 +1,65 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+
+  .mainSection {
+    height: 100vh;
+    position: relative;
+
+    .mainText {
+      color: white;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+
+      .title {
+        font-size: 6rem;
+      }
+
+      .subtitle {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .subtitleArchItems {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 2rem;
+  }
+
+  .architecturalItems {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 20px;
+    gap: 50px;
+
+    .architecturalItem {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+
+      .architecturalDesc {
+        text-align: justify;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .architecturalImage {
+        position: relative;
+        width: 100%;
+        max-width: 600px;
+        height: 400px;
+
+        img {
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

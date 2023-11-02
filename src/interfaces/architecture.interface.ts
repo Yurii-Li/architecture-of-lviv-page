@@ -6,3 +6,11 @@ export interface IArchitectureCard {
     name: string;
   };
 }
+
+export interface IArchitecturalLandmarkSearchResult {
+  id: number;
+  name: string;
+  category: {
+    name: string;
+  };
+}
