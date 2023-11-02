@@ -72,6 +72,19 @@ export default function NavMenu() {
               Парки
             </Link>
           )
+        },
+        {
+          key: '6',
+          label: (
+            <Link
+              href={{
+                pathname: `/architecture/${CategoriesEnum.THEATERS}`,
+                query: { page: 1 }
+              }}
+            >
+              Театри
+            </Link>
+          )
         }
       ]}
     />
