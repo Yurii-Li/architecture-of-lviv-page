@@ -3,11 +3,12 @@ import { useRouter } from 'next/router';
 import { Pagination } from 'antd';
 
 import ArchitectureList from '@/components/architecture-list/architecture-list';
+import NavMenu from '@/components/nav-menu/nav-menu';
 import { CategoriesEnum } from '@/enums/categories.enum';
 import { IArchitectureCard } from '@/interfaces/architecture.interface';
-import ArchitectureLayout from '@/layouts/architecture-layout/architecture-layout';
-import MainLayout from '@/layouts/main-layout/main-layout';
 import { prisma } from '@/lib/prisma';
+
+import styles from './category.module.scss';
 
 interface IProps {
   count: number;
@@ -15,15 +16,16 @@ interface IProps {
 }
 
 export default function CategoryPage({ count, data }: IProps) {
-  // Отримати query параметри
   const { query, push } = useRouter();
 
   const currentPage = Number(query.page) || 1;
 
   return (
     <>
+      <NavMenu />
       <ArchitectureList list={data} />
       <Pagination
+        className={styles.pagination}
         onChange={page => {
           push({
             pathname: `/architecture/${query.category}`,
@@ -37,14 +39,6 @@ export default function CategoryPage({ count, data }: IProps) {
     </>
   );
 }
-
-CategoryPage.getLayout = function getLayout(page: React.ReactNode) {
-  return (
-    <MainLayout>
-      <ArchitectureLayout>{page}</ArchitectureLayout>
-    </MainLayout>
-  );
-};
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const { page, category } = query as {
@@ -75,7 +69,12 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
       select: {
         id: true,
         name: true,
-        main_image: true
+        main_image: true,
+        category: {
+          select: {
+            name: true
+          }
+        }
       },
       take: 20,
       skip: (Number(page) - 1) * 20 || 0

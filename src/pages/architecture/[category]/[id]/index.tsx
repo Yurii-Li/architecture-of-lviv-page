@@ -1,8 +1,12 @@
 import { GetServerSideProps } from 'next';
+import Image from 'next/image';
+import { Card, Carousel } from 'antd';
 
 import { CategoriesEnum } from '@/enums/categories.enum';
 import { prisma } from '@/lib/prisma';
 import { architectural_landmarks } from '@prisma/client';
+
+import styles from './landmark.module.scss';
 
 type Architecture = Omit<
   architectural_landmarks,
@@ -14,7 +18,64 @@ interface IProps {
 }
 
 export default function LandmarkPage({ data }: IProps) {
-  return <div>{data.name}</div>;
+  return (
+    <div className={styles.landmarkPage}>
+      <h1 className={styles.title}>{data.name}</h1>
+      <div className={styles.dateOfFoundation}>
+        Дата заснування: {data.date_of_foundation}
+      </div>
+
+      <Carousel className={styles.carousel} autoplay>
+        {data.images.map(image => (
+          <div key={data.id}>
+            <Image
+              priority
+              src={image}
+              alt={data.name}
+              width={1000}
+              height={500}
+              className={styles.carouselImage}
+            />
+          </div>
+        ))}
+      </Carousel>
+
+      <div>
+        <h2 className={styles.subTittle}>
+          Загальна інформація про {data.name}
+        </h2>
+        <Card>
+          <p className={styles.description}>{data.description}</p>
+        </Card>
+      </div>
+
+      {data.online_tour_link && (
+        <div>
+          <h2 className={styles.subTittle}>3D Тур</h2>
+          <iframe
+            className={styles.iframeStyles}
+            title={data.name}
+            src={data.online_tour_link}
+            allowFullScreen
+            loading="lazy"
+          />
+        </div>
+      )}
+
+      {data.google_maps_link && (
+        <div>
+          <h2 className={styles.subTittle}>Місцезнаходження</h2>
+          <iframe
+            className={styles.iframeStyles}
+            title={data.name}
+            src={data.google_maps_link}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
+      )}
+    </div>
+  );
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
@@ -37,7 +98,9 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
       description: true,
       images: true,
       location: true,
-      date_of_foundation: true
+      date_of_foundation: true,
+      google_maps_link: true,
+      online_tour_link: true
     }
   });
 
