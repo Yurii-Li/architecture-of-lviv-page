@@ -25,6 +25,9 @@ export default async function handler(
       },
       {
         name: 'monuments'
+      },
+      {
+        name: 'theatres'
       }
     ]
   });
@@ -41,6 +44,8 @@ export default async function handler(
   const parks = categories.find(category => category.name === 'parks')?.id || 1;
   const monuments =
     categories.find(category => category.name === 'monuments')?.id || 1;
+  const theatres =
+    categories.find(category => category.name === 'theatres')?.id || 1;
 
   // Храми
   await prisma.architectural_landmarks.createMany({
@@ -1115,7 +1120,9 @@ export default async function handler(
         ],
         location: 'вулиця Винниця, 43',
         date_of_foundation: '2022 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10287.207761440079!2d23.979393!3d49.864965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adddad14d3d09%3A0x5c68686341c98d31!2z0JrQsNGA0LXRgtC90LjQuSDQtNCy0ZbRgA!5e0!3m2!1suk!2sua!4v1698929718474!5m2!1suk!2sua'
       }
     ]
   });
@@ -1229,6 +1236,26 @@ export default async function handler(
           "Пересічений рельєф місцевості, хвилясті узгір'я і яри, – все це додає парку дуже мальовничий і своєрідний вигляд. Тут бере свій початок річка Полтва. Основа парку – столітній буковий ліс.",
         main_image: 'http://surl.li/mgywd',
         images: ['http://surl.li/mgywd', ''],
+        location: 'вул. Стуса',
+        date_of_foundation: '1894-1905 р.',
+        category_id: parks,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.1946572123293!2d24.034842476832107!3d49.82000653255597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae7f6fc3fc115%3A0x37466c2a5fa66b86!2z0JfQsNC70ZbQt9C90LAg0LLQvtC00LA!5e0!3m2!1suk!2sua!4v1698929953757!5m2!1suk!2sua'
+      },
+      {
+        name: 'Сквер імені Івана Павла ІІ',
+        description:
+          'Невеличкий сквер на Сихові, поруч з храмом Різдва Пресвятої Богородиці, уже встиг стати улюбленою локацією для прогулянок сихівчан. Сакури, які квітнуть у сквері навесні, приваблюють сюди охочих з усього міста сфотографуватись та помилуватись деревцями.\n' +
+          'Сквер розташований у Сихівському районі Львова біля греко-католицької церкви Різдва Пресвятої Богородиці та на місці зустрічі Папи Римського Івана Павла II-го з українською молоддю в 2001 році.\n' +
+          'Це перший в Україні парк, закладений після здобуття нею незалежності. Ініціатором заснування Парку, був громадський діяч Андрій Рожнятовський.',
+        main_image:
+          'https://moemisto.ua/uploads/media/ckeditor/0004/84/5672ff3692a94482deb10315f3cbd79a559ed724.jpeg?hash=2020-07-02-18-01-29',
+        images: [
+          'https://moemisto.ua/uploads/media/ckeditor/0004/84/5672ff3692a94482deb10315f3cbd79a559ed724.jpeg?hash=2020-07-02-18-01-29',
+          'https://s.032.ua/s/40/section/newsInText/upload/images/news/intext/000/053/426/photo2021-05-1220-02-19_609c32c64df0f.jpg',
+          'https://city-adm.lviv.ua/images/_news/2020/04/30/parksakur/IMG_5171.JPG',
+          'https://inlviv.in.ua/wp-content/uploads/2019/04/1455203_1507323-scaled.jpg'
+        ],
         location: '',
         date_of_foundation: '',
         category_id: parks
@@ -1296,6 +1323,186 @@ export default async function handler(
         google_maps_link:
           'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.0803829864303!2d24.02579437680641!3d49.840947131061355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6df012ae6b%3A0xed47f6b8efbbfd20!2z0J_QsNC8J9GP0YLQvdC40Log0KLQsNGA0LDRgdC-0LLRliDQqNC10LLRh9C10L3QutGD!5e0!3m2!1suk!2sua!4v1697553572391!5m2!1suk!2sua',
         online_tour_link: '//shevchenko-monument-lviv.virtual.ua/ua/embed-tour/'
+      }
+    ]
+  });
+
+  // Театри
+  await prisma.architectural_landmarks.createMany({
+    data: [
+      {
+        name: 'Театр опери та балету ім. Соломії Крушельницької',
+        description:
+          'Львівський Оперний театр є візитівкою Львова та України. Його можна побачити на національній валюті, будівлю часто порівнюють із найкрасивішими спорудами у світі. Враховуючи багатство оздоблення та декорацій театру, це виправдано. Над фасадом театру височіють скульптури: Слави з золотою пальмовою гілкою в центрі та Геній Трагедії і Геній Музики обабіч неї. Їх автором є українець Петро Війтович. Нижче бачимо скульптурну композицію на тему страждань і радощів життя авторства Антонія Попеля, ще нижче – фігури муз та алегорій.\n' +
+          '\n' +
+          '   Екстер’єр театру є ворітьми, через які ми занурюємося у світ мистецьких символів та розкішних оздоблень в середині. Мармуровими сходинками, минаючи портал із алегоріями «Трагедії» й «Комедії» та барельєф із портретом Зиґмунда Ґорґолевського у вестибюлі, ми потрапляємо до глядацького та дзеркального залів. Над нашою головою в той момент камеї з алегоріями та мальовничі композиції, присвячені порам року, родам мистецтва і категоріям населення, представники яких здійснювали пожертви на будівництво оперного. Венеційськими дзеркалами, скульптурою, алегоріями пір року та частин світу, мальовничими полотнами на тему вистав і погруддями видатних діячів опери можна насолоджуватися у дзеркальній залі.\n' +
+          '\n' +
+          '   Головна зала театру, яка у формі ліри, уміщує біля тисячі відвідувачів. У ложах, поміж якими і колишня імператорська, сценічне дійство можуть оглядати особливо шановані відвідувачі. По всьому периметру залу оздоблено каріатидами та гермами, а її окрасою є плафон із алегоріями та завіса «Парнас», виконана за ескізами Генрика Семирадського',
+        main_image: 'https://f.discover.ua/location/715/m0pNX.jpg',
+        images: [
+          'https://f.discover.ua/location/715/m0pNX.jpg',
+          'https://lviv.travel/image/blocks/34/f0/34f06d6e37309cd4914968a32eb86e0e6694c70a_1649759045.jpeg?crop=4992%2C3744%2C562%2C0',
+          'https://lviv.travel/image/blocks/5a/6e/5a6e05ac0de82c71509f399008c3c27ed9a0ced9_1649759099.jpeg?crop=3456%2C2592%2C355%2C0',
+          'https://lviv.travel/image/locations/ff/e5/ffe5025e409f62a0fca5a8f2b01fe076a8b016e3_1649757949.jpg?crop=2427%2C1306%2C12%2C289',
+          'https://via-regia.org.ua/wp-content/uploads/2020/11/opernyj-teatr-yunesko-lviv.jpg'
+        ],
+        location: 'проспект Свободи, 28',
+        date_of_foundation: '1897-1900 рр.',
+        category_id: theatres,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.917020192228!2d24.02363737652166!3d49.84401667148279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add72f9bc6a89%3A0xf9783fecb4fecf1f!2z0JvRjNCy0ZbQstGB0YzQutCwINCd0LDRhtGW0L7QvdCw0LvRjNC90LAg0J7Qv9C10YDQsA!5e0!3m2!1suk!2sua!4v1698931289988!5m2!1suk!2sua',
+        online_tour_link: '//opera-theatre-lviv.virtual.ua/ua/embed-tour/'
+      },
+      {
+        name: 'Національний академічний український драматичний театр імені Марії Заньковецької',
+        description:
+          'Марія Заньковецька була відомою актрисою, яка привернула увагу та прихильність Костянтина Станіславського, батька “методу акторської гри” – стилю акторської майстерності, який практикують відомі сьогодні актори театру. Національний академічний український драматичний театр ім. М. Заньковецької відкрився у 1842 році відомим графом Станіславом Скарбеком. Збудований у неокласичному стилі він був однією з трьох найбільших будівель у тогочасній Центральній Європі. З того часу будівля збільшилась, а її класичний драматичний репертуар та музичні концерти продовжували залучати задоволених глядачів. Гарне фойє, Глядацька зала та Колонна зала використовуються як особливі локації для зустрічей та виставок.',
+        main_image:
+          'https://lviv.travel/image/locations/ac/7a/ac7acaf65d2925f6ef9aa0c460654052ffacec41_1659527373.jpg?crop=5936%2C3194%2C18%2C99',
+        images: [
+          'https://lviv.travel/image/locations/ac/7a/ac7acaf65d2925f6ef9aa0c460654052ffacec41_1659527373.jpg?crop=5936%2C3194%2C18%2C99',
+          'https://www.google.com/url?sa=i&url=https%3A%2F%2Fuk.m.wikipedia.org%2Fwiki%2F%25D0%25A4%25D0%25B0%25D0%25B9%25D0%25BB%3A%25D0%25A2%25D0%25B5%25D0%25B0%25D1%2582%25D1%2580_%25D0%259C.%25D0%2597%25D0%25B0%25D0%25BD%25D1%258C%25D0%25BA%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D1%258C%25D0%25BA%25D0%25BE%25D1%2597_%25D0%259B%25D1%258C%25D0%25B2%25D1%2596%25D0%25B2.JPG&psig=AOvVaw0c-8PMQnJ-EzD9rY8yTyVN&ust=1699018063892000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDtwNK1pYIDFQAAAAAdAAAAABAR',
+          'https://static.ukrinform.com/photos/2017_11/thumb_files/630_360_1510378178-2311.jpg',
+          'https://storage.concert.ua/JEC/22/Uw/63f5f1d773d6e/3d72.jpg:31-eventpage-gallery_main-desktop'
+        ],
+        location: 'вулиця Лесі Українки, 1',
+        date_of_foundation: '1842 р.',
+        category_id: theatres,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10291.657600642631!2d24.0275736!3d49.8440659!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add72edb3d779%3A0x9b429d5ca46e6711!2z0J3QsNGG0ZbQvtC90LDQu9GM0L3QuNC5INC00YDQsNC80LDRgtC40YfQvdC40Lkg0YLQtdCw0YLRgCDRltC80LXQvdGWINCc0LDRgNGW0Zcg0JfQsNC90YzQutC-0LLQtdGG0YzQutC-0Zc!5e0!3m2!1suk!2sua!4v1698931842074!5m2!1suk!2sua',
+        online_tour_link: '//zankovetska-theatre-lviv.virtual.ua/ua/embed-tour/'
+      },
+      {
+        name: 'Львівський академічний театр імені Леся Курбаса',
+        description:
+          'Львівський театр імені Леся Курбаса створений Володимиром Кучинським та групою молодих акторів у 1988 (тоді – Молодіжний театр-студія). Театр завжди вирізнявся високоінтелектуальним і неповторним репертуаром. Зокрема, широкого визнання здобули його сценічні адаптації таких творів, як філософські діалоги Г. Сковороди «Благодарний Еродій» та «Наркіс»; «Злочин і кара» Ф. Достоєвського (вистави «Сни», «Забави для Фауста»); «Бенкет» Платона (вистави «Хвала Еросу» та «Silenius Alcibiadis»); поезії В. Стуса (драматична поема «Марко Проклятий, або Східна легенда») та Б. І. Антонича (вечір поезії «Молитва до зір», поетична інсталяція «Формули екстази»).\n' +
+          'Театр імені Леся Курбаса — унікальний методологічний центр, який опанував і розробив цикл театральних методик та тренінгів акторської психофізики, пластики, голосу, провів серію спільних проектів з Workcenter Єжи Ґротовського (Італія), Школою драматичного мистецтва Анатолія Васільєва (Росія), Осередком театральних практик Gardzienice (Польща), Саратозьким міжнародним театральним центром (США). У 2006 році за творчі здобутки Театр імені Леся Курбаса було нагороджено найвищою українською нагородою в галузі культури — Національною премією імені Тараса Шевченка, а у 2007 році театру було присвоєно статус академічного.\n' +
+          'З 1994 року Театр імені Леся Курбаса проводив свій власний міжнародний театральний фестиваль «Театр: Метод і Практика». Театр веде активну міжнародну діяльність, є членом міжнародної театральної мережі IETM.\n' +
+          'Окрім того, Театр імені Леся Курбаса є унікальним для України театром-школою, що виховала не одне покоління акторів та режисерів спершу в Студії театру, а з 2001 року на базі Львівського Національного університету імені Івана Франка.\n' +
+          'Критика називає цей колектив унікальним театральним явищем, бо він повернув українській сцені інтелектуальний престиж, створив свою методологічну школу і поєднав багатогранну сценічну практику з процесом пізнання Людини.\n' +
+          'Репертуар театру складається тільки з високохудожніх класичних і сучасних творів. На таких творах актори-курбасівці, театральні педагоги, виховали не одне покоління своїх учнів.',
+        main_image:
+          'https://bookforum.ua/storage/event/2/e964218a36ade081a0426f3445c423caa6213cba.jpg',
+        images: [
+          'https://bookforum.ua/storage/event/2/e964218a36ade081a0426f3445c423caa6213cba.jpg',
+          'https://embed.virtual.ua/panorams/streets/lviv//teatr_kurbasa/teatr_kurbasa_1200.jpg',
+          'https://embed.virtual.ua/panorams/culture/theaters/lviv/kurbasa//kurbasa_23/kurbasa_23_1200.jpg',
+          'https://embed.virtual.ua/panorams/culture/theaters/lviv/kurbasa//kurbasa_24/kurbasa_24_1200.jpg',
+          'https://embed.virtual.ua/panorams/culture/theaters/lviv/kurbasa//kurbasa_25/kurbasa_25_1200.jpg',
+          'https://embed.virtual.ua/panorams/culture/theaters/lviv/kurbasa//kurbasa_26/kurbasa_26_1200.jpg'
+        ],
+        location: 'вулиця Леся Курбаса, 3',
+        date_of_foundation: '1988 р.',
+        category_id: theatres,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.093268102015!2d24.0255834!3d49.8420194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add723eb4e497%3A0xbd6498f3f65ca92!2sLes%20Kurbas%20Theatre!5e0!3m2!1suk!2sua!4v1698933727334!5m2!1suk!2sua',
+        online_tour_link: '//kurbas-theatre-lviv.virtual.ua/ru/embed-tour'
+      },
+      {
+        name: 'Львівський драматичний театр імені Лесі Українки',
+        description:
+          'Театр Лесі Українки – це простір для творчості, де молоді, енергійні актори  втілюють ідеї та відповідають на глибокі питання людства, не забуваючи також задавати запитання. Театр, де митець не боїться слова, лайки чи сленгу, руйнує стереотипи.\n' +
+          '\n' +
+          'Вистави даного театру націлені на аудиторію 16+ та 18+, жанром яких є драма. Теми, які режисери втілюють у постановки зачіпають теперішні реалії, висвітлюють світ таким, яким він є без жодної цезури. Це і «Горизонт 200», «Люди», «Галдамаш», «Мої родичі та інші покидьки» та ін..\n' +
+          '\n' +
+          'Так однією з топ-інсценізацій  є вистава «Баба Пріся», головна героїня якої є стара українська баба, яка головує в сім’ї. Події відбуваються у Чорнобильській зоні відчуження, тому сама баба дуже цікава особа, яка є не зовсім простою жінкою. Вистава багатогранна, комедійна, за якою криється трагедія. Вона торкається різних струн душі, викликаючи то сльози,то сміх. ',
+        main_image:
+          'https://lviv.travel/image/locations/e7/e7/e7e7accd86e8cb8e19e8ceff9161def6c56fba30_1674825491.jpg?crop=5156%2C2774%2C0%2C1',
+        images: [
+          'https://lviv.travel/image/locations/e7/e7/e7e7accd86e8cb8e19e8ceff9161def6c56fba30_1674825491.jpg?crop=5156%2C2774%2C0%2C1',
+          'https://upload.wikimedia.org/wikipedia/commons/8/8a/%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9_%D1%82%D0%B5%D0%B0%D1%82%D1%80_%D1%96%D0%BC%D0%B5%D0%BD%D1%96_%D0%9B%D0%B5%D1%81%D1%96_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8.JPG',
+          'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lvivconvention.com.ua%2Flocation%2Flvivskyy-akademichnyy-dramatychnyy-teatr-imeni-lesi-ukrainky%2F&psig=AOvVaw2YaZYzbhCACHBKUFQyBFMH&ust=1699020357937000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjTu5i-pYIDFQAAAAAdAAAAABAr',
+          'https://upload.wikimedia.org/wikipedia/commons/8/8b/%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%96%D1%87%D0%BD%D0%B8%D0%B9_%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9_%D1%82%D0%B5%D0%B0%D1%82%D1%80_%D1%96%D0%BC%D0%B5%D0%BD%D1%96_%D0%9B%D0%B5%D1%81%D1%96_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8.jpg',
+          'https://lh3.googleusercontent.com/p/AF1QipPl2UrLXmoL4Otm1oONvG6rdXxdOyBwK2tOlm91=s680-w680-h510',
+          'https://lh3.googleusercontent.com/p/AF1QipO0a5TvxmbnK5-9TcI-2kaamcRu1JnbqgWGDXnv=s680-w680-h510'
+        ],
+        location: 'вулиця Городоцька, 36',
+        date_of_foundation: '1931 p.',
+        category_id: theatres,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.09284234008!2d24.0161772!3d49.8420214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7691d89587%3A0xbe1c96f35253e8f6!2z0KLQtdCw0YLRgCDQm9C10YHRlg!5e0!3m2!1suk!2sua!4v1698934210620!5m2!1suk!2sua',
+        online_tour_link:
+          '//lesya-ukrainian-theater-lviv.virtual.ua/ua/embed-tour/'
+      },
+      {
+        name: 'Львівський Авторський Драматичний Театр ScenA8',
+        description:
+          'Львівський академічний духовний театр  “Воскресіння” був заснований у 1990 році режисером Ярославом Федоришиним, який закінчив Харківський інститут театрального мистецтва ім.. І.Котляревського в класі Всеволода Цвєткова та Московський Державний інститут театрального мистецтва в класі Анатолія Ефроса та групою акторів, які були запрошені в театр з різних театрів України. 19 грудня 1990 року театр вийшов на суд глядача з новою роботою “Чудо Св. Отця Миколая над Половчином” С. Перського. Це була дипломна робота Ярослава Федоришина. Вистава отримала несподіваний успіх. З цією виставою театр об¢їздив багато місць, навіть такі, як віддалене село Турківського району, де ніколи не бував театр.Потім було “Благовіщення Марії” П. Клоделя, коли актори ледь не півсвіту підняли на ноги, поки отримали переклад Віри Вовк. Першою на Українській сцені була і “Юдита” Ф.-Х. Геббеля, “Каїн” Д. Байрона, “Гірські Велетні” Л. Піранделло. Одні з перших вистав ще 1991 року театр повіз на Міжнародний театральний фестиваль до Ченстохови (Польща). Митці заприязнилися з українським Фондом св. Володимира Великого, який очолює професор Володимир Мокрий. За його сприяння “Воскресіння” запросили до Кракова. Це був перший прорив у світ.Театр „Воскресіння” – це завжди експеримент на сцені і несподіванка  для глядача,тому він має своїх прихильників у різних містах України та за кордоном. “Воскресіння” ставить такі вистави, які ніколи не йшли на українській сцені. Це правило стало традицією театру. Завдяки цьому він має успіх. За короткий час театр завоював прихильність публіки та театральної критики послідовним пошуком виразної театральної мови і конкретної сценічної форми. Відкриваючи українському глядачеві світову драматургію, яка ніколи не бачила світло рампи на Україні, театр крок за кроком розширює театральне світосприйняття публіки та актора. У театральних пошуках “Воскресіння” поєднались традиції психологічного театру та пошуки сучасних театральних форм.З 1992 року на базі театру “Воскресіння” відновлюється театральний фестиваль “Золотий Лев”. В 1994 році цей фестиваль набуває статусу Міжнародного і на сьогоднішній день являється одним з найяскравіших театральних форумів України.На сьогоднішній день театр «Воскресіння» – це один з найяскравіших колективів України, який грає 190 вистав на рік, з них 50-60 вистав – в різних країнах світу. Театр працює як на сцені, так і на вулиці. Вуличні вистави зачаровують своєю атмосферою, акторською грою та різноманітними ефектами, які впливають на глядача і заставляють його задуматись над тим прекрасним, що існує в нас і поза нами.Театр „Воскресіння” єчлеміжнародногєвропейського мітингу (IETM) і асоціації міжнародних театральних фестивалів (IFEA).',
+        main_image:
+          'https://afisha.lviv.ua/sites/image.life/company1484/logo-present-1484-79big-7822-kb.jpg',
+        images: [
+          'https://afisha.lviv.ua/sites/image.life/company1484/logo-present-1484-79big-7822-kb.jpg',
+          'https://afisha.lviv.ua/sites/image.life/company1484/logo-present-1484-18164-9527-kb.jpg',
+          'https://afisha.lviv.ua/sites/image.life/company1484/logo-present-1484-voznesinnia01600-4488-kb.jpg',
+          'https://www.lvivconvention.com.ua/wp-content/uploads/2020/12/1-dlia-baneru-ta-poshuku-7-1.jpg'
+        ],
+        location: 'площа Генерала Григоренка, 5',
+        date_of_foundation: '1990 р.',
+        category_id: theatres,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.125178923397!2d24.0230544!3d49.8418695!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6e7963a703%3A0x8878129fea5a5d76!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0LDQutCw0LTQtdC80ZbRh9C90LjQuSDQtNGD0YXQvtCy0L3QuNC5INGC0LXQsNGC0YAgItCS0L7RgdC60YDQtdGB0ZbQvdC90Y8i!5e0!3m2!1suk!2sua!4v1698934967851!5m2!1suk!2sua',
+        online_tour_link: '//voskresinnya-theatre.virtual.ua/ua/embed-tour/'
+      },
+      {
+        name: 'Львівський обласний театр ляльок',
+        description:
+          'Будівлю, в якій зараз знаходиться Львівський театр ляльок, збудували приблизно в 1914-му році, як Ремісничу палату. Тут проводились зібрання всіх ремісників Львова та області.\n' +
+          'Але через нестабільну ситуацію, котра виникла у зв’язку з Першою світовою війною, після глибокої фінансової кризи багато приміщень здавалося в оренду, Реміснича палата не була винятком. Підприємець Марек Парізер орендував великий зал Ремісничої палати і 1926-го року облаштував тут кінотеатр “Штука” на 290 глядацьких місць, а у міжвоєнний період великий зал було передано у використання Кінотеатру “Балтик”. До 1941-го змінювались власники залу, але завжди функціонував кінотеатр.\n' +
+          'В наші дні, у театрі на стелі досі збереглися фрагменти автентичного вітража у стилі сецесія і неймовірна ковка. За дзеркалом колись також був вітраж. Через ці два вітражі у фойє потрапляло багато денного світла.',
+        main_image:
+          'https://upload.wikimedia.org/wikipedia/commons/e/e0/1_Danyla_Halytskoho_Square%2C_Lviv_%2819%29.jpg',
+        images: [
+          'https://upload.wikimedia.org/wikipedia/commons/e/e0/1_Danyla_Halytskoho_Square%2C_Lviv_%2819%29.jpg',
+          'https://afisha.lviv.ua/sites/image.life/company263/logo-present-263-75big-5563-kb.jpg',
+          'https://afisha.lviv.ua/sites/image.life/company263/logo-present-263-1339543426-9516-kb.jpg',
+          'https://tvoemisto.tv/media/gallery/full/3/other/3_cdc88.jpg'
+        ],
+        location: 'площа Данила Галицького, 1',
+        date_of_foundation: '1945 р.',
+        category_id: theatres,
+        online_tour_link: '//puppet-theatre-lviv.virtual.ua/ua/embed-tour/',
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10291.59260597922!2d24.0310412!3d49.8443712!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d59f43809%3A0xca29c722b0cbfcf8!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0LDQutCw0LTQtdC80ZbRh9C90LjQuSDQvtCx0LvQsNGB0L3QuNC5INGC0LXQsNGC0YAg0LvRj9C70YzQvtC6!5e0!3m2!1suk!2sua!4v1698935368913!5m2!1suk!2sua'
+      },
+      {
+        name: 'Театр естрадних мініатюр «І люди, і ляльки»',
+        description:
+          'Камерний зал на 40 місць — чи то іграшковий, чи домашній...\n' +
+          'Тут все мініатюрне — від сцени — до кабінету директора.\n' +
+          'Затишок та гостинність — є незмінними атрибутами, що\n' +
+          'зустрічають глядача. Творча атмосфера, креативність, пошук\n' +
+          'нових форм, любов до ляльки — це сьогоднішнє лице ТЕАТРУ\n' +
+          '— ДОМУ, бо він став домом і людям, і лялькам.',
+        main_image:
+          'https://lviv.travel/image/locations/bd/8b/bd8b5730454ea73353d251a9e1ab6f455085e59e_1558432506.png?crop=1362%2C733%2C4%2C2',
+        images: [
+          'https://lviv.travel/image/locations/bd/8b/bd8b5730454ea73353d251a9e1ab6f455085e59e_1558432506.png?crop=1362%2C733%2C4%2C2',
+          'https://afisha.lviv.ua/sites/image.life/company267/logo-present-267-3920-9125-kb.jpg',
+          'https://afisha.lviv.ua/sites/image.life/company267/logo-present-267-8ebffb0dd1e32e91a3294e0fdf56416e4e8fddee-7608-kb.jpeg'
+        ],
+        location: 'вулиця Олександра Фредра, 6',
+        date_of_foundation: '1990 р',
+        category_id: theatres,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10293.352829885582!2d24.032964399999997!3d49.836102399999994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add68da131a9b%3A0x71bc7efd8212fa0c!2z0IYg0LvRjtC00LgsINGWINC70Y_Qu9GM0LrQuA!5e0!3m2!1suk!2sua!4v1698935768513!5m2!1suk!2sua'
+      },
+      {
+        name: 'Перший український театр для дітей та юнацтва',
+        description:
+          'Перший академічний український театр для дітей та юнацтва — перший театр в Україні та світі, розрахований на дитячу та юнацьку аудиторію. Заснований 1920 року в Харкові, з 1944 р. перебазований до Львова',
+        main_image:
+          'https://vgorode.ua/img/article/2309/76_main-v1582883109.jpg',
+        images: [
+          'https://vgorode.ua/img/article/2309/76_main-v1582883109.jpg',
+          'https://www.lvivconvention.com.ua/wp-content/uploads/2021/02/DSC_5852-1.jpg',
+          'https://www.lvivconvention.com.ua/wp-content/uploads/2021/02/Hliadatskyy-zal-3-1.jpg'
+        ],
+        location: 'вулиця Академіка Гнатюка, 11',
+        date_of_foundation: '1920 року',
+        category_id: theatres,
+        online_tour_link: '//young-peoples-theatre.virtual.ua/ua/embed-tour/',
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.234428780426!2d24.0244855!3d49.8413563!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add722425b365%3A0x141cb9760f7acb79!2z0J_QtdGA0YjQuNC5INGC0LXQsNGC0YA!5e0!3m2!1suk!2sua!4v1698936643071!5m2!1suk!2sua'
       }
     ]
   });
