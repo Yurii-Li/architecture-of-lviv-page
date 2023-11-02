@@ -1185,12 +1185,13 @@ export default async function handler(
           "Головний вхід у парк знаходиться на вулиці Січових Стрільців, яка з'єднує його з історичною частиною міста. Заснований парк на території колишніх міських ланів наприкінці XVI століття патрицієм М. Шольц — Вольфовичем. Займає близько 11 га.\n" +
           "Знаходиться парк за адресою вул. Листопадового чину, С. Крушельницької. Сьогодні у парку ім. Івана Франка знаходиться будинок почесного консульства Болгарії у Львові, будиночок  садівника, альтанка та дитячий майданчик з гойдалками та дитячими гірками. Парк ім. І. Франка - пам'ятка садово-паркового мистецтва і занесений до Списку світової культурної спадщини ЮНЕСКО.\n" +
           'Сьогодні  цей  "зелений оазис" у середмісті Львова – справжнє сучасне європейське місце відпочинку.',
-        main_image: 'http://surl.li/mgxwr',
+        main_image:
+          'https://upload.wikimedia.org/wikipedia/commons/1/1e/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B5%D1%8F_%D0%BF%D0%B0%D1%80%D0%BA%D1%83_%D0%B2%D0%BE%D1%81%D0%B5%D0%BD%D0%B8.jpg',
         images: [
-          'http://surl.li/mgxwr',
-          'http://surl.li/mgxxw',
-          'http://surl.li/mgxzb',
-          'http://surl.li/mgxzn'
+          'https://upload.wikimedia.org/wikipedia/commons/1/1e/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B5%D1%8F_%D0%BF%D0%B0%D1%80%D0%BA%D1%83_%D0%B2%D0%BE%D1%81%D0%B5%D0%BD%D0%B8.jpg',
+          'https://lviv.travel/image/locations/b1/e5/b1e549182682a958700f61cf36199409a061aeeb_1669124471.jpg?crop=6013%2C3235%2C-23%2C225',
+          'https://moemisto.ua/uploads/media/ckeditor/0004/84/5cb7d9a692968f874f91c35687359c8040905f79.jpeg?hash=2020-07-02-18-20-52',
+          'https://moemisto.ua/uploads/media/ckeditor/0004/84/feca61c84438ab529fe161e3ff083124da37cf29.jpeg?hash=2020-07-02-18-20-53'
         ],
         location: 'вул. Листопадового чину',
         date_of_foundation: 'XVI століття',
@@ -1204,12 +1205,13 @@ export default async function handler(
         description:
           'Парк „Високий замок”, що велично височіє над віковічним Львовом, поєднує в собі старовину із сучасністю. Закладений він у 1838 році на ділянці двох гір – Княжої і Замкової та видолинку, що їх з’єднує. Княжа гора була облюбована князем Данилом Романовичем для свого західного форпосту (ХІІІ ст.). Збереглись залишки мурів замку, який втративши своє оборонне значення поступово руйнується.\n' +
           "Розташований парк на Замковій горі. Перша згадка про Львів пов'язана з цією горою. Тут є грот з левами, тераса, яка відкриває красивий вид на місто, алеї, телевізійна вежа, кургани, монумент Максима Кривоноса і красива природа. Займає більше 30 га. парку гарний сад який налічує понад 45 видів деревних і чагарникових порід. Пам’ятник-камінь козацькому полковникові Максиму Кривоносу, грот – альтанка із двома кам’яними левами перенесеними сюди в 1874 році від міської ратуші. В кінці ХІХ століття насипаний копець (зараз оглядовий майданчик), з якого видно панораму Львова (висота 411 м). Телевізійна вежа. ",
-        main_image: 'http://surl.li/mgyex',
+        main_image:
+          'https://karpatium.com.ua/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSWRlbVJTVGtaWGRHbEVXREpSZEVzNVUwNUhUVXBPUmtWbEJqb0dSVlE2RUdScGMzQnZjMmwwYVc5dVNTSUIybWx1YkdsdVpUc2dabWxzWlc1aGJXVTlJbkJoY21zZ2RubHpiMnQ1ZVNWRFF5VTROaUI2WVcxdmF5QnNkbWwyTG1wd1pXY2lPeUJtYVd4bGJtRnRaU285VlZSR0xUZ25KeVZFTUNWQ1JpVkVNQ1ZDTUNWRU1TVTRNQ1ZFTUNWQ1FTVXlNQ1ZFTUNWQ01pVkVNQ1ZDT0NWRU1TVTRNU1ZFTUNWQ1JTVkVNQ1ZDUVNWRU1DVkNPQ1ZFTUNWQ09DVkRReVU0TmlVeU1DVkVNQ1ZDTnlWRU1DVkNNQ1ZFTUNWQ1F5VkVNQ1ZDUlNWRU1DVkNRU1V5TUNWRU1DVkNRaVZFTVNVNFF5VkVNQ1ZDTWlWRU1TVTVOaVZFTUNWQ01pNXFjR1ZuQmpzR1ZEb1JZMjl1ZEdWdWRGOTBlWEJsU1NJUGFXMWhaMlV2YW5CbFp3WTdCbFE9IiwiZXhwIjoiMjAyMy0xMS0wMlQxNTozNToxOS43MTNaIiwicHVyIjoiYmxvYl9rZXkifX0=--32184f517c9b08b8797ab46d712a8677a3dcd3ba/%D0%BF%D0%B0%D1%80%D0%BA%20%D0%B2%D0%B8%D1%81%D0%BE%D0%BA%D0%B8%D0%B8%CC%86%20%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA%20%D0%BB%D1%8C%D0%B2%D1%96%D0%B2.jpeg?content_type=image%2Fjpeg&disposition=inline%3B+filename%3D%22park+vysokyy%25CC%2586+zamok+lviv.jpeg%22%3B+filename%2A%3DUTF-8%27%27%25D0%25BF%25D0%25B0%25D1%2580%25D0%25BA%2520%25D0%25B2%25D0%25B8%25D1%2581%25D0%25BE%25D0%25BA%25D0%25B8%25D0%25B8%25CC%2586%2520%25D0%25B7%25D0%25B0%25D0%25BC%25D0%25BE%25D0%25BA%2520%25D0%25BB%25D1%258C%25D0%25B2%25D1%2596%25D0%25B2.jpeg',
         images: [
-          'http://surl.li/mgyex',
-          'http://surl.li/mgyfl',
-          'http://surl.li/mgyge',
-          'http://surl.li/mgygp'
+          'https://karpatium.com.ua/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSWRlbVJTVGtaWGRHbEVXREpSZEVzNVUwNUhUVXBPUmtWbEJqb0dSVlE2RUdScGMzQnZjMmwwYVc5dVNTSUIybWx1YkdsdVpUc2dabWxzWlc1aGJXVTlJbkJoY21zZ2RubHpiMnQ1ZVNWRFF5VTROaUI2WVcxdmF5QnNkbWwyTG1wd1pXY2lPeUJtYVd4bGJtRnRaU285VlZSR0xUZ25KeVZFTUNWQ1JpVkVNQ1ZDTUNWRU1TVTRNQ1ZFTUNWQ1FTVXlNQ1ZFTUNWQ01pVkVNQ1ZDT0NWRU1TVTRNU1ZFTUNWQ1JTVkVNQ1ZDUVNWRU1DVkNPQ1ZFTUNWQ09DVkRReVU0TmlVeU1DVkVNQ1ZDTnlWRU1DVkNNQ1ZFTUNWQ1F5VkVNQ1ZDUlNWRU1DVkNRU1V5TUNWRU1DVkNRaVZFTVNVNFF5VkVNQ1ZDTWlWRU1TVTVOaVZFTUNWQ01pNXFjR1ZuQmpzR1ZEb1JZMjl1ZEdWdWRGOTBlWEJsU1NJUGFXMWhaMlV2YW5CbFp3WTdCbFE9IiwiZXhwIjoiMjAyMy0xMS0wMlQxNTozNToxOS43MTNaIiwicHVyIjoiYmxvYl9rZXkifX0=--32184f517c9b08b8797ab46d712a8677a3dcd3ba/%D0%BF%D0%B0%D1%80%D0%BA%20%D0%B2%D0%B8%D1%81%D0%BE%D0%BA%D0%B8%D0%B8%CC%86%20%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA%20%D0%BB%D1%8C%D0%B2%D1%96%D0%B2.jpeg?content_type=image%2Fjpeg&disposition=inline%3B+filename%3D%22park+vysokyy%25CC%2586+zamok+lviv.jpeg%22%3B+filename%2A%3DUTF-8%27%27%25D0%25BF%25D0%25B0%25D1%2580%25D0%25BA%2520%25D0%25B2%25D0%25B8%25D1%2581%25D0%25BE%25D0%25BA%25D0%25B8%25D0%25B8%25CC%2586%2520%25D0%25B7%25D0%25B0%25D0%25BC%25D0%25BE%25D0%25BA%2520%25D0%25BB%25D1%258C%25D0%25B2%25D1%2596%25D0%25B2.jpeg',
+          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37125',
+          'https://lviv.travel/image/seo/a9/39/a939afae9e9b826eea6aa0df7ab61bbfa6e2a6b3_1666772450.jpeg?crop=660%2C347%2C1%2C83&w=1200&h=630',
+          'https://www.navigator-ukraina.com.ua/media/k2/galleries/986/vysokiy_zamok03.jpg'
         ],
         location: 'вулиця Високий Замок, 1',
         date_of_foundation: '',
@@ -1221,8 +1223,12 @@ export default async function handler(
         name: 'Снопківський парк',
         description:
           'Стара назва парку „Дружба”, однойменну назву мав стадіон (з 1990р. – стадіон Україна). Був розбитий на місці глиняних кар’єрів у 1959 – 1963 рр. і займає площу 60 га. Мережа алей і доріжок прокладена з таким розрахунком, щоб краще розкрити характерні краєвиди парку, а також домогтися максимальної пропускної спроможності під час масового відвідування найбільшого стадіону міста, який розташований у центральній частині парку і розрахований на 30 тисяч місць.',
-        main_image: 'http://surl.li/mgylz',
-        images: ['http://surl.li/mgylz', 'http://surl.li/mgymm'],
+        main_image:
+          'https://lviv.travel/image/locations/1e/89/1e893c8ad5106572bad8036355e76d18e840dcb0_1557228791.jpg?crop=1002%2C484%2C5%2C97',
+        images: [
+          'https://lviv.travel/image/locations/1e/89/1e893c8ad5106572bad8036355e76d18e840dcb0_1557228791.jpg?crop=1002%2C484%2C5%2C97',
+          'https://lviv.travel/image/blocks/db/bc/dbbced99aab314515c4294317b83d04924fd470f_1558017095.jpeg?crop=1777%2C1333%2C91%2C0'
+        ],
         location: 'вулиця Василя Стуса, 47',
         date_of_foundation: '1959 – 1963 рр.',
         category_id: parks,
@@ -1234,8 +1240,8 @@ export default async function handler(
         description:
           'Створений парк в 1905р. Зелений куточок недалеко від центру. У парку є багато джерел води з великим вмістом заліза, це і стало причиною виникнення назви парку. Площа його близько 20га. Адреса: вул. Стуса, Мишуги, Тернопільська та Ярославенка. Закладений у 1905 році на схилах яру ріки Полтви.Розташований між вулицями Стуса, Мішуги, Тернопільською і Ярославенко. \n' +
           "Пересічений рельєф місцевості, хвилясті узгір'я і яри, – все це додає парку дуже мальовничий і своєрідний вигляд. Тут бере свій початок річка Полтва. Основа парку – столітній буковий ліс.",
-        main_image: 'http://surl.li/mgywd',
-        images: ['http://surl.li/mgywd', ''],
+        main_image: 'https://i.ytimg.com/vi/71fEF90OD2M/maxresdefault.jpg',
+        images: ['https://i.ytimg.com/vi/71fEF90OD2M/maxresdefault.jpg'],
         location: 'вул. Стуса',
         date_of_foundation: '1894-1905 р.',
         category_id: parks,
