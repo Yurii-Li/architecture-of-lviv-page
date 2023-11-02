@@ -3,7 +3,6 @@ import { useRouter } from 'next/router';
 import { Pagination } from 'antd';
 
 import ArchitectureList from '@/components/architecture-list/architecture-list';
-import NavMenu from '@/components/nav-menu/nav-menu';
 import { CategoriesEnum } from '@/enums/categories.enum';
 import { IArchitectureCard } from '@/interfaces/architecture.interface';
 import { prisma } from '@/lib/prisma';
@@ -22,7 +21,6 @@ export default function CategoryPage({ count, data }: IProps) {
 
   return (
     <>
-      <NavMenu />
       <ArchitectureList list={data} />
       {count > 20 && (
         <Pagination

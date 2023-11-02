@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-import NavMenu from '@/components/nav-menu/nav-menu';
-
 import styles from './homePage.module.scss';
 
 export default function Home() {
@@ -14,7 +12,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavMenu />
       <div className={styles.homePage}>
         <section className={styles.mainSection}>
           <div className={styles.mainText}>
