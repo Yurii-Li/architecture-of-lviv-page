@@ -27,14 +27,13 @@ export default function LandmarkPage({ data }: IProps) {
 
       <Carousel className={styles.carousel} autoplay>
         {data.images.map(image => (
-          <div key={data.id}>
+          <div key={data.id} className={styles.carouselImageWrapper}>
             <Image
               priority
               src={image}
               alt={data.name}
-              width={1000}
-              height={500}
               className={styles.carouselImage}
+              fill
             />
           </div>
         ))}
