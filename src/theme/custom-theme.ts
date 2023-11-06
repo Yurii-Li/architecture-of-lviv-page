@@ -9,7 +9,6 @@ const customTheme: ThemeConfig = {
   },
   components: {
     Menu: {
-      itemBg: 'transparent',
       itemHoverColor: '#1677FF'
     }
   }

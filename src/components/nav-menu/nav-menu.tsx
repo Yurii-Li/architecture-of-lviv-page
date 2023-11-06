@@ -9,12 +9,13 @@ import styles from './nav-menu.module.scss';
 export default function NavMenu() {
   const { pathname } = useRouter();
 
-  const mainPage = pathname === '/' ? styles.navMenuMainPage : '';
+  const mainPage = pathname === '/' ? styles.navMenu : '';
 
   return (
     <Menu
       mode="horizontal"
-      className={`${styles.navMenu} ${mainPage}`}
+      style={{ borderBottom: 'none', background: 'none' }}
+      className={mainPage}
       items={[
         {
           key: '1',
