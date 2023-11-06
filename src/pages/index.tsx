@@ -54,6 +54,7 @@ export default function Home() {
                   src="https://lviv-future.com.ua/wp-content/uploads/sites/12/2020/06/2_28.jpg"
                   alt="Собор святого Юра"
                   fill
+                  sizes="(min-width: 1360px) 600px, (min-width: 1000px) calc(38.24vw + 88px), (min-width: 680px) 600px, calc(94.44vw - 23px)"
                 />
               </div>
             </div>
@@ -62,8 +63,9 @@ export default function Home() {
               <div className={styles.architecturalImage}>
                 <Image
                   src="https://lviv-future.com.ua/wp-content/uploads/sites/12/2020/06/3_24.jpg"
-                  alt="Собор святого Юра"
+                  alt="Церква святого Андрія"
                   fill
+                  sizes="(min-width: 1360px) 600px, (min-width: 1000px) calc(38.24vw + 88px), (min-width: 680px) 600px, calc(94.44vw - 23px)"
                 />
               </div>
               <div className={styles.architecturalDesc}>
@@ -124,8 +126,9 @@ export default function Home() {
               <div className={styles.architecturalImage}>
                 <Image
                   src="https://lviv-future.com.ua/wp-content/uploads/sites/12/2020/06/4_16.jpg"
-                  alt="Собор святого Юра"
+                  alt="Домініканський собор"
                   fill
+                  sizes="(min-width: 1360px) 600px, (min-width: 1000px) calc(38.24vw + 88px), (min-width: 680px) 600px, calc(94.44vw - 23px)"
                 />
               </div>
             </div>
@@ -134,8 +137,9 @@ export default function Home() {
               <div className={styles.architecturalImage}>
                 <Image
                   src="https://lviv-future.com.ua/wp-content/uploads/sites/12/2020/06/5_12.jpg"
-                  alt="Собор святого Юра"
+                  alt="Церква святих Ольги і Єлизавети"
                   fill
+                  sizes="(min-width: 1360px) 600px, (min-width: 1000px) calc(38.24vw + 88px), (min-width: 680px) 600px, calc(94.44vw - 23px)"
                 />
               </div>
               <div className={styles.architecturalDesc}>
@@ -188,8 +192,9 @@ export default function Home() {
               <div className={styles.architecturalImage}>
                 <Image
                   src="https://lviv-future.com.ua/wp-content/uploads/sites/12/2020/06/6_8.jpg"
-                  alt="Собор святого Юра"
+                  alt="Оперний театр"
                   fill
+                  sizes="(min-width: 1360px) 600px, (min-width: 1000px) calc(38.24vw + 88px), (min-width: 680px) 600px, calc(94.44vw - 23px)"
                 />
               </div>
             </div>
