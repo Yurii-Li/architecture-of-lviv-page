@@ -19,7 +19,14 @@ export default function MainLayout({ children }: { children: ReactNode }) {
     <div className={`${inter.className} ${styles.mainLayout}`}>
       {isHomePage && (
         <div className={styles.bgImg}>
-          <Image src="/background.jpg" alt="Львів" fill />
+          <Image
+            src="/background.jpg"
+            alt="Львів"
+            quality={100}
+            priority
+            fill
+            sizes="100vw"
+          />
         </div>
       )}
       <Header />
