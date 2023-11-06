@@ -5,17 +5,20 @@ import { Menu } from 'antd';
 import { CategoriesEnum } from '@/enums/categories.enum';
 
 export default function NavMenu() {
-  const { pathname } = useRouter();
+  const { pathname, asPath } = useRouter();
 
   const isMainPage = pathname === '/' ? { color: '#ffffff' } : '';
 
+  const activeKey = asPath.split('?')[0];
+
   return (
     <Menu
+      selectedKeys={[activeKey]}
       mode="horizontal"
       style={{ borderBottom: 'none', background: 'none', ...isMainPage }}
       items={[
         {
-          key: '1',
+          key: `/architecture/${CategoriesEnum.TEMPLES}`,
           label: (
             <Link
               href={{
@@ -28,7 +31,7 @@ export default function NavMenu() {
           )
         },
         {
-          key: '2',
+          key: `/architecture/${CategoriesEnum.DEFENSE_STRUCTURES}`,
           label: (
             <Link
               href={{
@@ -41,7 +44,7 @@ export default function NavMenu() {
           )
         },
         {
-          key: '3',
+          key: `/architecture/${CategoriesEnum.MUSEUMS}`,
           label: (
             <Link
               href={{
@@ -54,7 +57,7 @@ export default function NavMenu() {
           )
         },
         {
-          key: '4',
+          key: `/architecture/${CategoriesEnum.MONUMENTS}`,
           label: (
             <Link
               href={{
@@ -67,7 +70,7 @@ export default function NavMenu() {
           )
         },
         {
-          key: '5',
+          key: `/architecture/${CategoriesEnum.PARKS}`,
           label: (
             <Link
               href={{
@@ -80,7 +83,7 @@ export default function NavMenu() {
           )
         },
         {
-          key: '6',
+          key: `/architecture/${CategoriesEnum.THEATERS}`,
           label: (
             <Link
               href={{
