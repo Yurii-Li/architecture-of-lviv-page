@@ -4,18 +4,15 @@ import { Menu } from 'antd';
 
 import { CategoriesEnum } from '@/enums/categories.enum';
 
-import styles from './nav-menu.module.scss';
-
 export default function NavMenu() {
   const { pathname } = useRouter();
 
-  const mainPage = pathname === '/' ? styles.navMenu : '';
+  const isMainPage = pathname === '/' ? { color: '#ffffff' } : '';
 
   return (
     <Menu
       mode="horizontal"
-      style={{ borderBottom: 'none', background: 'none' }}
-      className={mainPage}
+      style={{ borderBottom: 'none', background: 'none', ...isMainPage }}
       items={[
         {
           key: '1',
