@@ -1,0 +1,18 @@
+.navMenu {
+  .navMenuComponent {
+    background: none;
+  }
+
+  .navMenuComponentMainPage {
+    border: none;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 768px) {
+  .navMenu {
+    .navMenuComponentMainPage {
+      color: #000000;
+    }
+  }
+}
