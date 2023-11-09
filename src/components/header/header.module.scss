@@ -1,7 +1,6 @@
 .header {
   display: flex;
   flex-direction: column;
-  font-size: 20px;
   z-index: 2;
 
   .top {
@@ -9,5 +8,15 @@
     margin-left: 15px;
     display: flex;
     gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    .top {
+      margin-left: 0;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
