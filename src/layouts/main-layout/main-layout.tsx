@@ -1,10 +1,12 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode, useState } from 'react';
 import { Inter } from 'next/font/google';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import { Drawer } from 'antd';
 
 import Footer from '@/components/footer/footer';
 import Header from '@/components/header/header';
+import NavMenu from '@/components/nav-menu/nav-menu';
 
 import styles from './main-layout.module.scss';
 
@@ -15,13 +17,23 @@ export default function MainLayout({ children }: { children: ReactNode }) {
 
   const isHomePage = pathname === '/';
 
+  const [open, setOpen] = useState(false);
+
+  const showDrawer = () => {
+    setOpen(true);
+  };
+
+  const onClose = () => {
+    setOpen(false);
+  };
+
   return (
     <div className={`${inter.className} ${styles.mainLayout}`}>
       {isHomePage && (
         <div className={styles.bgImg}>
           <Image
             src="/background.jpg"
-            alt="Львів"
+            alt="Меню"
             quality={100}
             priority
             fill
@@ -29,7 +41,10 @@ export default function MainLayout({ children }: { children: ReactNode }) {
           />
         </div>
       )}
-      <Header />
+      <Header showDrawer={showDrawer} />
+      <Drawer title="Категорії" placement="right" onClose={onClose} open={open}>
+        <NavMenu />
+      </Drawer>
       <main className={styles.main}>{children}</main>
       <Footer />
     </div>
