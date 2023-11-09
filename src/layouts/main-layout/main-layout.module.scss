@@ -19,3 +19,11 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+@media (max-width: 576px) {
+  .mainLayout {
+    .bgImg {
+      height: 55vh;
+    }
+  }
+}
