@@ -7,6 +7,16 @@ import customTheme from '@/theme/custom-theme';
 import '@/styles/globals.scss';
 
 export default function App({ Component, pageProps }: AppProps) {
+  const is404Page = Component.name === 'NotFoundPage';
+
+  if (is404Page) {
+    return (
+      <ConfigProvider theme={customTheme}>
+        <Component {...pageProps} />
+      </ConfigProvider>
+    );
+  }
+
   return (
     <ConfigProvider theme={customTheme}>
       <MainLayout>
