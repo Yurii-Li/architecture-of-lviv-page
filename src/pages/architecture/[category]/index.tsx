@@ -1,4 +1,5 @@
 import { GetServerSideProps } from 'next';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { Pagination } from 'antd';
 
@@ -21,6 +22,13 @@ export default function CategoryPage({ count, data }: IProps) {
 
   return (
     <>
+      <Head>
+        <title>Архітектурні пам&apos;ятки Львова - Travel to Lviv</title>
+        <meta
+          name="description"
+          content="Огляд архітектурних пам'яток міста Львова. Перегляньте найвидатніші архітектурні шедеври з Travel to Lviv."
+        />
+      </Head>
       <ArchitectureList list={data} />
       {count > 20 && (
         <Pagination
