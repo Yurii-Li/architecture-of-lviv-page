@@ -4,6 +4,7 @@ import { Pagination } from 'antd';
 
 import ArchitectureList from '@/components/architecture-list/architecture-list';
 import { CategoriesEnum } from '@/enums/categories.enum';
+import { isValidCategory } from '@/helpers/validate-сategory';
 import { IArchitectureCard } from '@/interfaces/architecture.interface';
 import { prisma } from '@/lib/prisma';
 
@@ -46,7 +47,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
     category: CategoriesEnum;
   };
 
-  if (!Object.values(CategoriesEnum).includes(category)) {
+  if (!isValidCategory(category)) {
     return {
       notFound: true
     };

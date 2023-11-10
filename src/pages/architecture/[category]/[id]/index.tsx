@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Card, Carousel } from 'antd';
 
 import { CategoriesEnum } from '@/enums/categories.enum';
+import { isValidCategory } from '@/helpers/validate-сategory';
 import { prisma } from '@/lib/prisma';
 import { architectural_landmarks } from '@prisma/client';
 
@@ -78,6 +79,12 @@ export const getStaticProps: GetStaticProps = async context => {
     id: string;
     category: CategoriesEnum;
   };
+
+  if (!isValidCategory(category) || !id) {
+    return {
+      notFound: true
+    };
+  }
 
   const data = await prisma.architectural_landmarks.findUnique({
     where: {
