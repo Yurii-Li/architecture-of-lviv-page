@@ -1,6 +1,7 @@
 .landmarkPage {
   width: 70%;
   margin: 0 auto;
+  padding: 0 10px;
 
   .title {
     font-size: 2rem;
@@ -106,7 +107,6 @@
 @media (max-width: 576px) {
   .landmarkPage {
     width: 100%;
-    padding: 0 10px;
 
     .carousel {
       .carouselImageWrapper {

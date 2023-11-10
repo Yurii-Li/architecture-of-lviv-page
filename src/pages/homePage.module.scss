@@ -1,12 +1,14 @@
 .homePage {
   display: flex;
   flex-direction: column;
+  padding: 0 20px;
 
   .mainSection {
     position: relative;
     height: calc(100vh - 97px);
 
     .mainText {
+      width: 100%;
       color: white;
       position: absolute;
       top: 40%;
@@ -72,7 +74,6 @@
   .homePage {
     .architecturalItems {
       width: 100%;
-      padding: 20px;
 
       .architecturalItem {
         gap: 20px;
@@ -126,20 +127,25 @@
 
 @media (max-width: 576px) {
   .homePage {
+    padding: 0 10px;
+
     .mainSection {
       position: relative;
       height: calc(55vh - 97px);
 
       .mainText {
-        width: 100%;
         .title {
-          font-size: 4rem;
+          font-size: 3rem;
         }
 
         .subtitle {
           font-size: 1.5rem;
         }
       }
+    }
+
+    .subtitleArchItems {
+      font-size: 1.6rem;
     }
   }
 }
