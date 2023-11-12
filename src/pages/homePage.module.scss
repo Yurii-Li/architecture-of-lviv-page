@@ -1,0 +1,151 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+
+  .mainSection {
+    position: relative;
+    height: calc(100vh - 97px);
+
+    .mainText {
+      width: 100%;
+      color: white;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+
+      .title {
+        font-size: 6rem;
+      }
+
+      .subtitle {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .subtitleArchItems {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 2rem;
+  }
+
+  .architecturalItems {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 20px;
+    gap: 50px;
+
+    .architecturalItem {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+
+      .architecturalDesc {
+        text-align: justify;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .architecturalImage {
+        position: relative;
+        width: 100%;
+        max-width: 600px;
+        height: 400px;
+
+        img {
+          border-radius: 10px;
+        }
+      }
+    }
+
+    .conclusion {
+      text-align: justify;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .homePage {
+    .architecturalItems {
+      width: 100%;
+
+      .architecturalItem {
+        gap: 20px;
+
+        .architecturalDesc {
+          width: 50%;
+        }
+
+        .architecturalImage {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .homePage {
+    .architecturalItems {
+      .architecturalItem {
+        flex-direction: column;
+
+        .architecturalDesc {
+          width: 100%;
+        }
+
+        .architecturalImage {
+          width: 100%;
+        }
+      }
+
+      .architecturalItem:nth-child(even) {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .homePage {
+    .architecturalItems {
+      .architecturalItem {
+        .architecturalImage {
+          width: 100%;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .homePage {
+    padding: 0 10px;
+
+    .mainSection {
+      position: relative;
+      height: calc(55vh - 97px);
+
+      .mainText {
+        .title {
+          font-size: 3rem;
+        }
+
+        .subtitle {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .subtitleArchItems {
+      font-size: 1.6rem;
+    }
+  }
+}

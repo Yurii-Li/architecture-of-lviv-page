@@ -1,0 +1,125 @@
+.landmarkPage {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+  .dateOfFoundation {
+    margin-bottom: 20px;
+    color: #666;
+  }
+
+  .carousel {
+    .carouselImageWrapper {
+      position: relative;
+      height: 700px;
+
+      .carouselImage {
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .subTittle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  .iframeStyles {
+    width: 100%;
+    height: 600px;
+    border: none;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .landmarkPage {
+    .carousel {
+      .carouselImageWrapper {
+        height: 600px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .landmarkPage {
+    width: 80%;
+
+    .carousel {
+      .carouselImageWrapper {
+        height: 500px;
+      }
+    }
+
+    .iframeStyles {
+      height: 500px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .landmarkPage {
+    .carousel {
+      .carouselImageWrapper {
+        height: 400px;
+      }
+    }
+
+    .iframeStyles {
+      height: 400px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .landmarkPage {
+    width: 90%;
+
+    .carousel {
+      .carouselImageWrapper {
+        height: 350px;
+      }
+    }
+
+    .description {
+      font-size: 1.1rem;
+    }
+
+    .iframeStyles {
+      height: 350px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .landmarkPage {
+    width: 100%;
+
+    .carousel {
+      .carouselImageWrapper {
+        height: 300px;
+      }
+    }
+
+    .description {
+      font-size: 1rem;
+    }
+
+    .iframeStyles {
+      height: 300px;
+    }
+  }
+}
