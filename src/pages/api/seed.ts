@@ -879,7 +879,9 @@ export default async function handler(
         ],
         location: 'вулиця Івана Франка, 154',
         date_of_foundation: '1998 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10296.252214578966!2d24.0309566!3d49.8224801!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae7f56e0fcd4f%3A0x31cce06856446e71!2z0JTQtdGA0LbQsNCy0L3QuNC5INC80LXQvNC-0YDRltCw0LvRjNC90LjQuSDQvNGD0LfQtdC5INCc0LjRhdCw0LnQu9CwINCT0YDRg9GI0LXQstGB0YzQutC-0LPQvg!5e0!3m2!1suk!2sua!4v1699824895698!5m2!1suk!2sua'
       },
       {
         name: 'Меморіальний музей Станіслава Людкевича',
@@ -901,7 +903,9 @@ export default async function handler(
         ],
         location: 'вулиця Людкевича, 7',
         date_of_foundation: '1995 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10294.922775175652!2d24.0351544!3d49.8287266!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add5de8c7904b%3A0x6e5977daf517b9a0!2z0JzQtdC80L7RgNGW0LDQu9GM0L3QuNC5INC80YPQt9C10Lkg0KHRgtCw0L3RltGB0LvQsNCy0LAg0JvRjtC00LrQtdCy0LjRh9Cw!5e0!3m2!1suk!2sua!4v1699824819588!5m2!1suk!2sua'
       },
       {
         name: 'Меморіальний музей тоталітарних режимів "Територія терору"',
@@ -922,7 +926,9 @@ export default async function handler(
         ],
         location: "проспект В'ячеслава Чорновола, 45Г",
         date_of_foundation: '2013 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10290.129499428569!2d24.0236111!3d49.8512435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add0a348e79b3%3A0x5065008b9edbc9bd!2z0JzRg9C30LXQuSAi0KLQtdGA0LjRgtC-0YDRltGPINGC0LXRgNC-0YDRgyI!5e0!3m2!1suk!2sua!4v1699824959090!5m2!1suk!2sua'
       },
       {
         name: 'Музей "Каплиця Боїмів"',
@@ -942,12 +948,14 @@ export default async function handler(
           'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/2.png',
           'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/3.png',
           'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/5.png'
+          'https://architectureoflvivblob.blob.core.windows.net/images/musehttps://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.372373640146!2d24.0310645!3d49.8407083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add69df8cbbc3%3A0x55ed8822b7920a9f!2z0JrQsNC_0LvQuNGG0Y8g0JHQvtGX0LzRltCy!5e0!3m2!1suk!2sua!4v1699825028128!5m2!1suk!2suaums/Museum-of-Bohima-Chapel/5.png'
         ],
         location: 'вулиця Катедральна, 1',
         date_of_foundation: '1609-1615 рр.',
         category_id: museums,
-        online_tour_link: '//boimy-chapel.virtual.ua/ua/embed-tour/269912/'
+        online_tour_link: '//boimy-chapel.virtual.ua/ua/embed-tour/269912/',
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.372373640146!2d24.0310645!3d49.8407083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add69df8cbbc3%3A0x55ed8822b7920a9f!2z0JrQsNC_0LvQuNGG0Y8g0JHQvtGX0LzRltCy!5e0!3m2!1suk!2sua!4v1699825028128!5m2!1suk!2sua'
       },
       {
         name: 'Музей "Львів стародавній"',
@@ -971,7 +979,9 @@ export default async function handler(
         ],
         location: 'вулиця Краківська, 21',
         date_of_foundation: '2020 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10291.749588987128!2d24.0292316!3d49.8436338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add84db327775%3A0x5a312e4fd842fce1!2z0JzRg9C30LXQuSAi0JvRjNCy0ZbQsiDQodGC0LDRgNC-0LTQsNCy0L3RltC5Ig!5e0!3m2!1suk!2sua!4v1699825092143!5m2!1suk!2sua'
       },
       {
         name: 'Музей "Таємна аптека"',
@@ -994,7 +1004,9 @@ export default async function handler(
         ],
         location: 'площа Соборна, 1',
         date_of_foundation: '2012 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.636679125619!2d24.0332418!3d49.8394667!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add11f8d06119%3A0x8c9e77b2e4ec35fe!2z0JDQv9GC0LXQutCwIEQuUy4!5e0!3m2!1suk!2sua!4v1699825148905!5m2!1suk!2sua'
       },
       {
         name: 'Музей "Третя після опівночі"',
@@ -1015,7 +1027,9 @@ export default async function handler(
         ],
         location: 'вулиця Личаківська, 8',
         date_of_foundation: '2023 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.155859605339!2d24.038552199999998!3d49.8395289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6bb5c78403%3A0xb6905cd3b0743d70!2z0LLRg9C70LjRhtGPINCb0LjRh9Cw0LrRltCy0YHRjNC60LAsIDgsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1699825241228!5m2!1suk!2sua'
       },
       {
         name: 'Музей етнографії та художнього промислу',
@@ -1038,7 +1052,9 @@ export default async function handler(
         ],
         location: 'проспект Свободи, 15',
         date_of_foundation: '1951 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.155642090092!2d24.0328949!3d49.8417264!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6c57088bff%3A0x767a31a84edb353e!2z0JzRg9C30LXQuSDQtdGC0L3QvtCz0YDQsNGE0ZbRlyDRgtCwINGF0YPQtNC-0LbQvdGM0L7Qs9C-INC_0YDQvtC80LjRgdC70YM!5e0!3m2!1suk!2sua!4v1699825280923!5m2!1suk!2sua'
       },
       {
         name: 'Музей історії електрифікації Львівщини',
@@ -1066,8 +1082,8 @@ export default async function handler(
         location: 'вулиця Юрія Мушака, 56',
         date_of_foundation: '2018 р.',
         category_id: museums,
-        online_tour_link:
-          'https://www.google.com/maps/embed?pb=!4v1540480330533!6m8!1m7!1sCAoSLEFGMVFpcFBCZzd1Y28wR2dqcWhyUngtczNPbDE5a01QQUctWGNkN041UmI2!2m2!1d49.82160928073905!2d24.03705966197128!3f21.820923138660646!4f-3.5988901914206792!5f0.7820865974627469'
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10296.440026737273!2d24.0370087!3d49.8215976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae7c807de6909%3A0xba00b1de9db68e84!2z0JzRg9C30LXQuSDRltGB0YLQvtGA0ZbRlyDQtdC70LXQutGC0YDQuNGE0ZbQutCw0YbRltGXINCb0YzQstGW0LLRidC40L3QuA!5e0!3m2!1suk!2sua!4v1699825387787!5m2!1suk!2sua'
       },
       {
         name: 'Музей історії Ліцею імені Героїв Крут',
@@ -1089,7 +1105,9 @@ export default async function handler(
         ],
         location: 'вулиця Пасічна, 68',
         date_of_foundation: '2022 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10295.310818546064!2d24.0714318!3d49.8269034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ac2b25dab0b21%3A0xaa29c91489fce204!2z0JvRjNCy0ZbQstGB0YzQutC40Lkg0LvRltGG0LXQuSDRltC80LXQvdGWINCT0LXRgNC-0ZfQsiDQmtGA0YPRgg!5e0!3m2!1suk!2sua!4v1699825458939!5m2!1suk!2sua'
       },
       {
         name: 'Музей історії науки і техніки "Ретро Гараж"',
@@ -1113,7 +1131,9 @@ export default async function handler(
         ],
         location: 'вулиця Дмитра Вітовського, 57А',
         date_of_foundation: '2018 р.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10294.3243225649!2d24.0182935!3d49.8315383!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add91735699cf%3A0xc3020207065ff127!2z0KDQtdGC0YDQviDQk9Cw0YDQsNC2LCDQvNGD0LfQtdC5INGC0YDQsNC90YHQv9C-0YDRgtGD!5e0!3m2!1suk!2sua!4v1699825493407!5m2!1suk!2sua'
       },
       {
         name: 'Музей історії пожежної справи',
@@ -1132,7 +1152,9 @@ export default async function handler(
         ],
         location: 'вулиця Підвальна, 6',
         date_of_foundation: '',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9092482823735!2d24.034156100000004!3d49.844162700000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d2beeabf5%3A0x5632f868c9afca36!2z0LLRg9C70LjRhtGPINCf0ZbQtNCy0LDQu9GM0L3QsCwgNiwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1699825534039!5m2!1suk!2sua'
       },
       {
         name: 'Музей історії України (Массарівська кам’яниця)',
@@ -1155,7 +1177,9 @@ export default async function handler(
         ],
         location: 'площа Ринок, 24',
         date_of_foundation: 'XV ст.',
-        category_id: museums
+        category_id: museums,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.064486566936!2d24.0326527!3d49.8421546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adda23f74df31%3A0x1e61f61574a65615!2z0JrQsNC8J9GP0L3QuNGG0Y8g0JrQvtGA0L3Rj9C60YLQsCwg0LLRltC00LTRltC7INCb0YzQstGW0LLRgdGM0LrQvtCz0L4g0ZbRgdGC0L7RgNC40YfQvdC-0LPQviDQvNGD0LfQtdGO!5e0!3m2!1suk!2sua!4v1699825611972!5m2!1suk!2sua'
       },
       {
         name: 'Музей карет (Каретний двір)',
