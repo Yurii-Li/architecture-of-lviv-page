@@ -10,7 +10,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '*',
+        hostname: 'architectureoflvivblob.blob.core.windows.net',
         port: '',
         pathname: '/**'
       }
