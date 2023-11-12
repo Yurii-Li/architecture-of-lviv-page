@@ -1,8 +1,9 @@
-import { GetServerSideProps } from 'next';
+import { GetStaticProps } from 'next';
 import Image from 'next/image';
 import { Card, Carousel } from 'antd';
 
 import { CategoriesEnum } from '@/enums/categories.enum';
+import { isValidCategory } from '@/helpers/validate-сategory';
 import { prisma } from '@/lib/prisma';
 import { architectural_landmarks } from '@prisma/client';
 
@@ -24,22 +25,19 @@ export default function LandmarkPage({ data }: IProps) {
       <div className={styles.dateOfFoundation}>
         Дата заснування: {data.date_of_foundation}
       </div>
-
       <Carousel className={styles.carousel} autoplay>
         {data.images.map(image => (
-          <div key={data.id}>
+          <div key={data.id} className={styles.carouselImageWrapper}>
             <Image
               priority
               src={image}
               alt={data.name}
-              width={1000}
-              height={500}
               className={styles.carouselImage}
+              fill
             />
           </div>
         ))}
       </Carousel>
-
       <div>
         <h2 className={styles.subTittle}>
           Загальна інформація про {data.name}
@@ -48,7 +46,6 @@ export default function LandmarkPage({ data }: IProps) {
           <p className={styles.description}>{data.description}</p>
         </Card>
       </div>
-
       {data.online_tour_link && (
         <div>
           <h2 className={styles.subTittle}>3D Тур</h2>
@@ -61,7 +58,6 @@ export default function LandmarkPage({ data }: IProps) {
           />
         </div>
       )}
-
       {data.google_maps_link && (
         <div>
           <h2 className={styles.subTittle}>Місцезнаходження</h2>
@@ -78,11 +74,17 @@ export default function LandmarkPage({ data }: IProps) {
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ query }) => {
-  const { id, category } = query as {
+export const getStaticProps: GetStaticProps = async context => {
+  const { id, category } = context.params as {
     id: string;
     category: CategoriesEnum;
   };
+
+  if (!isValidCategory(category) || !id) {
+    return {
+      notFound: true
+    };
+  }
 
   const data = await prisma.architectural_landmarks.findUnique({
     where: {
@@ -108,5 +110,31 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
     props: {
       data
     }
+  };
+};
+
+export const getStaticPaths = async () => {
+  const data = await prisma.architectural_landmarks.findMany({
+    select: {
+      id: true,
+      name: true,
+      category: {
+        select: {
+          name: true
+        }
+      }
+    }
+  });
+
+  const paths = data.map(({ id, category }) => ({
+    params: {
+      id: id.toString(),
+      category: category.name
+    }
+  }));
+
+  return {
+    paths,
+    fallback: false
   };
 };

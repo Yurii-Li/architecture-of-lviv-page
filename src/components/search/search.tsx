@@ -5,6 +5,8 @@ import { AutoComplete } from 'antd';
 import useDebounce from '@/hooks/useDebounce';
 import { IArchitecturalLandmarkSearchResult } from '@/interfaces/architecture.interface';
 
+import styles from './search.module.scss';
+
 export default function Search() {
   const [value, setValue] = useState('');
   const [architecturalLandmarks, setArchitecturalLandmarks] = useState<
@@ -28,9 +30,9 @@ export default function Search() {
 
   return (
     <AutoComplete
+      className={styles.search}
       allowClear
       value={value}
-      style={{ width: '25%' }}
       options={architecturalLandmarks.map(item => ({
         value: item.name,
         label: (

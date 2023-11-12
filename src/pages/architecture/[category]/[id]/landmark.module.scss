@@ -1,8 +1,7 @@
 .landmarkPage {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
+  width: 70%;
   margin: 0 auto;
+  padding: 0 10px;
 
   .title {
     font-size: 2rem;
@@ -16,10 +15,13 @@
   }
 
   .carousel {
-    max-width: 1000px;
+    .carouselImageWrapper {
+      position: relative;
+      height: 700px;
 
-    .carouselImage {
-      border-radius: 10px;
+      .carouselImage {
+        border-radius: 10px;
+      }
     }
   }
 
@@ -31,6 +33,7 @@
 
   .description {
     font-size: 1.2rem;
+    text-align: justify;
   }
 
   .iframeStyles {
@@ -38,5 +41,85 @@
     height: 600px;
     border: none;
     border-radius: 10px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .landmarkPage {
+    .carousel {
+      .carouselImageWrapper {
+        height: 600px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .landmarkPage {
+    width: 80%;
+
+    .carousel {
+      .carouselImageWrapper {
+        height: 500px;
+      }
+    }
+
+    .iframeStyles {
+      height: 500px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .landmarkPage {
+    .carousel {
+      .carouselImageWrapper {
+        height: 400px;
+      }
+    }
+
+    .iframeStyles {
+      height: 400px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .landmarkPage {
+    width: 90%;
+
+    .carousel {
+      .carouselImageWrapper {
+        height: 350px;
+      }
+    }
+
+    .description {
+      font-size: 1.1rem;
+    }
+
+    .iframeStyles {
+      height: 350px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .landmarkPage {
+    width: 100%;
+
+    .carousel {
+      .carouselImageWrapper {
+        height: 300px;
+      }
+    }
+
+    .description {
+      font-size: 1rem;
+    }
+
+    .iframeStyles {
+      height: 300px;
+    }
   }
 }

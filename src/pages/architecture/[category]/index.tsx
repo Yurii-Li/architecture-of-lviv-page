@@ -3,8 +3,8 @@ import { useRouter } from 'next/router';
 import { Pagination } from 'antd';
 
 import ArchitectureList from '@/components/architecture-list/architecture-list';
-import NavMenu from '@/components/nav-menu/nav-menu';
 import { CategoriesEnum } from '@/enums/categories.enum';
+import { isValidCategory } from '@/helpers/validate-сategory';
 import { IArchitectureCard } from '@/interfaces/architecture.interface';
 import { prisma } from '@/lib/prisma';
 
@@ -22,20 +22,21 @@ export default function CategoryPage({ count, data }: IProps) {
 
   return (
     <>
-      <NavMenu />
       <ArchitectureList list={data} />
-      <Pagination
-        className={styles.pagination}
-        onChange={page => {
-          push({
-            pathname: `/architecture/${query.category}`,
-            query: { page }
-          });
-        }}
-        defaultPageSize={20}
-        current={currentPage}
-        total={count}
-      />
+      {count > 20 && (
+        <Pagination
+          className={styles.pagination}
+          onChange={page => {
+            push({
+              pathname: `/architecture/${query.category}`,
+              query: { page }
+            });
+          }}
+          defaultPageSize={20}
+          current={currentPage}
+          total={count}
+        />
+      )}
     </>
   );
 }
@@ -46,7 +47,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
     category: CategoriesEnum;
   };
 
-  if (!Object.values(CategoriesEnum).includes(category)) {
+  if (!isValidCategory(category)) {
     return {
       notFound: true
     };

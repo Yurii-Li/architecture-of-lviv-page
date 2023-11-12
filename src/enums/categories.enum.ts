@@ -3,5 +3,6 @@ export enum CategoriesEnum {
   DEFENSE_STRUCTURES = 'defense_structures',
   MUSEUMS = 'museums',
   PARKS = 'parks',
-  MONUMENTS = 'monuments'
+  MONUMENTS = 'monuments',
+  THEATERS = 'theatres'
 }

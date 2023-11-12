@@ -14,7 +14,8 @@
     "antd": "^5.9.4",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "@types/node": "latest",
