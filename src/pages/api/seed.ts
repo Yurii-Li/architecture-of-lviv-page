@@ -256,7 +256,8 @@ export default async function handler(
           'Мабуть, храм будувався як усипальниця галицьких князів, був головним духовним центром львівських русинів. Перша згадка про церкву Святого Миколая датується 1292 роком. Ще в князівські часи церква служила не тільки храмом, а й центром суспільно-політичного життя.\n' +
           '\n' +
           'Розташовувалася біля підніжжя гори Високий Замок, поряд із площею Старий Ринок, де за часів раннього середньовіччя був центр нижнього міста. Товщина стін храму свідчить також про оборонне значення споруди.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37154',
+        main_image:
+          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/1.png",
         images: [
           "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/1.png",
           "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/2.png",
