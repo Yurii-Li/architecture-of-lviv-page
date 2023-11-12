@@ -64,20 +64,19 @@ export default async function handler(
           'Наприкінці XVIII сторіччя навколо костелу розташовувався цвинтар з численними каплицями, з яких збереглися лише найцінніші: каплиця Боїмів (1609-1615 роки) та каплиця Кампіанів (1619 роки).\n' +
           '\n' +
           'Латинський катедральний собор є Санктуарієм Матері Божої Милостивої і Божого Милосердя.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37212',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37212',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37211',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37210',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37209',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37208',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37207',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37206',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37205',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37204',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37203',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37202',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37200'
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/5.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/6.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/9.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/10.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/11.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/12.png'
         ],
         location: 'площа Катедральна, 1',
         date_of_foundation: '1360-1493 рр.',
@@ -98,14 +97,15 @@ export default async function handler(
           'Як один із оборонних вузлів Львова, кармелітський костел неодноразово зазнавав атак, а в 1748 році навіть послужив ареною так званій "монахомахії" - боротьби між ченцями-кармелітами та капуцинами.\n' +
           '\n' +
           'В 1991 році костел і монастир було передано ченцям Студійського Уставу Української греко-католицької церкви (ордену, заснованого в 1920-х роках митрополитом Андреєм Шептицьким) та наново освячено на честь Святого Архистратига Михайла, святого покровителя України-Руси та хоронителя Гробу Господнього.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40647',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40647',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40646',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40645',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40644',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40642',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40638'
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/5.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/6.png'
         ],
         location: 'вулиця Володимира Винниченка, 22',
         date_of_foundation: '1634 рік',
@@ -125,17 +125,18 @@ export default async function handler(
           'Поруч з собором знаходиться палац митрополитів, в якому в 2001 році зупинявся під час візиту в Україну Папа Іван Павло ІІ.\n' +
           '\n' +
           'З 1998 року собор Святого Юра разом із ансамблем історичного центру Львова входить до списку світової спадщини ЮНЕСКО.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37199',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37199',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37196',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37194',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37189',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37188',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37183',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37182',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37179',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37177'
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/5.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/6.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/7.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/8.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/9.png'
         ],
         location: 'площа Святого Юра, 5',
         date_of_foundation: '1744-1770 рр.',
@@ -154,13 +155,14 @@ export default async function handler(
           "Костел Святого Андрія збудований у 1600-1630 роках за проєктом архітекторів Бернарда Авелідеса та Павла Римлянина в стилі ренесансу. Пишний інтер'єр виконаний в стилі бароко, багато дерев'яних вівтарів XVIII сторіччя. Декоративна колона перед фасадом встановлена в 1736 році на честь Святого Яна з Дуклі, покровителя бернардинців.\n" +
           '\n' +
           'Приміщення монастиря тепер належить Центральному державному архіву Львова, а храм Андрія Первозванного передано Українській греко-католицькій церкві.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37242',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Bernardine-Monastery/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37242',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37241',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37240',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37239',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37237'
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Bernardine-Monastery/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Bernardine-Monastery/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Bernardine-Monastery/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Bernardine-Monastery/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Bernardine-Monastery/5.png'
         ],
         location: 'площа Соборна, 1-3А',
         date_of_foundation: '1600-1630 рр.',
@@ -176,13 +178,14 @@ export default async function handler(
           'Будівництво вів архітектор вірменин Дорінг (Дорхі) коштом вірменських купців. В образі собору багато спільних рис із собором у давній вірменській столиці Ані. Упродовж століть собор оновлювався, добудовувався. Найстаріша частина - східна (з XIV сторіччя). Реконструкція 1723 року надала будівлі барокового вигляду.\n' +
           '\n' +
           'У вівтарній частині є традиційні кам\'яні хрести "хачкари". Значну художню цінність становлять скульптурні групи XV століття "Увірування Хоми" та "Свята Софія з доньками".',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37233',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37233',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37232',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37231',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37230',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37229'
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/5.png'
         ],
         location: 'вулиця Вірменська, 7-13',
         date_of_foundation: '1363-1370 рр.',
@@ -204,14 +207,15 @@ export default async function handler(
           'В 2011 році костел освячено як Гарнізонний храм святих апостолів Петра та Павла УГКЦ.\n' +
           '\n' +
           'У підземних криптах костелу функціонує музей "Підземелля Гарнізонного храму святих апостолів Петра і Павла", де можна замовити екскурсію храмом.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37286',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37286',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37285',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37284',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37283',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37282',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37281'
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/5.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/6.png'
         ],
         location: 'вулиця Театральна, 11',
         date_of_foundation: '1610-1630 рр.',
@@ -229,12 +233,13 @@ export default async function handler(
           "До XVIII стопіччя будівля Домініканського костелу була готичною. В 1792-1798 роках архітектором Яном де Вітте коштом Юзефа Потоцького проведено реконструкцію, фасади прикрашені майстром Себастьяном Фесінгером. В інтер'єрі - низка цінних витворів мистецтва: алебастрові надгробні пам'ятники XVI століття, мармуровий пам'ятник Артурові Гротгеру.\n" +
           '\n' +
           "За радянських часів тут був музей атеїзму. Нині це греко-католицька церква Святої Євхаристії. У підземеллях експонується частина колекції пам'яток сакрального мистецтва Львівського музею історії релігії. Проводяться концерти органної музики.",
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37257',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37257',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37256',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37253',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37250'
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/4.png'
         ],
         location: 'площа Музейна, 1',
         date_of_foundation: '1745-1764 рр.',
@@ -253,13 +258,13 @@ export default async function handler(
           'Розташовувалася біля підніжжя гори Високий Замок, поряд із площею Старий Ринок, де за часів раннього середньовіччя був центр нижнього міста. Товщина стін храму свідчить також про оборонне значення споруди.',
         main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37154',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37154',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37153',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37151',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37150',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37149',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37148',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37145'
+          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/1.png",
+          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/2.png",
+          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/3.png",
+          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/4.png",
+          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/5.png",
+          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/6.png",
+          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/7.png"
         ],
         location: 'вулиця Богдана Хмельницького, 28А',
         date_of_foundation: 'XIII ст.',
@@ -275,11 +280,12 @@ export default async function handler(
           "Костел Усіх Святих - невелика кам'яна, прямокутна у плані споруда. До південно-східної частини примикає двоповерховий будинок келій, що зберіг прийоми та елементи ренесансної архітектури. Комплекс оточений стінами з барочними воротами ХVІІ сторіччя.\n" +
           '\n' +
           'Нині це діючий Свято-Покровський монастир Сестер Студійського Статуту.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41222',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/The-church-and-monastery-of-Benedictine/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41222',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41221',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41220'
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/The-church-and-monastery-of-Benedictine/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/The-church-and-monastery-of-Benedictine/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/The-church-and-monastery-of-Benedictine/3.png'
         ],
         location: 'вулиця Вічева, 2',
         date_of_foundation: '1595 р.',
@@ -295,10 +301,11 @@ export default async function handler(
           "Величезний неоготичний костел Святої Єлизавети споруджений на початку XX століття. За переказами, названий на честь популярної в народі імператриці Єлизавети (Сісі), дружини імператора Австро-Угорщини Франца-Йосифа I. Архітектор Теодор-Мар'ян Тальовський використовував багато елементів французької та північнонімецької готичної архітектури: високі гостроверхі шпилі, стрільці центр, вертикальний внутрішній простір. Портал прикрашає скульптурна композиція Петра Війтовича \"Розп'яття з пристосованим\", над інтер'єрами працював львівський майстер Казимир Сіхульський.\n" +
           '\n' +
           'Під час війни храм було пошкоджено, потім зачинено. З 1991 року належить Українській греко-католицькій церкві, переосвячений як церква Святих Ольги та Єлизавети.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41219',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-Saints-Olga-and-Elizabeth/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41219',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41218'
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-Saints-Olga-and-Elizabeth/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-Saints-Olga-and-Elizabeth/2.png'
         ],
         location: 'площа Кропивницького, 1',
         date_of_foundation: '1903-1912 рр.',
@@ -320,14 +327,15 @@ export default async function handler(
           "В інтер'єрі - живопис XVII-XVIII століть, іконостас 1773 року, на вікнах вітражі Петра Холодного. Каплиця Трьох Святителів (1578-1591 роки) поєднана з Успенською церквою в середині ХІХ століття.\n" +
           '\n' +
           'Парафія належить до Львівської єпархії Православної церкви України.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37162',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37162',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37161',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37160',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37159',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37158',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37157'
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/5.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/6.png'
         ],
         location: 'вулиця Руська, 5/7',
         date_of_foundation: 'XIV-XVI ст.',
@@ -353,12 +361,13 @@ export default async function handler(
           'Під час реконструкції 1976-1977 років перед стіною відновлено оборонний рів.\n' +
           '\n' +
           'Наразі у комплексі Глинянської брами розміщується інститут "Укрзахідпроектреставрація та адміністрація історико-архітектурного заповідника".',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42132',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Glinyanskaya-gate/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42132',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42131',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42130',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42129'
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Glinyanskaya-gate/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Glinyanskaya-gate/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Glinyanskaya-gate/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Glinyanskaya-gate/4.png'
         ],
         location: 'вулиця Валова, 20',
         date_of_foundation: '17 ст.',
@@ -376,11 +385,12 @@ export default async function handler(
           'Фортифікаційні роботи тут розпочато поляками ще в 1635 році під керівництвом королівського інженера Фрідріха Ґетканта. В 1672 році під час облоги Львова укріплення використовували війська турецького султана Мухамеда IV. У 1852-1854 роках австрійська влада реконструювала і розширила фортецю, спорудивши корпус казарм, дві квадратні та чотири круглі вежі.\n' +
           '\n' +
           'Комплекс не зіграв значної ролі під час світових воєн, завдяки чому чудово зберігся. У радянські часи на території був розбитий парк "Цитадель", приміщення використовувалися як с ...',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41524',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Lviv-Citadel/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41524',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42142',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41523'
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Lviv-Citadel/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Lviv-Citadel/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Lviv-Citadel/3.png'
         ],
         location: 'вулиця Павла Грабовського, 11',
         date_of_foundation: '1850-1856 рр.',
@@ -404,12 +414,13 @@ export default async function handler(
           'При музеї працює антикварний салон.\n' +
           '\n' +
           'Відвідувачам із порушеннями зору пропонується аудіодискрипція.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32807',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Arsenal-Museum-(City-Arsenal)/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32808',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32809',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32810',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32806'
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Arsenal-Museum-(City-Arsenal)/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Arsenal-Museum-(City-Arsenal)/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Arsenal-Museum-(City-Arsenal)/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Arsenal-Museum-(City-Arsenal)/4.png'
         ],
         location: 'вулиця Підвальна, 5',
         date_of_foundation: '1554-1556 рр.',
@@ -428,12 +439,13 @@ export default async function handler(
           'Побудована з необтесаного каменю, напівкругла в плані, триповерхова, накрита гостроверхим дахом. Товщина стін сягає 2,5 метрів. За більш ніж чотири століття рівень землі, що піднявся, приховав нижню частину вежі на півтора-два метри.\n' +
           '\n' +
           'З 1959 року приміщення займав Будинок архітектора з виставковою залою. Тепер тут розміщується Центр архітектури, дизайну та урбаністики "Порохова Вежа".\n',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37140',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Porokhova-Vezha/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37140',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37139',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37138',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37137'
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Porokhova-Vezha/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Porokhova-Vezha/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Porokhova-Vezha/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Porokhova-Vezha/4.png'
         ],
         location: 'вулиця Підвальна, 4',
         date_of_foundation: '1554-1556 рр.',
@@ -461,12 +473,13 @@ export default async function handler(
           '\n' +
           'Музей практикує різні форми науково-освітньої роботи: лекції, екскурсії, концерти органної та камерної музики.\n' +
           '\n',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33447',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Religion-History/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33447',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33449',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33448',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33438'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Religion-History/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Religion-History/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Religion-History/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Religion-History/4.png'
         ],
         location: 'площа Музейна, 1',
         date_of_foundation: '1973 р.',
@@ -487,8 +500,11 @@ export default async function handler(
           'Наразі приміщення займає Музей найдавніших пам\'яток Львова (філія Львівської Національної галереї мистецтв). Експозиція розповідає про культуру, ремесла та побут у часи, що належать до заснування міста. Найцінніший експонат - ікона "Львівська Богородиця" (XIV століття). Також експонується пластична панорама Львова XVIII століття.\n' +
           '\n' +
           'З 2009 року в храмі щонеділі та у свята проводяться богослужіння УГКЦ.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37164',
-        images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/37164'],
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-Church-John-the-Baptist/1.png',
+        images: [
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-Church-John-the-Baptist/1.png'
+        ],
         location: 'вулиця Ужгородська, 1',
         date_of_foundation: '1250 р.',
         category_id: museums,
@@ -505,18 +521,19 @@ export default async function handler(
           'В 1991 році Личаківський цвинтар став історико-меморіальним музеєм-заповідником.\n' +
           '\n' +
           'Багато протиріч у 1990-х роках викликало відновлення знищеного за радянських часів меморіалу "Цвинтар орлят" на честь польських воїнів, які загинули в 1918-1920 роках в українсько-польській та радянсько-польській війні. Офіційно меморіал було відкрито в 2005 році одночасно з меморіалом загиблим воїнам Української Галицької Армії.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37333',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37333',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37332',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37331',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37330',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37329',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37327',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37324',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37322',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37321',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37320'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/5.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/6.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/7.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/8.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/9.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/10.png'
         ],
         location: 'вулиця Мечникова, 33',
         date_of_foundation: '1784 р.',
@@ -535,14 +552,15 @@ export default async function handler(
           'З 1996 року в костелі кларисок розташовується Музей барокової скульптури Івана Георгія Пінзеля, якого називають "українським Мікеланджело". Тут зібрано найбагатшу колекцію унікальних барокових скульптур майстра, які вдалося відшукати і врятувати в 1970-х роках. Музей Івана Георгія Пінзеля є відділом Львівської національної галереї мистецтв імені Бориса Возницького.\n' +
           '\n' +
           "Після реконструкції 2021 року оновлений музей скульптури Пінзеля отримав повністю безбар'єрний простір. Від зупинки громадського транспорту та в середині будівлі прокладені тактильні смуги. На вході встановлені звукові маячки. Музей має інклюзивну касу та мнемосхему на вході. Внутрішні сходи продубльовані підйомником. Біля експонатів встановлені інформаційні таблички, що продубльовані шрифтом Брайля. Відвідувачам з порушенням зору пропонують тактильні копії найважливіших експонатів. Доступні аудіогіди та аудіодескрипція. Персонал пройшов підготовку для роботи з усіма категоріями відвідувачів.",
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32763',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32763',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32768',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32767',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32766',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32765',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32764'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/5.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/6.png'
         ],
         location: 'площа Митна, 2',
         date_of_foundation: '1607 р.',
@@ -560,13 +578,14 @@ export default async function handler(
           "На першому поверсі розташована зона відпочинку з кав'ярнею та сувенірною крамницею.\n" +
           '\n' +
           'Двоповерхова будівля львівського музею науки облаштована з урахуванням стандартів доступності, зокрема обладнана ліфтом.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/36920',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Science/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/36920',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/36919',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/36916',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/36914',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/36913'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Science/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Science/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Science/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Science/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Science/5.png'
         ],
         location: 'вулиця Стрийська, 200А',
         date_of_foundation: '2022 р.',
@@ -590,13 +609,14 @@ export default async function handler(
           "На подвір'ї відтворено вигляд житлового будинку багатого міщанина ХVI-XVII століття.\n" +
           '\n' +
           'Аптека "Під чорним орлом" продовжує служити людям і в наш час, ставши державною аптекою № 15. Окрім ліків, тут можна придбати відоме у всьому світі "Залізне вино" (водний розчин сахарату заліза, що вживається при залізодефіцитній анемії) та популярну львівську настоянку "Вігор", яка вважається засобом підвищення потенції. Продаються тут і пам\'ятні сувеніри.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32722',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Pharmacy-museum-under-the-black-eagle/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32722',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32726',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32725',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32724',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32723'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Pharmacy-museum-under-the-black-eagle/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Pharmacy-museum-under-the-black-eagle/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Pharmacy-museum-under-the-black-eagle/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Pharmacy-museum-under-the-black-eagle/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Pharmacy-museum-under-the-black-eagle/5.png'
         ],
         location: 'вулиця Друкарська, 2',
         date_of_foundation: '1735 р.',
@@ -613,8 +633,11 @@ export default async function handler(
           'В галереї представлено сучасне мистецтво. Щовечора в клубі проходять джазові чи блюзові концерти.\n' +
           '\n' +
           'При галереї працює кафе "Під клепсидрою" - місце зустрічей львівської богеми з демократичною та творчою атмосферою.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32728',
-        images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/32728'],
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Art-Center-Dziga/1.png',
+        images: [
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Art-Center-Dziga/1.png'
+        ],
         location: 'вулиця Вірменська, 35',
         date_of_foundation: '1993 р.',
         category_id: museums,
@@ -634,11 +657,12 @@ export default async function handler(
           '\n' +
           'Загалом представлено понад 2000 експонатів.\n' +
           '\n',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32812',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Archaeological-Museum-of-the-Institute-of-Ukrainian-Studies/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32812',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32814',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32813'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Archaeological-Museum-of-the-Institute-of-Ukrainian-Studies/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Archaeological-Museum-of-the-Institute-of-Ukrainian-Studies/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Archaeological-Museum-of-the-Institute-of-Ukrainian-Studies/3.png'
         ],
         location: 'вулиця Козельницька, 4',
         date_of_foundation: '2001 р.',
@@ -656,8 +680,11 @@ export default async function handler(
           'З 2013 року в Державному природознавчому музеї триває створення нової основної експозиції "Симфонія життя", палеонтологічна частина якої відкрилася у 2019 році під назвою "Льодовиковий період". Серед найцікавіших експонатів: скелети мамонта і волохатого носорога з озокеритового родовища у Старуні, кістки інших викопаних тварин фігура кроманьйонця пізньої кам’яної доби, реконструкція житла первісної людини. Експозицію доповнюють інтерактивні мультимедійні кіоски.\n' +
           '\n' +
           'Своєрідним музейним експонатом є також найстаріший в Україні діючий механічний ліфт, облаштований ще 1870 році графом Дідушицьким, який у старшому віці був частково паралізованим і пересувався на колісному візку. Для найменших відвідувачів працює інтерактивна дитяча зона.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32423',
-        images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/32423'],
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/State-Museum-of-Natural-Sciences/1.png',
+        images: [
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/State-Museum-of-Natural-Sciences/1.png'
+        ],
         location: 'вулиця Театральна, 18',
         date_of_foundation: '1870 р.',
         category_id: museums,
@@ -676,12 +703,13 @@ export default async function handler(
           'Літературна експозиція розташована в сусідньому двоповерховому будинку польського підприємця Антонія Ув’єри, спорудженому в 1923-1925 роках у стилі неокласицизму за проєктом львівського архітектора Івана Багенського.\n' +
           '\n' +
           'Під замовлення колектив музею проводить театралізовані, тематичні, авторські, інтерактивні екскурсії, екскурсії-прогулянки вулицями Львова, тематичні квести, майстеркласи. Також в музеї періодично проходять літературні вечори, театральні вистави, концерти класичної і сучасної музики, різнопланові виставки й перформанси.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41109',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Franks-House/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41109',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41108',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41106',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41104'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Franks-House/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Franks-House/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Franks-House/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Franks-House/4.png'
         ],
         location: 'вулиця Івана Франка, 150-152',
         date_of_foundation: '1940 р.',
@@ -700,12 +728,13 @@ export default async function handler(
           '\n' +
           'Представлені твори презентують становлення та розвиток української художньої культури у руслі основних стилів та напрямків світового мистецтва минулого століття, а також відображає культурно-мистецькі процеси радянського періоду, що розвивалися поза рамками нормативної естетики соцреалізму.\n' +
           '\n',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33545',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33545',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33544',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33543',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/33542'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/4.png'
         ],
         location: 'вулиця Михайла Драгоманова, 42',
         date_of_foundation: '1913 р.',
@@ -725,8 +754,11 @@ export default async function handler(
           'Перлиною вважається єдиний в Україні твір Жоржа де ла Тура "У лихваря", одне з найдорожчих та найцінніших полотен світового значення на території країни. У світі збереглося лише 32 картини цього загадкового європейського майстра. Також представлено кілька портретів Артура Гротгера, "Портрет доньки" Генриха Родаковського та інші.\n' +
           '\n' +
           'Зали мистецтва Львова 1900-1930 років знайомлять з творами художників, які входили в об’єднань АНУМ, АRTES, "Нова генерація".',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/25665',
-        images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/25665'],
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-National-Art-Gallery-named-after-Boris-Voznytsky-Palace-of-Lozinsky/1.png',
+        images: [
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-National-Art-Gallery-named-after-Boris-Voznytsky-Palace-of-Lozinsky/1.png'
+        ],
         location: 'вулиця Василя Стефаника, 3',
         date_of_foundation: '1914 р.',
         category_id: museums,
@@ -747,14 +779,15 @@ export default async function handler(
           "Відмінно збережені елементи інтер'єру - парадні сходи, ліпнина, алебастрові каміни, оригінальна прозора стеля, витончений балкон - все це робить колишнє казино одним з найкрасивіших та найархітектурніших будинків Львова.\n" +
           '\n' +
           'Саме тут знімали сцену з фільму "Д\'Артаньян і три мушкетери", де Д\'Артаньян піднімався сходами до кардинала, щоб зіграти з ним у шахи.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32854',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32854',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32859',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32858',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32857',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32856',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32855'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/5.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/6.png'
         ],
         location: 'вулиця Листопадового Чину, 6',
         date_of_foundation: '1897-1898 рр.',
@@ -781,12 +814,13 @@ export default async function handler(
           '\n' +
           'Також "Львіварня" функціонує як сучасний арт-центр, де відбуваються виставки, концерти, культурні події, конференції та корпоративні заходи.\n' +
           '\n',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32759',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Brewery-Lvivarnya/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32759',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32762',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32761',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32760'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Brewery-Lvivarnya/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Brewery-Lvivarnya/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Brewery-Lvivarnya/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Brewery-Lvivarnya/4.png'
         ],
         location: 'вулиця Клепарівська, 18',
         date_of_foundation: '2016 р.',
@@ -806,13 +840,14 @@ export default async function handler(
           'Тут проводяться такі регулярні події, як Міжнародний форум видавців, Львівський осінній салон "Високий Замок", Всеукраїнський конкурс дитячого малюнка "Весняні настрої", щорічна мистецька виставка до Шевченківських днів "Свою Україну любите...".\n' +
           '\n' +
           'На основі подарованих творів та документів тут постійно функціонує кімната-музей Тараса Шевченка. Також у Палаці мистецтв працює Фабрика помічників Святого Миколая та проходить Національне Свято Шоколаду.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/25662',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Palace-of-Arts/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/25662',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32739',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32738',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32737',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32736'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Palace-of-Arts/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Palace-of-Arts/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Palace-of-Arts/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Palace-of-Arts/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Palace-of-Arts/5.png'
         ],
         location: 'вулиця Миколи Коперника, 17',
         date_of_foundation: '1996 р.',
@@ -831,15 +866,16 @@ export default async function handler(
           'Основна експозиція музею присвячена львівському періоду у житті Грушевського. Представлено оригінали його видань, фотографії, листи вченого, особисті речі родини Грушевських.\n' +
           '\n' +
           'Також висвітлюється діяльність Михайла Грушевського на чолі Центральної Ради Української Народної Республіки.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32742',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32742',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32750',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32748',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32747',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32745',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32744',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32743'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/5.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/6.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/7.png'
         ],
         location: 'вулиця Івана Франка, 154',
         date_of_foundation: '1998 р.',
@@ -855,12 +891,13 @@ export default async function handler(
           'У двох експозиційних кімнатах збережені інтер’єри кабінету композитора та його спальні. У третій кімнаті експонуються видання музичних творів композитора, сімейні світлини, предмети образотворчого мистецтва.\n' +
           '\n' +
           'Меморіальний музей Станіслава Людкевича є відділом Музично-меморіального музею Соломії Крушельницької. На фасаді будинку встановлено художньо-меморіальну таблицю з горельєфом композитора.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42141',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Stanislav-Ludkevich-Memorial-Museum/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42141',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40900',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40899',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40898'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Stanislav-Ludkevich-Memorial-Museum/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Stanislav-Ludkevich-Memorial-Museum/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Stanislav-Ludkevich-Memorial-Museum/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Stanislav-Ludkevich-Memorial-Museum/4.png'
         ],
         location: 'вулиця Людкевича, 7',
         date_of_foundation: '1995 р.',
@@ -876,11 +913,12 @@ export default async function handler(
           "В музейному комплексі відтворено два бараки, сторожові вежі, загорожа з колючого дроту та інші інфраструктурні об'єкти.\n" +
           '\n' +
           'Музей розповідає про історію політичних, соціальних, етнічних та релігійних репресій тоталітарних режимів проти населення, яке мешкало на території України.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32730',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Memorial-Museum-of-totalitarian-regimes-Territory-of-terror/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32730',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32732',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32731'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Memorial-Museum-of-totalitarian-regimes-Territory-of-terror/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Memorial-Museum-of-totalitarian-regimes-Territory-of-terror/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Memorial-Museum-of-totalitarian-regimes-Territory-of-terror/3.png'
         ],
         location: "проспект В'ячеслава Чорновола, 45Г",
         date_of_foundation: '2013 р.',
@@ -897,13 +935,14 @@ export default async function handler(
           '\n' +
           'Наразі Каплиця Боїмів є відділом Львівської галереї мистецтв.\n' +
           '\n',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32073',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32073',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32072',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32071',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32070',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32069'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/5.png'
         ],
         location: 'вулиця Катедральна, 1',
         date_of_foundation: '1609-1615 рр.',
@@ -922,12 +961,13 @@ export default async function handler(
           'Проводяться класичні і тематичні екскурсії, дитячі квести, майстеркласи з декорування зброї, плетіння кольчуг, гончарства, виготовлення ляльки-мотанки, малювання кавою, середньовічних танців.\n' +
           '\n' +
           'Квитки можна завчасно придбати онлайн.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37684',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Lviv-Museum-is-ancient/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37684',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37683',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37682',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37681'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Lviv-Museum-is-ancient/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Lviv-Museum-is-ancient/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Lviv-Museum-is-ancient/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Lviv-Museum-is-ancient/4.png'
         ],
         location: 'вулиця Краківська, 21',
         date_of_foundation: '2020 р.',
@@ -943,13 +983,14 @@ export default async function handler(
           'Назва аптеки пов\'язана з легендою про розташований поруч Бернардинський монастир, де деякий час знаходилися реліквії Святого Стефана - короля та покровителя Угорщини. "Таємний аптекар" і зараз варить тут "мило для хабарників" та виробляє "пігулки для щастя".\n' +
           '\n' +
           'Головну таємницю аптеки охороняє єдиний у світі Лев-аптекар. Історію "Таємної аптеки" відвідувачі відкривають для себе у легкому форматі відео-екскурсії з елементами театрального перформансу та дегустацією "аптечного еліксиру щастя та довголіття".',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32741',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-is-a-secret-pharmacy/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32741',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/25206',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/25207',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/25208',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/25209'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-is-a-secret-pharmacy/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-is-a-secret-pharmacy/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-is-a-secret-pharmacy/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-is-a-secret-pharmacy/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-is-a-secret-pharmacy/5.png'
         ],
         location: 'площа Соборна, 1',
         date_of_foundation: '2012 р.',
@@ -967,8 +1008,11 @@ export default async function handler(
           'Для дітей до 10 років пропонується командний квест, який дозволяє дізнатися цікаві факти про органи чуття та зрозуміти особливості сприйняття світу незрячими людьми.\n' +
           '\n' +
           'Крім закладу у Львові, також працює музей "Третя після опівночі" у Києві.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40924',
-        images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/40924'],
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-third-after-midnight/1.png',
+        images: [
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-third-after-midnight/1.png'
+        ],
         location: 'вулиця Личаківська, 8',
         date_of_foundation: '2023 р.',
         category_id: museums
@@ -981,15 +1025,16 @@ export default async function handler(
           'В основі купола розміщена алегорична скульптурна група, що символізує економічне процвітання Галичини, яку називають єдиною у світі статуєю Свободи, що сидить.\n' +
           '\n' +
           'В експозиції представлена багата колекція кераміки, фарфору та фаянсу, виробів із художнього скла. Колекція годинників XVI-XX століття налічує близько 350 екземплярів.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32847',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32847',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32851',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32850',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32849',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32848',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32846',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32845'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/5.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/6.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/7.png'
         ],
         location: 'проспект Свободи, 15',
         date_of_foundation: '1951 р.',
@@ -1011,11 +1056,12 @@ export default async function handler(
           'Перед входом в музей встановлено стенд, присвячений пам’яті директора Львівських міських електромереж Тараса Крукеницького. Орієнтиром для відвідувачів є мурал із зображенням Ніколи Тесли та Томаса Едісона на паркані.\n' +
           '\n' +
           'Відвідування музею можливе лише з екскурсійним супроводом і за попереднім записом.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40997',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Electrification-History-of-Lviv-Region/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40997',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40996',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/40995'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Electrification-History-of-Lviv-Region/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Electrification-History-of-Lviv-Region/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Electrification-History-of-Lviv-Region/3.png'
         ],
         location: 'вулиця Юрія Мушака, 56',
         date_of_foundation: '2018 р.',
@@ -1033,12 +1079,13 @@ export default async function handler(
           'Окремий експозиційний розділ присвячений передісторії створення ліцею – Львівській республіканській спеціальній школі-інтернату з посиленою військово-фізичною підготовкою, яка функціонувала з 1985 по 1992 рік, і на базі якої формувався ліцей. Розділ історії ліцею та його розвитку в умовах становлення української державності складається з 4 блоків: створення та розбудова Львівського військового ліцею (1992-1996 роки); розвиток Львівського державного ліцею з посиленою військово-фізичною підготовкою (1996-2010 роки); ліцей у період до 2018 року; ліцей на сучасному етапі.\n' +
           '\n' +
           'Два стенди в музеї присвячені зброї різних періодів. На експозиції представлено 18 зразків зброї, починаючи з ХVIII cтоліття. Частина матеріалів представлена в мультимедійній формі на інтерактивній панелі, яка була презентована під час відкриття оновленої експозиції 2022 року.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/34593',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/34593',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/34592',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/34591',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/34589'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/4.png'
         ],
         location: 'вулиця Пасічна, 68',
         date_of_foundation: '2022 р.',
@@ -1056,12 +1103,13 @@ export default async function handler(
           'Найбільше увагу відвідувачів привертає поліцейський автомобіль Chevrolet Caprice Classic 1986 року випуску. Крім того, в музеї представлене перше міське таксі довоєнного Львова Citroen AC4 Berline Lux і справжній фіакр (кінне таксі). Можна ознайомитися зі зразками продукції Львівського мотозаводу 1950-1970 років із фондів Львівського історичного музею.\n' +
           '\n' +
           'Також на виставці експонуються приватні колекції автомоделей та американських номерних автомобільних знаків.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/36946',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-and-Technology-Retro-Garage/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/36946',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/36945',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/36944',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/36943'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-and-Technology-Retro-Garage/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-and-Technology-Retro-Garage/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-and-Technology-Retro-Garage/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-and-Technology-Retro-Garage/4.png'
         ],
         location: 'вулиця Дмитра Вітовського, 57А',
         date_of_foundation: '2018 р.',
@@ -1077,8 +1125,11 @@ export default async function handler(
           'Друга зала присвячена бойовим будням вогнеборців.\n' +
           '\n' +
           'Експозицію завершує зала, присвячена Чорнобильській катастрофі.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32769',
-        images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/32769'],
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-of-Fire-Branch-History/1.png',
+        images: [
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-of-Fire-Branch-History/1.png'
+        ],
         location: 'вулиця Підвальна, 6',
         date_of_foundation: '',
         category_id: museums
@@ -1091,15 +1142,16 @@ export default async function handler(
           'Зведена у XV столітті в готичному стилі, згодом перебудована у стилі епохи Відродження. Певний час будинок належав родині венеційського консула Антоніо Массарі. У середині ХІХ століття тут містилася крамниця ласощів Геннемана. На початку XX століття фасад прикрасив трикутний фронтон, оздоблений алегоричним рельєфом авторства скульптора Курчинського. Збереглися пізньоготичні склепіння і вікна першого поверху, елементи декоративного оздоблення інтер’єрів у стилі ренесансу.\n' +
           '\n' +
           'Зараз у "Массарівській кам’яниці" розміщено історичну експозицію, де представлено понад 2100 пам’яток історії України від найдавніших часів до початку ХХ століття: неолітичні знаряддя та музичні інструменти, трипільська кераміка, золотий скіфський скарб, давньоруські хрести-енколпіони, катівські мечі середньовічного Львова, маґнатське жіноче і чоловіче вбрання, козацька зброя, астрономічний настільний годинник XVIII століття, колекції стародруків і творів живопису. Досі зберігає таємниці портрет молодої Роксолани – дівчини Насті Лісовської з Рогатина, турецької бранки, яка стала дружиною султана Сулеймана II.\n',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32833',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32833',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32839',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32838',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32837',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32836',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32835',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/32834'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/5.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/6.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/7.png'
         ],
         location: 'площа Ринок, 24',
         date_of_foundation: 'XV ст.',
@@ -1111,12 +1163,13 @@ export default async function handler(
           'Приватний музей карет у Львові функціонує на базі кінного клубу "Каретний двір", де розводять торійську породу коней.\n' +
           '\n' +
           'В експозиції представлено 14 карет різних типів: ландо, фіакр, фаетон, тарантас, візаві тощо. Також "Каретний двір" пропонує іпотерапію, навчання верховій їзді, кінний туризм та екскурсію вулицями старого Львова на кареті.',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41124',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-carriage-carriage-yard/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41124',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41123',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41121',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41119'
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-carriage-carriage-yard/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-carriage-carriage-yard/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-carriage-carriage-yard/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-carriage-carriage-yard/4.png'
         ],
         location: 'вулиця Винниця, 43',
         date_of_foundation: '2022 р.',
@@ -1134,12 +1187,13 @@ export default async function handler(
         name: 'Парк культури та відпочинку імені Богдана Хмельницького',
         description:
           'Парк культури та відпочинку імені Богдана Хмельницького розташований у центральній частині Львова, на схилі пагорба між вулицями Стрийською, Героїв Майдану, Вітовського та Зарицьких. Зона відпочинку та розваг існувала тут ще у XIX столітті. Сучасний парк був закладений у 1951 році та облаштований за радянськими традиціями створення типових парків культури та відпочинку трудящих. З тих часів збереглася центральна алея довжиною понад 800 метрів, колонада центрального входу та приміщення кінотеатру "Дружба". У 1970 році центральний вхід прикрасили фонтани. З 1984 року Парк культури має статус пам\'ятки садово-паркового мистецтва місцевого значення. На території функціонують дитяча зона розваг "Жу-Жу Парк" і парк рухомих фігур динозаврів. Працюють вуличні кафе та ресторан. Регулярно проводяться різноманітні фестивалі та ярмарки.\n',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42597',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42597',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42596',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42595',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42594'
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/4.png'
         ],
         location: 'вулиця Дмитра Вітовського, 51',
         date_of_foundation: '1951 р.',
@@ -1161,14 +1215,15 @@ export default async function handler(
           'Також Стрийський парк може похвалитися декоративним ставком та прекрасними алеями.\n' +
           '\n' +
           'Вхід вільний.\n',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42138',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42138',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42137',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42136',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42135',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42134',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/42133'
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/3.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/4.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/5.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/6.png'
         ],
         location: 'вулиця Стрийська, 15',
         date_of_foundation: '1879 р.',
@@ -1186,12 +1241,12 @@ export default async function handler(
           "Знаходиться парк за адресою вул. Листопадового чину, С. Крушельницької. Сьогодні у парку ім. Івана Франка знаходиться будинок почесного консульства Болгарії у Львові, будиночок  садівника, альтанка та дитячий майданчик з гойдалками та дитячими гірками. Парк ім. І. Франка - пам'ятка садово-паркового мистецтва і занесений до Списку світової культурної спадщини ЮНЕСКО.\n" +
           'Сьогодні  цей  "зелений оазис" у середмісті Львова – справжнє сучасне європейське місце відпочинку.',
         main_image:
-          'https://upload.wikimedia.org/wikipedia/commons/1/1e/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B5%D1%8F_%D0%BF%D0%B0%D1%80%D0%BA%D1%83_%D0%B2%D0%BE%D1%81%D0%B5%D0%BD%D0%B8.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Franko-Park/1.jpg',
         images: [
-          'https://upload.wikimedia.org/wikipedia/commons/1/1e/%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B5%D1%8F_%D0%BF%D0%B0%D1%80%D0%BA%D1%83_%D0%B2%D0%BE%D1%81%D0%B5%D0%BD%D0%B8.jpg',
-          'https://lviv.travel/image/locations/b1/e5/b1e549182682a958700f61cf36199409a061aeeb_1669124471.jpg?crop=6013%2C3235%2C-23%2C225',
-          'https://moemisto.ua/uploads/media/ckeditor/0004/84/5cb7d9a692968f874f91c35687359c8040905f79.jpeg?hash=2020-07-02-18-20-52',
-          'https://moemisto.ua/uploads/media/ckeditor/0004/84/feca61c84438ab529fe161e3ff083124da37cf29.jpeg?hash=2020-07-02-18-20-53'
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Franko-Park/1.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Franko-Park/2.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Franko-Park/3.jpeg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Franko-Park/4.jpeg'
         ],
         location: 'вул. Листопадового чину',
         date_of_foundation: 'XVI століття',
@@ -1206,12 +1261,12 @@ export default async function handler(
           'Парк „Високий замок”, що велично височіє над віковічним Львовом, поєднує в собі старовину із сучасністю. Закладений він у 1838 році на ділянці двох гір – Княжої і Замкової та видолинку, що їх з’єднує. Княжа гора була облюбована князем Данилом Романовичем для свого західного форпосту (ХІІІ ст.). Збереглись залишки мурів замку, який втративши своє оборонне значення поступово руйнується.\n' +
           "Розташований парк на Замковій горі. Перша згадка про Львів пов'язана з цією горою. Тут є грот з левами, тераса, яка відкриває красивий вид на місто, алеї, телевізійна вежа, кургани, монумент Максима Кривоноса і красива природа. Займає більше 30 га. парку гарний сад який налічує понад 45 видів деревних і чагарникових порід. Пам’ятник-камінь козацькому полковникові Максиму Кривоносу, грот – альтанка із двома кам’яними левами перенесеними сюди в 1874 році від міської ратуші. В кінці ХІХ століття насипаний копець (зараз оглядовий майданчик), з якого видно панораму Львова (висота 411 м). Телевізійна вежа. ",
         main_image:
-          'https://karpatium.com.ua/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSWRlbVJTVGtaWGRHbEVXREpSZEVzNVUwNUhUVXBPUmtWbEJqb0dSVlE2RUdScGMzQnZjMmwwYVc5dVNTSUIybWx1YkdsdVpUc2dabWxzWlc1aGJXVTlJbkJoY21zZ2RubHpiMnQ1ZVNWRFF5VTROaUI2WVcxdmF5QnNkbWwyTG1wd1pXY2lPeUJtYVd4bGJtRnRaU285VlZSR0xUZ25KeVZFTUNWQ1JpVkVNQ1ZDTUNWRU1TVTRNQ1ZFTUNWQ1FTVXlNQ1ZFTUNWQ01pVkVNQ1ZDT0NWRU1TVTRNU1ZFTUNWQ1JTVkVNQ1ZDUVNWRU1DVkNPQ1ZFTUNWQ09DVkRReVU0TmlVeU1DVkVNQ1ZDTnlWRU1DVkNNQ1ZFTUNWQ1F5VkVNQ1ZDUlNWRU1DVkNRU1V5TUNWRU1DVkNRaVZFTVNVNFF5VkVNQ1ZDTWlWRU1TVTVOaVZFTUNWQ01pNXFjR1ZuQmpzR1ZEb1JZMjl1ZEdWdWRGOTBlWEJsU1NJUGFXMWhaMlV2YW5CbFp3WTdCbFE9IiwiZXhwIjoiMjAyMy0xMS0wMlQxNTozNToxOS43MTNaIiwicHVyIjoiYmxvYl9rZXkifX0=--32184f517c9b08b8797ab46d712a8677a3dcd3ba/%D0%BF%D0%B0%D1%80%D0%BA%20%D0%B2%D0%B8%D1%81%D0%BE%D0%BA%D0%B8%D0%B8%CC%86%20%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA%20%D0%BB%D1%8C%D0%B2%D1%96%D0%B2.jpeg?content_type=image%2Fjpeg&disposition=inline%3B+filename%3D%22park+vysokyy%25CC%2586+zamok+lviv.jpeg%22%3B+filename%2A%3DUTF-8%27%27%25D0%25BF%25D0%25B0%25D1%2580%25D0%25BA%2520%25D0%25B2%25D0%25B8%25D1%2581%25D0%25BE%25D0%25BA%25D0%25B8%25D0%25B8%25CC%2586%2520%25D0%25B7%25D0%25B0%25D0%25BC%25D0%25BE%25D0%25BA%2520%25D0%25BB%25D1%258C%25D0%25B2%25D1%2596%25D0%25B2.jpeg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/High-Castle-Park/1.jpeg',
         images: [
-          'https://karpatium.com.ua/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSWRlbVJTVGtaWGRHbEVXREpSZEVzNVUwNUhUVXBPUmtWbEJqb0dSVlE2RUdScGMzQnZjMmwwYVc5dVNTSUIybWx1YkdsdVpUc2dabWxzWlc1aGJXVTlJbkJoY21zZ2RubHpiMnQ1ZVNWRFF5VTROaUI2WVcxdmF5QnNkbWwyTG1wd1pXY2lPeUJtYVd4bGJtRnRaU285VlZSR0xUZ25KeVZFTUNWQ1JpVkVNQ1ZDTUNWRU1TVTRNQ1ZFTUNWQ1FTVXlNQ1ZFTUNWQ01pVkVNQ1ZDT0NWRU1TVTRNU1ZFTUNWQ1JTVkVNQ1ZDUVNWRU1DVkNPQ1ZFTUNWQ09DVkRReVU0TmlVeU1DVkVNQ1ZDTnlWRU1DVkNNQ1ZFTUNWQ1F5VkVNQ1ZDUlNWRU1DVkNRU1V5TUNWRU1DVkNRaVZFTVNVNFF5VkVNQ1ZDTWlWRU1TVTVOaVZFTUNWQ01pNXFjR1ZuQmpzR1ZEb1JZMjl1ZEdWdWRGOTBlWEJsU1NJUGFXMWhaMlV2YW5CbFp3WTdCbFE9IiwiZXhwIjoiMjAyMy0xMS0wMlQxNTozNToxOS43MTNaIiwicHVyIjoiYmxvYl9rZXkifX0=--32184f517c9b08b8797ab46d712a8677a3dcd3ba/%D0%BF%D0%B0%D1%80%D0%BA%20%D0%B2%D0%B8%D1%81%D0%BE%D0%BA%D0%B8%D0%B8%CC%86%20%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA%20%D0%BB%D1%8C%D0%B2%D1%96%D0%B2.jpeg?content_type=image%2Fjpeg&disposition=inline%3B+filename%3D%22park+vysokyy%25CC%2586+zamok+lviv.jpeg%22%3B+filename%2A%3DUTF-8%27%27%25D0%25BF%25D0%25B0%25D1%2580%25D0%25BA%2520%25D0%25B2%25D0%25B8%25D1%2581%25D0%25BE%25D0%25BA%25D0%25B8%25D0%25B8%25CC%2586%2520%25D0%25B7%25D0%25B0%25D0%25BC%25D0%25BE%25D0%25BA%2520%25D0%25BB%25D1%258C%25D0%25B2%25D1%2596%25D0%25B2.jpeg',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/37125',
-          'https://lviv.travel/image/seo/a9/39/a939afae9e9b826eea6aa0df7ab61bbfa6e2a6b3_1666772450.jpeg?crop=660%2C347%2C1%2C83&w=1200&h=630',
-          'https://www.navigator-ukraina.com.ua/media/k2/galleries/986/vysokiy_zamok03.jpg'
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/High-Castle-Park/1.jpeg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/High-Castle-Park/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/High-Castle-Park/3.jpeg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/High-Castle-Park/4.jpg'
         ],
         location: 'вулиця Високий Замок, 1',
         date_of_foundation: '',
@@ -1224,10 +1279,10 @@ export default async function handler(
         description:
           'Стара назва парку „Дружба”, однойменну назву мав стадіон (з 1990р. – стадіон Україна). Був розбитий на місці глиняних кар’єрів у 1959 – 1963 рр. і займає площу 60 га. Мережа алей і доріжок прокладена з таким розрахунком, щоб краще розкрити характерні краєвиди парку, а також домогтися максимальної пропускної спроможності під час масового відвідування найбільшого стадіону міста, який розташований у центральній частині парку і розрахований на 30 тисяч місць.',
         main_image:
-          'https://lviv.travel/image/locations/1e/89/1e893c8ad5106572bad8036355e76d18e840dcb0_1557228791.jpg?crop=1002%2C484%2C5%2C97',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Snopkivsky-Park/1.jpg',
         images: [
-          'https://lviv.travel/image/locations/1e/89/1e893c8ad5106572bad8036355e76d18e840dcb0_1557228791.jpg?crop=1002%2C484%2C5%2C97',
-          'https://lviv.travel/image/blocks/db/bc/dbbced99aab314515c4294317b83d04924fd470f_1558017095.jpeg?crop=1777%2C1333%2C91%2C0'
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Snopkivsky-Park/1.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Snopkivsky-Park/2.jpeg'
         ],
         location: 'вулиця Василя Стуса, 47',
         date_of_foundation: '1959 – 1963 рр.',
@@ -1240,8 +1295,11 @@ export default async function handler(
         description:
           'Створений парк в 1905р. Зелений куточок недалеко від центру. У парку є багато джерел води з великим вмістом заліза, це і стало причиною виникнення назви парку. Площа його близько 20га. Адреса: вул. Стуса, Мишуги, Тернопільська та Ярославенка. Закладений у 1905 році на схилах яру ріки Полтви.Розташований між вулицями Стуса, Мішуги, Тернопільською і Ярославенко. \n' +
           "Пересічений рельєф місцевості, хвилясті узгір'я і яри, – все це додає парку дуже мальовничий і своєрідний вигляд. Тут бере свій початок річка Полтва. Основа парку – столітній буковий ліс.",
-        main_image: 'https://i.ytimg.com/vi/71fEF90OD2M/maxresdefault.jpg',
-        images: ['https://i.ytimg.com/vi/71fEF90OD2M/maxresdefault.jpg'],
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Iron-water-park/1.jpg',
+        images: [
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Iron-water-park/1.jpg'
+        ],
         location: 'вул. Стуса',
         date_of_foundation: '1894-1905 р.',
         category_id: parks,
@@ -1255,12 +1313,12 @@ export default async function handler(
           'Сквер розташований у Сихівському районі Львова біля греко-католицької церкви Різдва Пресвятої Богородиці та на місці зустрічі Папи Римського Івана Павла II-го з українською молоддю в 2001 році.\n' +
           'Це перший в Україні парк, закладений після здобуття нею незалежності. Ініціатором заснування Парку, був громадський діяч Андрій Рожнятовський.',
         main_image:
-          'https://moemisto.ua/uploads/media/ckeditor/0004/84/5672ff3692a94482deb10315f3cbd79a559ed724.jpeg?hash=2020-07-02-18-01-29',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Paul-II-Square/1.jpeg',
         images: [
-          'https://moemisto.ua/uploads/media/ckeditor/0004/84/5672ff3692a94482deb10315f3cbd79a559ed724.jpeg?hash=2020-07-02-18-01-29',
-          'https://s.032.ua/s/40/section/newsInText/upload/images/news/intext/000/053/426/photo2021-05-1220-02-19_609c32c64df0f.jpg',
-          'https://city-adm.lviv.ua/images/_news/2020/04/30/parksakur/IMG_5171.JPG',
-          'https://inlviv.in.ua/wp-content/uploads/2019/04/1455203_1507323-scaled.jpg'
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Paul-II-Square/1.jpeg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Paul-II-Square/2.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Paul-II-Square/3.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Paul-II-Square/4.jpg'
         ],
         location: '',
         date_of_foundation: '',
@@ -1280,8 +1338,11 @@ export default async function handler(
           'Ідею проєкту монумента як колони запропонував письменник Адам Креховецький. Урочисте закладання першого каменю в постамент на Маріацькій площі (зараз площа Адама Міцкевича) відбулося в день століття Міцкевича в 1898 році.\n' +
           '\n' +
           "Спорудження монумента тривало п'ять років, він був відкритий 30 жовтня 1904 року. Вважається одним з найкращих пам'ятників Міцкевичу в світі.",
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41451',
-        images: ['https://travels.in.ua/api/Photo/PhotoStreamCPOI/41451'],
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Adam-Mickiewicz/1.png',
+        images: [
+          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Adam-Mickiewicz/1.png'
+        ],
         location: 'площа Адама Міцкевича',
         date_of_foundation: '1904 р.',
         category_id: monuments,
@@ -1297,10 +1358,11 @@ export default async function handler(
           "Князь Данило Романович із галицької гілки роду Рюриковичів силою об'єднав країну, розгромивши в 1245 році полки угорських та польських феодалів, а також галицьких бояр.\n" +
           '\n' +
           "Проєкт пам'ятника розробили скульптори Ярич та Романович, а також архітектор Чурилик. Пам'ятник є кінною фігурою з бронзи на гранітному п'єдесталі.",
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41519',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Danilov-Halytsky/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41519',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41518'
+          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Danilov-Halytsky/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Danilov-Halytsky/2.png'
         ],
         location: 'площа Галицька',
         date_of_foundation: '2001 р.',
@@ -1317,11 +1379,12 @@ export default async function handler(
           'Питання про спорудження вирішувалося цілих 5 років, на двох конкурсах проєктів переможця не було визначено, і в результаті компромісу було вирішено використати "відносно кращий" проєкт скульпторів Володимира та Андрія Сухорських та архітекторів Юрія Диби та Юрія Хромей.\n' +
           '\n' +
           'Пам\'ятник виготовили в Аргентині. Урочисте відкриття відбулося на річницю ухвалення декларації незалежності України. Через 4 роки було відкрито другий елемент пам\'ятника – 12-метрова бронзова "Хвиля Національного Відродження".',
-        main_image: 'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41522',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Taras-Shevchenko/1.png',
         images: [
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41522',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41521',
-          'https://travels.in.ua/api/Photo/PhotoStreamCPOI/41520'
+          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Taras-Shevchenko/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Taras-Shevchenko/2.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Taras-Shevchenko/3.png'
         ],
         location: 'проспект Свободи',
         date_of_foundation: '1992 р.',
@@ -1344,13 +1407,14 @@ export default async function handler(
           '   Екстер’єр театру є ворітьми, через які ми занурюємося у світ мистецьких символів та розкішних оздоблень в середині. Мармуровими сходинками, минаючи портал із алегоріями «Трагедії» й «Комедії» та барельєф із портретом Зиґмунда Ґорґолевського у вестибюлі, ми потрапляємо до глядацького та дзеркального залів. Над нашою головою в той момент камеї з алегоріями та мальовничі композиції, присвячені порам року, родам мистецтва і категоріям населення, представники яких здійснювали пожертви на будівництво оперного. Венеційськими дзеркалами, скульптурою, алегоріями пір року та частин світу, мальовничими полотнами на тему вистав і погруддями видатних діячів опери можна насолоджуватися у дзеркальній залі.\n' +
           '\n' +
           '   Головна зала театру, яка у формі ліри, уміщує біля тисячі відвідувачів. У ложах, поміж якими і колишня імператорська, сценічне дійство можуть оглядати особливо шановані відвідувачі. По всьому периметру залу оздоблено каріатидами та гермами, а її окрасою є плафон із алегоріями та завіса «Парнас», виконана за ескізами Генрика Семирадського',
-        main_image: 'https://f.discover.ua/location/715/m0pNX.jpg',
+        main_image:
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/1.jpg',
         images: [
-          'https://f.discover.ua/location/715/m0pNX.jpg',
-          'https://lviv.travel/image/blocks/34/f0/34f06d6e37309cd4914968a32eb86e0e6694c70a_1649759045.jpeg?crop=4992%2C3744%2C562%2C0',
-          'https://lviv.travel/image/blocks/5a/6e/5a6e05ac0de82c71509f399008c3c27ed9a0ced9_1649759099.jpeg?crop=3456%2C2592%2C355%2C0',
-          'https://lviv.travel/image/locations/ff/e5/ffe5025e409f62a0fca5a8f2b01fe076a8b016e3_1649757949.jpg?crop=2427%2C1306%2C12%2C289',
-          'https://via-regia.org.ua/wp-content/uploads/2020/11/opernyj-teatr-yunesko-lviv.jpg'
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/1.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/2.jpeg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/3.jpeg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/4.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/5.jpg'
         ],
         location: 'проспект Свободи, 28',
         date_of_foundation: '1897-1900 рр.',
@@ -1364,12 +1428,12 @@ export default async function handler(
         description:
           'Марія Заньковецька була відомою актрисою, яка привернула увагу та прихильність Костянтина Станіславського, батька “методу акторської гри” – стилю акторської майстерності, який практикують відомі сьогодні актори театру. Національний академічний український драматичний театр ім. М. Заньковецької відкрився у 1842 році відомим графом Станіславом Скарбеком. Збудований у неокласичному стилі він був однією з трьох найбільших будівель у тогочасній Центральній Європі. З того часу будівля збільшилась, а її класичний драматичний репертуар та музичні концерти продовжували залучати задоволених глядачів. Гарне фойє, Глядацька зала та Колонна зала використовуються як особливі локації для зустрічей та виставок.',
         main_image:
-          'https://lviv.travel/image/locations/ac/7a/ac7acaf65d2925f6ef9aa0c460654052ffacec41_1659527373.jpg?crop=5936%2C3194%2C18%2C99',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/1.jpg',
         images: [
-          'https://lviv.travel/image/locations/ac/7a/ac7acaf65d2925f6ef9aa0c460654052ffacec41_1659527373.jpg?crop=5936%2C3194%2C18%2C99',
-          'https://www.google.com/url?sa=i&url=https%3A%2F%2Fuk.m.wikipedia.org%2Fwiki%2F%25D0%25A4%25D0%25B0%25D0%25B9%25D0%25BB%3A%25D0%25A2%25D0%25B5%25D0%25B0%25D1%2582%25D1%2580_%25D0%259C.%25D0%2597%25D0%25B0%25D0%25BD%25D1%258C%25D0%25BA%25D0%25BE%25D0%25B2%25D0%25B5%25D1%2586%25D1%258C%25D0%25BA%25D0%25BE%25D1%2597_%25D0%259B%25D1%258C%25D0%25B2%25D1%2596%25D0%25B2.JPG&psig=AOvVaw0c-8PMQnJ-EzD9rY8yTyVN&ust=1699018063892000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDtwNK1pYIDFQAAAAAdAAAAABAR',
-          'https://static.ukrinform.com/photos/2017_11/thumb_files/630_360_1510378178-2311.jpg',
-          'https://storage.concert.ua/JEC/22/Uw/63f5f1d773d6e/3d72.jpg:31-eventpage-gallery_main-desktop'
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/1.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/2.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/3.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/4.png'
         ],
         location: 'вулиця Лесі Українки, 1',
         date_of_foundation: '1842 р.',
@@ -1388,14 +1452,14 @@ export default async function handler(
           'Критика називає цей колектив унікальним театральним явищем, бо він повернув українській сцені інтелектуальний престиж, створив свою методологічну школу і поєднав багатогранну сценічну практику з процесом пізнання Людини.\n' +
           'Репертуар театру складається тільки з високохудожніх класичних і сучасних творів. На таких творах актори-курбасівці, театральні педагоги, виховали не одне покоління своїх учнів.',
         main_image:
-          'https://bookforum.ua/storage/event/2/e964218a36ade081a0426f3445c423caa6213cba.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/1.jpg',
         images: [
-          'https://bookforum.ua/storage/event/2/e964218a36ade081a0426f3445c423caa6213cba.jpg',
-          'https://embed.virtual.ua/panorams/streets/lviv//teatr_kurbasa/teatr_kurbasa_1200.jpg',
-          'https://embed.virtual.ua/panorams/culture/theaters/lviv/kurbasa//kurbasa_23/kurbasa_23_1200.jpg',
-          'https://embed.virtual.ua/panorams/culture/theaters/lviv/kurbasa//kurbasa_24/kurbasa_24_1200.jpg',
-          'https://embed.virtual.ua/panorams/culture/theaters/lviv/kurbasa//kurbasa_25/kurbasa_25_1200.jpg',
-          'https://embed.virtual.ua/panorams/culture/theaters/lviv/kurbasa//kurbasa_26/kurbasa_26_1200.jpg'
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/1.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/2.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/3.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/4.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/5.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/6.jpg'
         ],
         location: 'вулиця Леся Курбаса, 3',
         date_of_foundation: '1988 р.',
@@ -1413,14 +1477,14 @@ export default async function handler(
           '\n' +
           'Так однією з топ-інсценізацій  є вистава «Баба Пріся», головна героїня якої є стара українська баба, яка головує в сім’ї. Події відбуваються у Чорнобильській зоні відчуження, тому сама баба дуже цікава особа, яка є не зовсім простою жінкою. Вистава багатогранна, комедійна, за якою криється трагедія. Вона торкається різних струн душі, викликаючи то сльози,то сміх. ',
         main_image:
-          'https://lviv.travel/image/locations/e7/e7/e7e7accd86e8cb8e19e8ceff9161def6c56fba30_1674825491.jpg?crop=5156%2C2774%2C0%2C1',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/1.jpg',
         images: [
-          'https://lviv.travel/image/locations/e7/e7/e7e7accd86e8cb8e19e8ceff9161def6c56fba30_1674825491.jpg?crop=5156%2C2774%2C0%2C1',
-          'https://upload.wikimedia.org/wikipedia/commons/8/8a/%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9_%D1%82%D0%B5%D0%B0%D1%82%D1%80_%D1%96%D0%BC%D0%B5%D0%BD%D1%96_%D0%9B%D0%B5%D1%81%D1%96_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8.JPG',
-          'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lvivconvention.com.ua%2Flocation%2Flvivskyy-akademichnyy-dramatychnyy-teatr-imeni-lesi-ukrainky%2F&psig=AOvVaw2YaZYzbhCACHBKUFQyBFMH&ust=1699020357937000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjTu5i-pYIDFQAAAAAdAAAAABAr',
-          'https://upload.wikimedia.org/wikipedia/commons/8/8b/%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%96%D1%87%D0%BD%D0%B8%D0%B9_%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9_%D1%82%D0%B5%D0%B0%D1%82%D1%80_%D1%96%D0%BC%D0%B5%D0%BD%D1%96_%D0%9B%D0%B5%D1%81%D1%96_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8.jpg',
-          'https://lh3.googleusercontent.com/p/AF1QipPl2UrLXmoL4Otm1oONvG6rdXxdOyBwK2tOlm91=s680-w680-h510',
-          'https://lh3.googleusercontent.com/p/AF1QipO0a5TvxmbnK5-9TcI-2kaamcRu1JnbqgWGDXnv=s680-w680-h510'
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/1.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/2.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/3.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/4.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/5.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/6.jpg'
         ],
         location: 'вулиця Городоцька, 36',
         date_of_foundation: '1931 p.',
@@ -1435,12 +1499,12 @@ export default async function handler(
         description:
           'Львівський академічний духовний театр  “Воскресіння” був заснований у 1990 році режисером Ярославом Федоришиним, який закінчив Харківський інститут театрального мистецтва ім.. І.Котляревського в класі Всеволода Цвєткова та Московський Державний інститут театрального мистецтва в класі Анатолія Ефроса та групою акторів, які були запрошені в театр з різних театрів України. 19 грудня 1990 року театр вийшов на суд глядача з новою роботою “Чудо Св. Отця Миколая над Половчином” С. Перського. Це була дипломна робота Ярослава Федоришина. Вистава отримала несподіваний успіх. З цією виставою театр об¢їздив багато місць, навіть такі, як віддалене село Турківського району, де ніколи не бував театр.Потім було “Благовіщення Марії” П. Клоделя, коли актори ледь не півсвіту підняли на ноги, поки отримали переклад Віри Вовк. Першою на Українській сцені була і “Юдита” Ф.-Х. Геббеля, “Каїн” Д. Байрона, “Гірські Велетні” Л. Піранделло. Одні з перших вистав ще 1991 року театр повіз на Міжнародний театральний фестиваль до Ченстохови (Польща). Митці заприязнилися з українським Фондом св. Володимира Великого, який очолює професор Володимир Мокрий. За його сприяння “Воскресіння” запросили до Кракова. Це був перший прорив у світ.Театр „Воскресіння” – це завжди експеримент на сцені і несподіванка  для глядача,тому він має своїх прихильників у різних містах України та за кордоном. “Воскресіння” ставить такі вистави, які ніколи не йшли на українській сцені. Це правило стало традицією театру. Завдяки цьому він має успіх. За короткий час театр завоював прихильність публіки та театральної критики послідовним пошуком виразної театральної мови і конкретної сценічної форми. Відкриваючи українському глядачеві світову драматургію, яка ніколи не бачила світло рампи на Україні, театр крок за кроком розширює театральне світосприйняття публіки та актора. У театральних пошуках “Воскресіння” поєднались традиції психологічного театру та пошуки сучасних театральних форм.З 1992 року на базі театру “Воскресіння” відновлюється театральний фестиваль “Золотий Лев”. В 1994 році цей фестиваль набуває статусу Міжнародного і на сьогоднішній день являється одним з найяскравіших театральних форумів України.На сьогоднішній день театр «Воскресіння» – це один з найяскравіших колективів України, який грає 190 вистав на рік, з них 50-60 вистав – в різних країнах світу. Театр працює як на сцені, так і на вулиці. Вуличні вистави зачаровують своєю атмосферою, акторською грою та різноманітними ефектами, які впливають на глядача і заставляють його задуматись над тим прекрасним, що існує в нас і поза нами.Театр „Воскресіння” єчлеміжнародногєвропейського мітингу (IETM) і асоціації міжнародних театральних фестивалів (IFEA).',
         main_image:
-          'https://afisha.lviv.ua/sites/image.life/company1484/logo-present-1484-79big-7822-kb.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lviv-Academic-Theater-(Resurrection)/1.jpg',
         images: [
-          'https://afisha.lviv.ua/sites/image.life/company1484/logo-present-1484-79big-7822-kb.jpg',
-          'https://afisha.lviv.ua/sites/image.life/company1484/logo-present-1484-18164-9527-kb.jpg',
-          'https://afisha.lviv.ua/sites/image.life/company1484/logo-present-1484-voznesinnia01600-4488-kb.jpg',
-          'https://www.lvivconvention.com.ua/wp-content/uploads/2020/12/1-dlia-baneru-ta-poshuku-7-1.jpg'
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lviv-Academic-Theater-(Resurrection)/1.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lviv-Academic-Theater-(Resurrection)/2.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lviv-Academic-Theater-(Resurrection)/3.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lviv-Academic-Theater-(Resurrection)/4.jpg'
         ],
         location: 'площа Генерала Григоренка, 5',
         date_of_foundation: '1990 р.',
@@ -1456,12 +1520,12 @@ export default async function handler(
           'Але через нестабільну ситуацію, котра виникла у зв’язку з Першою світовою війною, після глибокої фінансової кризи багато приміщень здавалося в оренду, Реміснича палата не була винятком. Підприємець Марек Парізер орендував великий зал Ремісничої палати і 1926-го року облаштував тут кінотеатр “Штука” на 290 глядацьких місць, а у міжвоєнний період великий зал було передано у використання Кінотеатру “Балтик”. До 1941-го змінювались власники залу, але завжди функціонував кінотеатр.\n' +
           'В наші дні, у театрі на стелі досі збереглися фрагменти автентичного вітража у стилі сецесія і неймовірна ковка. За дзеркалом колись також був вітраж. Через ці два вітражі у фойє потрапляло багато денного світла.',
         main_image:
-          'https://upload.wikimedia.org/wikipedia/commons/e/e0/1_Danyla_Halytskoho_Square%2C_Lviv_%2819%29.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-Lviv-Regional-Puppet-Theater/1.jpg',
         images: [
-          'https://upload.wikimedia.org/wikipedia/commons/e/e0/1_Danyla_Halytskoho_Square%2C_Lviv_%2819%29.jpg',
-          'https://afisha.lviv.ua/sites/image.life/company263/logo-present-263-75big-5563-kb.jpg',
-          'https://afisha.lviv.ua/sites/image.life/company263/logo-present-263-1339543426-9516-kb.jpg',
-          'https://tvoemisto.tv/media/gallery/full/3/other/3_cdc88.jpg'
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-Lviv-Regional-Puppet-Theater/1.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-Lviv-Regional-Puppet-Theater/2.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-Lviv-Regional-Puppet-Theater/3.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-Lviv-Regional-Puppet-Theater/4.jpg'
         ],
         location: 'площа Данила Галицького, 1',
         date_of_foundation: '1945 р.',
@@ -1480,11 +1544,11 @@ export default async function handler(
           'нових форм, любов до ляльки — це сьогоднішнє лице ТЕАТРУ\n' +
           '— ДОМУ, бо він став домом і людям, і лялькам.',
         main_image:
-          'https://lviv.travel/image/locations/bd/8b/bd8b5730454ea73353d251a9e1ab6f455085e59e_1558432506.png?crop=1362%2C733%2C4%2C2',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-variety-miniature-theater-(both-people-and-dolls)/1.png',
         images: [
-          'https://lviv.travel/image/locations/bd/8b/bd8b5730454ea73353d251a9e1ab6f455085e59e_1558432506.png?crop=1362%2C733%2C4%2C2',
-          'https://afisha.lviv.ua/sites/image.life/company267/logo-present-267-3920-9125-kb.jpg',
-          'https://afisha.lviv.ua/sites/image.life/company267/logo-present-267-8ebffb0dd1e32e91a3294e0fdf56416e4e8fddee-7608-kb.jpeg'
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-variety-miniature-theater-(both-people-and-dolls)/1.png',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-variety-miniature-theater-(both-people-and-dolls)/2.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-variety-miniature-theater-(both-people-and-dolls)/3.jpeg'
         ],
         location: 'вулиця Олександра Фредра, 6',
         date_of_foundation: '1990 р',
@@ -1497,11 +1561,11 @@ export default async function handler(
         description:
           'Перший академічний український театр для дітей та юнацтва — перший театр в Україні та світі, розрахований на дитячу та юнацьку аудиторію. Заснований 1920 року в Харкові, з 1944 р. перебазований до Львова',
         main_image:
-          'https://vgorode.ua/img/article/2309/76_main-v1582883109.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/First-Ukrainian-Theater-for-Children-and-Youth/1.jpg',
         images: [
-          'https://vgorode.ua/img/article/2309/76_main-v1582883109.jpg',
-          'https://www.lvivconvention.com.ua/wp-content/uploads/2021/02/DSC_5852-1.jpg',
-          'https://www.lvivconvention.com.ua/wp-content/uploads/2021/02/Hliadatskyy-zal-3-1.jpg'
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/First-Ukrainian-Theater-for-Children-and-Youth/1.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/First-Ukrainian-Theater-for-Children-and-Youth/2.jpg',
+          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/First-Ukrainian-Theater-for-Children-and-Youth/3.jpg'
         ],
         location: 'вулиця Академіка Гнатюка, 11',
         date_of_foundation: '1920 року',
