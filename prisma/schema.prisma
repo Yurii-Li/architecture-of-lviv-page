@@ -1,0 +1,35 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model categories {
+  id         Int                       @id @default(autoincrement())
+  name       String
+  archs      architectural_landmarks[]
+  created_at DateTime                  @default(now())
+  updated_at DateTime                  @updatedAt
+}
+
+model architectural_landmarks {
+  id                 Int        @id @default(autoincrement())
+  name               String
+  description        String
+  main_image         String
+  images             String[]
+  location           String
+  date_of_foundation String
+  category_id        Int
+  category           categories @relation(fields: [category_id], references: [id])
+  google_maps_link   String?
+  online_tour_link   String?
+  created_at         DateTime   @default(now())
+  updated_at         DateTime   @updatedAt
+}
