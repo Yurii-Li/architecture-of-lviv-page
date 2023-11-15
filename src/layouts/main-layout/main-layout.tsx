@@ -2,6 +2,7 @@ import React, { ReactNode, useState } from 'react';
 import { Inter } from 'next/font/google';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import NextNProgress from 'nextjs-progressbar';
 import { Drawer } from 'antd';
 
 import Footer from '@/components/footer/footer';
@@ -33,7 +34,7 @@ export default function MainLayout({ children }: { children: ReactNode }) {
         <div className={styles.bgImg}>
           <Image
             src="/background.jpg"
-            alt="Меню"
+            alt="Зображення Львова"
             quality={100}
             priority
             fill
@@ -45,6 +46,7 @@ export default function MainLayout({ children }: { children: ReactNode }) {
       <Drawer title="Категорії" placement="right" onClose={onClose} open={open}>
         <NavMenu />
       </Drawer>
+      <NextNProgress height={5} options={{ showSpinner: false }} />
       <main className={styles.main}>{children}</main>
       <Footer />
     </div>
