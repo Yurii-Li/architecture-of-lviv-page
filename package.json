@@ -13,6 +13,7 @@
     "@prisma/client": "^5.3.1",
     "antd": "^5.9.4",
     "next": "latest",
+    "nextjs-progressbar": "^0.0.16",
     "react": "latest",
     "react-dom": "latest",
     "sharp": "^0.32.6"
