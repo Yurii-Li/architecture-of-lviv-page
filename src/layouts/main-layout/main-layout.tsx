@@ -42,7 +42,13 @@ export default function MainLayout({ children }: { children: ReactNode }) {
         </div>
       )}
       <Header showDrawer={showDrawer} />
-      <Drawer title="Категорії" placement="right" onClose={onClose} open={open}>
+      <Drawer
+        title="Категорії"
+        placement="right"
+        onClose={onClose}
+        onClick={onClose}
+        open={open}
+      >
         <NavMenu />
       </Drawer>
       <main className={styles.main}>{children}</main>
