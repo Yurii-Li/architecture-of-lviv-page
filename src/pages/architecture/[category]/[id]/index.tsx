@@ -1,11 +1,14 @@
+import { useRef } from 'react';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import { Card, Carousel } from 'antd';
+import { Button, Card, Carousel } from 'antd';
+import { CarouselRef } from 'antd/lib/carousel';
 
 import { CategoriesEnum } from '@/enums/categories.enum';
 import { isValidCategory } from '@/helpers/validate-сategory';
 import { prisma } from '@/lib/prisma';
+import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import { architectural_landmarks } from '@prisma/client';
 
 import styles from './landmark.module.scss';
@@ -20,6 +23,8 @@ interface IProps {
 }
 
 export default function LandmarkPage({ data }: IProps) {
+  const slider = useRef<CarouselRef>(null);
+
   return (
     <>
       <Head>
@@ -34,19 +39,36 @@ export default function LandmarkPage({ data }: IProps) {
         <div className={styles.dateOfFoundation}>
           Дата заснування: {data.date_of_foundation}
         </div>
-        <Carousel className={styles.carousel} autoplay>
-          {data.images.map(image => (
-            <div key={data.id} className={styles.carouselImageWrapper}>
-              <Image
-                priority
-                src={image}
-                alt={data.name}
-                className={styles.carouselImage}
-                fill
-              />
-            </div>
-          ))}
-        </Carousel>
+        <div className={styles.carouselWrapper}>
+          <div className={styles.controlArrows}>
+            <Button
+              onClick={() => slider.current?.prev()}
+              icon={<LeftOutlined />}
+              shape="circle"
+              size="large"
+            />
+            <Button
+              onClick={() => slider.current?.next()}
+              icon={<RightOutlined />}
+              shape="circle"
+              size="large"
+            />
+          </div>
+
+          <Carousel className={styles.carousel} autoplay ref={slider}>
+            {data.images.map(image => (
+              <div key={data.id} className={styles.carouselImageWrapper}>
+                <Image
+                  priority
+                  src={image}
+                  alt={data.name}
+                  className={styles.carouselImage}
+                  fill
+                />
+              </div>
+            ))}
+          </Carousel>
+        </div>
         <div>
           <h2 className={styles.subTittle}>
             Загальна інформація про {data.name}
