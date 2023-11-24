@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-import styles from './homePage.module.scss';
+import styles from '@/styles/pages-style/homePage.module.scss';
 
 export default function Home() {
   return (
