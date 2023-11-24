@@ -9,7 +9,7 @@ import { isValidCategory } from '@/helpers/validate-сategory';
 import { IArchitectureCard } from '@/interfaces/architecture.interface';
 import { prisma } from '@/lib/prisma';
 
-import styles from './category.module.scss';
+import styles from '@/styles/pages-style/category.module.scss';
 
 interface IProps {
   count: number;

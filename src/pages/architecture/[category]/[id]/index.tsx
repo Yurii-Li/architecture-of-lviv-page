@@ -11,7 +11,7 @@ import { prisma } from '@/lib/prisma';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import { architectural_landmarks } from '@prisma/client';
 
-import styles from './landmark.module.scss';
+import styles from '@/styles/pages-style/landmark.module.scss';
 
 type Architecture = Omit<
   architectural_landmarks,
