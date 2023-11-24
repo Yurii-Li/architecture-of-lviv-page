@@ -70,9 +70,7 @@ export default function LandmarkPage({ data }: IProps) {
           </Carousel>
         </div>
         <div>
-          <h2 className={styles.subTittle}>
-            Загальна інформація про {data.name}
-          </h2>
+          <h2 className={styles.subTittle}>Загальна інформація</h2>
           <Card>
             <p className={styles.description}>{data.description}</p>
           </Card>
