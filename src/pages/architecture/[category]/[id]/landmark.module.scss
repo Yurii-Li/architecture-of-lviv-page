@@ -14,13 +14,32 @@
     color: #666;
   }
 
-  .carousel {
-    .carouselImageWrapper {
-      position: relative;
-      height: 700px;
+  .carouselWrapper {
+    position: relative;
+    .controlArrows {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1;
+      padding: 0 10px;
 
-      .carouselImage {
-        border-radius: 10px;
+      button {
+        color: #1677ff;
+      }
+    }
+
+    .carousel {
+      .carouselImageWrapper {
+        position: relative;
+        height: 700px;
+
+        .carouselImage {
+          border-radius: 10px;
+        }
       }
     }
   }
@@ -46,9 +65,11 @@
 
 @media (max-width: 1600px) {
   .landmarkPage {
-    .carousel {
-      .carouselImageWrapper {
-        height: 600px;
+    .carouselWrapper {
+      .carousel {
+        .carouselImageWrapper {
+          height: 600px;
+        }
       }
     }
   }
@@ -58,9 +79,11 @@
   .landmarkPage {
     width: 80%;
 
-    .carousel {
-      .carouselImageWrapper {
-        height: 500px;
+    .carouselWrapper {
+      .carousel {
+        .carouselImageWrapper {
+          height: 500px;
+        }
       }
     }
 
@@ -72,9 +95,11 @@
 
 @media (max-width: 992px) {
   .landmarkPage {
-    .carousel {
-      .carouselImageWrapper {
-        height: 400px;
+    .carouselWrapper {
+      .carousel {
+        .carouselImageWrapper {
+          height: 400px;
+        }
       }
     }
 
@@ -88,9 +113,15 @@
   .landmarkPage {
     width: 90%;
 
-    .carousel {
-      .carouselImageWrapper {
-        height: 350px;
+    .carouselWrapper {
+      .controlArrows {
+        display: none;
+      }
+
+      .carousel {
+        .carouselImageWrapper {
+          height: 350px;
+        }
       }
     }
 
@@ -108,9 +139,11 @@
   .landmarkPage {
     width: 100%;
 
-    .carousel {
-      .carouselImageWrapper {
-        height: 300px;
+    .carouselWrapper {
+      .carousel {
+        .carouselImageWrapper {
+          height: 300px;
+        }
       }
     }
 
