@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { Button, Result } from 'antd';
 
-import styles from '@/styles/pages-style/404.module.scss';
+import styles from '@/styles/pages-style/errorPage.module.scss';
 
 export default function NotFoundPage() {
   const router = useRouter();
@@ -11,7 +11,7 @@ export default function NotFoundPage() {
   };
 
   return (
-    <div className={styles.notFoundPage}>
+    <div className={styles.errorPage}>
       <Result
         status="404"
         title="404"
