@@ -1345,9 +1345,11 @@ export default async function handler(
           'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Paul-II-Square/3.jpg',
           'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Paul-II-Square/4.jpg'
         ],
-        location: '',
+        location: 'проспект Червоної Калини',
         date_of_foundation: '',
-        category_id: parks
+        category_id: parks,
+        google_maps_link:
+          'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3642.4695503744324!2d24.05401043080064!3d49.79330611868388!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae86d73dd1475%3A0xca2ec847bd7e13c1!2z0KHQutCy0LXRgCDQhtC-0LDQvdC90LAg0J_QsNCy0LvQsCBJSQ!5e0!3m2!1suk!2sua!4v1702130828740!5m2!1suk!2sua'
       }
     ]
   });
