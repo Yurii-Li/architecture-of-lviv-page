@@ -57,6 +57,7 @@ export default function Home() {
                   src="https://architectureoflvivblob.blob.core.windows.net/images/main-page/St.-Georges-Cathedral.jpg"
                   alt="Собор святого Юра"
                   fill
+                  priority
                   sizes="(min-width: 1360px) 600px, (min-width: 1000px) calc(38.24vw + 88px), (min-width: 680px) 600px, calc(94.44vw - 23px)"
                 />
               </div>
@@ -68,6 +69,7 @@ export default function Home() {
                   src="https://architectureoflvivblob.blob.core.windows.net/images/main-page/St.-Andrews-Church.jpg"
                   alt="Церква святого Андрія"
                   fill
+                  priority
                   sizes="(min-width: 1360px) 600px, (min-width: 1000px) calc(38.24vw + 88px), (min-width: 680px) 600px, calc(94.44vw - 23px)"
                 />
               </div>
@@ -131,6 +133,7 @@ export default function Home() {
                   src="https://architectureoflvivblob.blob.core.windows.net/images/main-page/Dominican-Church.jpg"
                   alt="Домініканський собор"
                   fill
+                  priority
                   sizes="(min-width: 1360px) 600px, (min-width: 1000px) calc(38.24vw + 88px), (min-width: 680px) 600px, calc(94.44vw - 23px)"
                 />
               </div>
@@ -142,6 +145,7 @@ export default function Home() {
                   src="https://architectureoflvivblob.blob.core.windows.net/images/main-page/Church-of-Saints-Olga-and-Elizabeth-in-Lviv.jpg"
                   alt="Церква святих Ольги і Єлизавети"
                   fill
+                  priority
                   sizes="(min-width: 1360px) 600px, (min-width: 1000px) calc(38.24vw + 88px), (min-width: 680px) 600px, calc(94.44vw - 23px)"
                 />
               </div>
@@ -197,6 +201,7 @@ export default function Home() {
                   src="https://architectureoflvivblob.blob.core.windows.net/images/main-page/Opera-theatres.jpg"
                   alt="Оперний театр"
                   fill
+                  priority
                   sizes="(min-width: 1360px) 600px, (min-width: 1000px) calc(38.24vw + 88px), (min-width: 680px) 600px, calc(94.44vw - 23px)"
                 />
               </div>
