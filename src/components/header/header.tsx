@@ -18,8 +18,6 @@ interface IProps {
 export default function Header({ showDrawer }: IProps) {
   const { pathname } = useRouter();
 
-  const notShowNavMenu = pathname === '/architecture/[category]/[id]';
-
   const svgBlackToWhite = pathname === '/' ? styles.svgWhite : '';
 
   return (
@@ -47,7 +45,7 @@ export default function Header({ showDrawer }: IProps) {
         <Search />
       </div>
 
-      <div className={styles.navMenu}>{!notShowNavMenu && <NavMenu />}</div>
+      <NavMenu />
     </header>
   );
 }
