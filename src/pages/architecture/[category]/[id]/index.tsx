@@ -36,9 +36,11 @@ export default function LandmarkPage({ data }: IProps) {
       </Head>
       <div className={styles.landmarkPage}>
         <h1 className={styles.title}>{data.name}</h1>
-        <div className={styles.dateOfFoundation}>
-          Дата заснування: {data.date_of_foundation}
-        </div>
+        {data.date_of_foundation && (
+          <div className={styles.dateOfFoundation}>
+            Дата заснування: {data.date_of_foundation}
+          </div>
+        )}
         <div className={styles.carouselWrapper}>
           <div className={styles.controlArrows}>
             <Button
