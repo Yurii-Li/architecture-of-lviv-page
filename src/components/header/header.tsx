@@ -5,6 +5,7 @@ import { Button } from 'antd';
 
 import NavMenu from '@/components/nav-menu/nav-menu';
 import Search from '@/components/search/search';
+import { useMediaQuery } from '@/hooks/useMediaQuery';
 
 import burgerImg from '../../../public/burger-black.svg';
 import logo from '../../../public/logo-black.svg';
@@ -17,6 +18,8 @@ interface IProps {
 
 export default function Header({ showDrawer }: IProps) {
   const { pathname } = useRouter();
+
+  const isMobileOrTablet = useMediaQuery('(max-width: 768px)');
 
   const svgBlackToWhite = pathname === '/' ? styles.svgWhite : '';
 
@@ -45,7 +48,7 @@ export default function Header({ showDrawer }: IProps) {
         <Search />
       </div>
 
-      <NavMenu />
+      {!isMobileOrTablet && <NavMenu />}
     </header>
   );
 }
