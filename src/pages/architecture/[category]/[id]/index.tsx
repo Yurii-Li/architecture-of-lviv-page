@@ -150,7 +150,6 @@ export const getStaticPaths = async () => {
   const data = await prisma.architectural_landmarks.findMany({
     select: {
       id: true,
-      name: true,
       category: {
         select: {
           name: true
