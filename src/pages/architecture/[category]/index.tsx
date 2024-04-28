@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -20,6 +21,10 @@ export default function CategoryPage({ count, data }: IProps) {
   const { query, push } = useRouter();
 
   const currentPage = Number(query.page) || 1;
+
+  useEffect(() => {
+    document.getElementById('header')?.scrollIntoView();
+  }, []);
 
   return (
     <>
