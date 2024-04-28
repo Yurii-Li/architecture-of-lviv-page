@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -24,6 +24,10 @@ interface IProps {
 
 export default function LandmarkPage({ data }: IProps) {
   const slider = useRef<CarouselRef>(null);
+
+  useEffect(() => {
+    document.getElementById('header')?.scrollIntoView();
+  }, []);
 
   return (
     <>

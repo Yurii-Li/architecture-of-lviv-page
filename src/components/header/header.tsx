@@ -24,7 +24,7 @@ export default function Header({ showDrawer }: IProps) {
   const svgBlackToWhite = pathname === '/' ? styles.svgWhite : '';
 
   return (
-    <header className={styles.header}>
+    <header id="header" className={styles.header}>
       <Button className={styles.burger} type="link" onClick={showDrawer}>
         <Image
           className={svgBlackToWhite}
@@ -47,7 +47,6 @@ export default function Header({ showDrawer }: IProps) {
         </Link>
         <Search />
       </div>
-
       {!isMobileOrTablet && <NavMenu />}
     </header>
   );
