@@ -65,18 +65,18 @@ export default async function handler(
           '\n' +
           'Латинський катедральний собор є Санктуарієм Матері Божої Милостивої і Божого Милосердя.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Latin-Cathedral/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/5.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/6.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/9.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/10.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/11.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Latin-Cathedral/12.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Latin-Cathedral/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Latin-Cathedral/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Latin-Cathedral/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Latin-Cathedral/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Latin-Cathedral/5.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Latin-Cathedral/6.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Latin-Cathedral/9.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Latin-Cathedral/10.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Latin-Cathedral/11.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Latin-Cathedral/12.png'
         ],
         location: 'площа Катедральна, 1',
         date_of_foundation: '1360-1493 рр.',
@@ -98,14 +98,14 @@ export default async function handler(
           '\n' +
           'В 1991 році костел і монастир було передано ченцям Студійського Уставу Української греко-католицької церкви (ордену, заснованого в 1920-х роках митрополитом Андреєм Шептицьким) та наново освячено на честь Святого Архистратига Михайла, святого покровителя України-Руси та хоронителя Гробу Господнього.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/5.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/6.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/5.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-St.-Michaels-Archangel-(Carmelites-of-the-Baret)/6.png'
         ],
         location: 'вулиця Володимира Винниченка, 22',
         date_of_foundation: '1634 рік',
@@ -126,17 +126,17 @@ export default async function handler(
           '\n' +
           'З 1998 року собор Святого Юра разом із ансамблем історичного центру Львова входить до списку світової спадщини ЮНЕСКО.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/St.-Georges-Cathedral/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/5.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/6.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/7.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/8.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/St.-Georges-Cathedral/9.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/St.-Georges-Cathedral/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/St.-Georges-Cathedral/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/St.-Georges-Cathedral/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/St.-Georges-Cathedral/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/St.-Georges-Cathedral/5.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/St.-Georges-Cathedral/6.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/St.-Georges-Cathedral/7.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/St.-Georges-Cathedral/8.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/St.-Georges-Cathedral/9.png'
         ],
         location: 'площа Святого Юра, 5',
         date_of_foundation: '1744-1770 рр.',
@@ -156,13 +156,13 @@ export default async function handler(
           '\n' +
           'Приміщення монастиря тепер належить Центральному державному архіву Львова, а храм Андрія Первозванного передано Українській греко-католицькій церкві.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Bernardine-Monastery/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Bernardine-Monastery/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Bernardine-Monastery/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Bernardine-Monastery/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Bernardine-Monastery/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Bernardine-Monastery/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Bernardine-Monastery/5.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Bernardine-Monastery/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Bernardine-Monastery/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Bernardine-Monastery/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Bernardine-Monastery/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Bernardine-Monastery/5.png'
         ],
         location: 'площа Соборна, 1-3А',
         date_of_foundation: '1600-1630 рр.',
@@ -179,13 +179,13 @@ export default async function handler(
           '\n' +
           'У вівтарній частині є традиційні кам\'яні хрести "хачкари". Значну художню цінність становлять скульптурні групи XV століття "Увірування Хоми" та "Свята Софія з доньками".',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/5.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Armenian-Cathedral-of-the-Assumption-of-the-Blessed-Virgin-Mary/5.png'
         ],
         location: 'вулиця Вірменська, 7-13',
         date_of_foundation: '1363-1370 рр.',
@@ -208,14 +208,14 @@ export default async function handler(
           '\n' +
           'У підземних криптах костелу функціонує музей "Підземелля Гарнізонного храму святих апостолів Петра і Павла", де можна замовити екскурсію храмом.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/5.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/6.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/5.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Garrina-Church-of-the-Holy-Apostles-Peter-and-Paul-(Jesuit-Church)/6.png'
         ],
         location: 'вулиця Театральна, 11',
         date_of_foundation: '1610-1630 рр.',
@@ -234,12 +234,12 @@ export default async function handler(
           '\n' +
           "За радянських часів тут був музей атеїзму. Нині це греко-католицька церква Святої Євхаристії. У підземеллях експонується частина колекції пам'яток сакрального мистецтва Львівського музею історії релігії. Проводяться концерти органної музики.",
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Dominican-Cathedral-(Church-of-the-Holy-Eucharist)/4.png'
         ],
         location: 'площа Музейна, 1',
         date_of_foundation: '1745-1764 рр.',
@@ -257,15 +257,15 @@ export default async function handler(
           '\n' +
           'Розташовувалася біля підніжжя гори Високий Замок, поряд із площею Старий Ринок, де за часів раннього середньовіччя був центр нижнього міста. Товщина стін храму свідчить також про оборонне значення споруди.',
         main_image:
-          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/1.png",
+          "https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/1.png",
         images: [
-          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/1.png",
-          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/2.png",
-          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/3.png",
-          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/4.png",
-          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/5.png",
-          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/6.png",
-          "https://architectureoflvivblob.blob.core.windows.net/images/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/7.png"
+          "https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/1.png",
+          "https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/2.png",
+          "https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/3.png",
+          "https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/4.png",
+          "https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/5.png",
+          "https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/6.png",
+          "https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Prince's-Church-of-St.-Nicholas-the-Wonderworker/7.png"
         ],
         location: 'вулиця Богдана Хмельницького, 28А',
         date_of_foundation: 'XIII ст.',
@@ -282,11 +282,11 @@ export default async function handler(
           '\n' +
           'Нині це діючий Свято-Покровський монастир Сестер Студійського Статуту.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/The-church-and-monastery-of-Benedictine/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/The-church-and-monastery-of-Benedictine/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/The-church-and-monastery-of-Benedictine/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/The-church-and-monastery-of-Benedictine/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/The-church-and-monastery-of-Benedictine/3.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/The-church-and-monastery-of-Benedictine/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/The-church-and-monastery-of-Benedictine/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/The-church-and-monastery-of-Benedictine/3.png'
         ],
         location: 'вулиця Вічева, 2',
         date_of_foundation: '1595 р.',
@@ -303,10 +303,10 @@ export default async function handler(
           '\n' +
           'Під час війни храм було пошкоджено, потім зачинено. З 1991 року належить Українській греко-католицькій церкві, переосвячений як церква Святих Ольги та Єлизавети.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-Saints-Olga-and-Elizabeth/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-Saints-Olga-and-Elizabeth/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-Saints-Olga-and-Elizabeth/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-Saints-Olga-and-Elizabeth/2.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-Saints-Olga-and-Elizabeth/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-Saints-Olga-and-Elizabeth/2.png'
         ],
         location: 'площа Кропивницького, 1',
         date_of_foundation: '1903-1912 рр.',
@@ -329,14 +329,14 @@ export default async function handler(
           '\n' +
           'Парафія належить до Львівської єпархії Православної церкви України.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/5.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/6.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/5.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/temples/Church-of-the-Assumption-of-the-Blessed-Virgin-(Voloska)/6.png'
         ],
         location: 'вулиця Руська, 5/7',
         date_of_foundation: 'XIV-XVI ст.',
@@ -363,12 +363,12 @@ export default async function handler(
           '\n' +
           'Наразі у комплексі Глинянської брами розміщується інститут "Укрзахідпроектреставрація та адміністрація історико-архітектурного заповідника".',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Glinyanskaya-gate/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Glinyanskaya-gate/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Glinyanskaya-gate/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Glinyanskaya-gate/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Glinyanskaya-gate/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Glinyanskaya-gate/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Glinyanskaya-gate/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Glinyanskaya-gate/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Glinyanskaya-gate/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Glinyanskaya-gate/4.png'
         ],
         location: 'вулиця Валова, 20',
         date_of_foundation: '17 ст.',
@@ -387,11 +387,11 @@ export default async function handler(
           '\n' +
           'Комплекс не зіграв значної ролі під час світових воєн, завдяки чому чудово зберігся. У радянські часи на території був розбитий парк "Цитадель", приміщення використовувалися як с ...',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Lviv-Citadel/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Lviv-Citadel/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Lviv-Citadel/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Lviv-Citadel/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Lviv-Citadel/3.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Lviv-Citadel/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Lviv-Citadel/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Lviv-Citadel/3.png'
         ],
         location: 'вулиця Павла Грабовського, 11',
         date_of_foundation: '1850-1856 рр.',
@@ -416,12 +416,12 @@ export default async function handler(
           '\n' +
           'Відвідувачам із порушеннями зору пропонується аудіодискрипція.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Arsenal-Museum-(City-Arsenal)/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Arsenal-Museum-(City-Arsenal)/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Arsenal-Museum-(City-Arsenal)/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Arsenal-Museum-(City-Arsenal)/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Arsenal-Museum-(City-Arsenal)/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Arsenal-Museum-(City-Arsenal)/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Arsenal-Museum-(City-Arsenal)/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Arsenal-Museum-(City-Arsenal)/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Arsenal-Museum-(City-Arsenal)/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Arsenal-Museum-(City-Arsenal)/4.png'
         ],
         location: 'вулиця Підвальна, 5',
         date_of_foundation: '1554-1556 рр.',
@@ -441,12 +441,12 @@ export default async function handler(
           '\n' +
           'З 1959 року приміщення займав Будинок архітектора з виставковою залою. Тепер тут розміщується Центр архітектури, дизайну та урбаністики "Порохова Вежа".\n',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Porokhova-Vezha/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Porokhova-Vezha/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Porokhova-Vezha/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Porokhova-Vezha/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Porokhova-Vezha/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/defense-structures/Porokhova-Vezha/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Porokhova-Vezha/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Porokhova-Vezha/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Porokhova-Vezha/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/defense-structures/Porokhova-Vezha/4.png'
         ],
         location: 'вулиця Підвальна, 4',
         date_of_foundation: '1554-1556 рр.',
@@ -475,12 +475,12 @@ export default async function handler(
           'Музей практикує різні форми науково-освітньої роботи: лекції, екскурсії, концерти органної та камерної музики.\n' +
           '\n',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Religion-History/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Museum-of-Religion-History/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Religion-History/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Religion-History/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Religion-History/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Religion-History/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Museum-of-Religion-History/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Museum-of-Religion-History/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Museum-of-Religion-History/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Museum-of-Religion-History/4.png'
         ],
         location: 'площа Музейна, 1',
         date_of_foundation: '1973 р.',
@@ -502,9 +502,9 @@ export default async function handler(
           '\n' +
           'З 2009 року в храмі щонеділі та у свята проводяться богослужіння УГКЦ.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-Church-John-the-Baptist/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-Church-John-the-Baptist/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-Church-John-the-Baptist/1.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-Church-John-the-Baptist/1.png'
         ],
         location: 'вулиця Ужгородська, 1',
         date_of_foundation: '1250 р.',
@@ -523,18 +523,18 @@ export default async function handler(
           '\n' +
           'Багато протиріч у 1990-х роках викликало відновлення знищеного за радянських часів меморіалу "Цвинтар орлят" на честь польських воїнів, які загинули в 1918-1920 роках в українсько-польській та радянсько-польській війні. Офіційно меморіал було відкрито в 2005 році одночасно з меморіалом загиблим воїнам Української Галицької Армії.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Lychakiv-Cemetery/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/5.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/6.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/7.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/8.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/9.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Lychakiv-Cemetery/10.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Lychakiv-Cemetery/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Lychakiv-Cemetery/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Lychakiv-Cemetery/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Lychakiv-Cemetery/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Lychakiv-Cemetery/5.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Lychakiv-Cemetery/6.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Lychakiv-Cemetery/7.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Lychakiv-Cemetery/8.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Lychakiv-Cemetery/9.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Lychakiv-Cemetery/10.png'
         ],
         location: 'вулиця Мечникова, 33',
         date_of_foundation: '1784 р.',
@@ -554,14 +554,14 @@ export default async function handler(
           '\n' +
           "Після реконструкції 2021 року оновлений музей скульптури Пінзеля отримав повністю безбар'єрний простір. Від зупинки громадського транспорту та в середині будівлі прокладені тактильні смуги. На вході встановлені звукові маячки. Музей має інклюзивну касу та мнемосхему на вході. Внутрішні сходи продубльовані підйомником. Біля експонатів встановлені інформаційні таблички, що продубльовані шрифтом Брайля. Відвідувачам з порушенням зору пропонують тактильні копії найважливіших експонатів. Доступні аудіогіди та аудіодескрипція. Персонал пройшов підготовку для роботи з усіма категоріями відвідувачів.",
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Ivan-George-Pinzel-Museum-Church-Clarys/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/5.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Ivan-George-Pinzel-Museum-Church-Clarys/6.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Ivan-George-Pinzel-Museum-Church-Clarys/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Ivan-George-Pinzel-Museum-Church-Clarys/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Ivan-George-Pinzel-Museum-Church-Clarys/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Ivan-George-Pinzel-Museum-Church-Clarys/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Ivan-George-Pinzel-Museum-Church-Clarys/5.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Ivan-George-Pinzel-Museum-Church-Clarys/6.png'
         ],
         location: 'площа Митна, 2',
         date_of_foundation: '1607 р.',
@@ -580,13 +580,13 @@ export default async function handler(
           '\n' +
           'Двоповерхова будівля львівського музею науки облаштована з урахуванням стандартів доступності, зокрема обладнана ліфтом.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Science/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Science/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Science/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Science/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Science/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Science/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Science/5.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Science/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Science/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Science/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Science/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Science/5.png'
         ],
         location: 'вулиця Стрийська, 200А',
         date_of_foundation: '2022 р.',
@@ -611,13 +611,13 @@ export default async function handler(
           '\n' +
           'Аптека "Під чорним орлом" продовжує служити людям і в наш час, ставши державною аптекою № 15. Окрім ліків, тут можна придбати відоме у всьому світі "Залізне вино" (водний розчин сахарату заліза, що вживається при залізодефіцитній анемії) та популярну львівську настоянку "Вігор", яка вважається засобом підвищення потенції. Продаються тут і пам\'ятні сувеніри.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Pharmacy-museum-under-the-black-eagle/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Pharmacy-museum-under-the-black-eagle/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Pharmacy-museum-under-the-black-eagle/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Pharmacy-museum-under-the-black-eagle/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Pharmacy-museum-under-the-black-eagle/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Pharmacy-museum-under-the-black-eagle/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Pharmacy-museum-under-the-black-eagle/5.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Pharmacy-museum-under-the-black-eagle/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Pharmacy-museum-under-the-black-eagle/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Pharmacy-museum-under-the-black-eagle/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Pharmacy-museum-under-the-black-eagle/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Pharmacy-museum-under-the-black-eagle/5.png'
         ],
         location: 'вулиця Друкарська, 2',
         date_of_foundation: '1735 р.',
@@ -635,9 +635,9 @@ export default async function handler(
           '\n' +
           'При галереї працює кафе "Під клепсидрою" - місце зустрічей львівської богеми з демократичною та творчою атмосферою.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Art-Center-Dziga/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Art-Center-Dziga/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Art-Center-Dziga/1.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Art-Center-Dziga/1.png'
         ],
         location: 'вулиця Вірменська, 35',
         date_of_foundation: '1993 р.',
@@ -659,11 +659,11 @@ export default async function handler(
           'Загалом представлено понад 2000 експонатів.\n' +
           '\n',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Archaeological-Museum-of-the-Institute-of-Ukrainian-Studies/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Archaeological-Museum-of-the-Institute-of-Ukrainian-Studies/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Archaeological-Museum-of-the-Institute-of-Ukrainian-Studies/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Archaeological-Museum-of-the-Institute-of-Ukrainian-Studies/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Archaeological-Museum-of-the-Institute-of-Ukrainian-Studies/3.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Archaeological-Museum-of-the-Institute-of-Ukrainian-Studies/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Archaeological-Museum-of-the-Institute-of-Ukrainian-Studies/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Archaeological-Museum-of-the-Institute-of-Ukrainian-Studies/3.png'
         ],
         location: 'вулиця Козельницька, 4',
         date_of_foundation: '2001 р.',
@@ -682,9 +682,9 @@ export default async function handler(
           '\n' +
           'Своєрідним музейним експонатом є також найстаріший в Україні діючий механічний ліфт, облаштований ще 1870 році графом Дідушицьким, який у старшому віці був частково паралізованим і пересувався на колісному візку. Для найменших відвідувачів працює інтерактивна дитяча зона.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/State-Museum-of-Natural-Sciences/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/State-Museum-of-Natural-Sciences/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/State-Museum-of-Natural-Sciences/1.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/State-Museum-of-Natural-Sciences/1.png'
         ],
         location: 'вулиця Театральна, 18',
         date_of_foundation: '1870 р.',
@@ -705,12 +705,12 @@ export default async function handler(
           '\n' +
           'Під замовлення колектив музею проводить театралізовані, тематичні, авторські, інтерактивні екскурсії, екскурсії-прогулянки вулицями Львова, тематичні квести, майстеркласи. Також в музеї періодично проходять літературні вечори, театральні вистави, концерти класичної і сучасної музики, різнопланові виставки й перформанси.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Franks-House/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Franks-House/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Franks-House/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Franks-House/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Franks-House/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Franks-House/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Franks-House/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Franks-House/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Franks-House/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Franks-House/4.png'
         ],
         location: 'вулиця Івана Франка, 150-152',
         date_of_foundation: '1940 р.',
@@ -730,12 +730,12 @@ export default async function handler(
           'Представлені твори презентують становлення та розвиток української художньої культури у руслі основних стилів та напрямків світового мистецтва минулого століття, а також відображає культурно-мистецькі процеси радянського періоду, що розвивалися поза рамками нормативної естетики соцреалізму.\n' +
           '\n',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Historical-Complex-of-the-Andrey-Sheptytsky-Museum/4.png'
         ],
         location: 'вулиця Михайла Драгоманова, 42',
         date_of_foundation: '1913 р.',
@@ -756,9 +756,9 @@ export default async function handler(
           '\n' +
           'Зали мистецтва Львова 1900-1930 років знайомлять з творами художників, які входили в об’єднань АНУМ, АRTES, "Нова генерація".',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-National-Art-Gallery-named-after-Boris-Voznytsky-Palace-of-Lozinsky/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-National-Art-Gallery-named-after-Boris-Voznytsky-Palace-of-Lozinsky/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-National-Art-Gallery-named-after-Boris-Voznytsky-Palace-of-Lozinsky/1.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-National-Art-Gallery-named-after-Boris-Voznytsky-Palace-of-Lozinsky/1.png'
         ],
         location: 'вулиця Василя Стефаника, 3',
         date_of_foundation: '1914 р.',
@@ -781,14 +781,14 @@ export default async function handler(
           '\n' +
           'Саме тут знімали сцену з фільму "Д\'Артаньян і три мушкетери", де Д\'Артаньян піднімався сходами до кардинала, щоб зіграти з ним у шахи.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-House-of-Scientists/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/5.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-House-of-Scientists/6.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-House-of-Scientists/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-House-of-Scientists/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-House-of-Scientists/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-House-of-Scientists/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-House-of-Scientists/5.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-House-of-Scientists/6.png'
         ],
         location: 'вулиця Листопадового Чину, 6',
         date_of_foundation: '1897-1898 рр.',
@@ -816,12 +816,12 @@ export default async function handler(
           'Також "Львіварня" функціонує як сучасний арт-центр, де відбуваються виставки, концерти, культурні події, конференції та корпоративні заходи.\n' +
           '\n',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Brewery-Lvivarnya/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Museum-of-Brewery-Lvivarnya/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Brewery-Lvivarnya/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Brewery-Lvivarnya/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Brewery-Lvivarnya/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Museum-of-Brewery-Lvivarnya/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Museum-of-Brewery-Lvivarnya/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Museum-of-Brewery-Lvivarnya/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Museum-of-Brewery-Lvivarnya/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Museum-of-Brewery-Lvivarnya/4.png'
         ],
         location: 'вулиця Клепарівська, 18',
         date_of_foundation: '2016 р.',
@@ -842,13 +842,13 @@ export default async function handler(
           '\n' +
           'На основі подарованих творів та документів тут постійно функціонує кімната-музей Тараса Шевченка. Також у Палаці мистецтв працює Фабрика помічників Святого Миколая та проходить Національне Свято Шоколаду.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Palace-of-Arts/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Palace-of-Arts/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Palace-of-Arts/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Palace-of-Arts/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Palace-of-Arts/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Palace-of-Arts/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Lviv-Palace-of-Arts/5.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Palace-of-Arts/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Palace-of-Arts/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Palace-of-Arts/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Palace-of-Arts/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Lviv-Palace-of-Arts/5.png'
         ],
         location: 'вулиця Миколи Коперника, 17',
         date_of_foundation: '1996 р.',
@@ -868,15 +868,15 @@ export default async function handler(
           '\n' +
           'Також висвітлюється діяльність Михайла Грушевського на чолі Центральної Ради Української Народної Республіки.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Mikhail-Hrushevsky-Memorial-Museum/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/5.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/6.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Mikhail-Hrushevsky-Memorial-Museum/7.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Mikhail-Hrushevsky-Memorial-Museum/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Mikhail-Hrushevsky-Memorial-Museum/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Mikhail-Hrushevsky-Memorial-Museum/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Mikhail-Hrushevsky-Memorial-Museum/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Mikhail-Hrushevsky-Memorial-Museum/5.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Mikhail-Hrushevsky-Memorial-Museum/6.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Mikhail-Hrushevsky-Memorial-Museum/7.png'
         ],
         location: 'вулиця Івана Франка, 154',
         date_of_foundation: '1998 р.',
@@ -895,12 +895,12 @@ export default async function handler(
           '\n' +
           'Меморіальний музей Станіслава Людкевича є відділом Музично-меморіального музею Соломії Крушельницької. На фасаді будинку встановлено художньо-меморіальну таблицю з горельєфом композитора.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Stanislav-Ludkevich-Memorial-Museum/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Stanislav-Ludkevich-Memorial-Museum/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Stanislav-Ludkevich-Memorial-Museum/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Stanislav-Ludkevich-Memorial-Museum/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Stanislav-Ludkevich-Memorial-Museum/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Stanislav-Ludkevich-Memorial-Museum/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Stanislav-Ludkevich-Memorial-Museum/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Stanislav-Ludkevich-Memorial-Museum/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Stanislav-Ludkevich-Memorial-Museum/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Stanislav-Ludkevich-Memorial-Museum/4.png'
         ],
         location: 'вулиця Людкевича, 7',
         date_of_foundation: '1995 р.',
@@ -919,11 +919,11 @@ export default async function handler(
           '\n' +
           'Музей розповідає про історію політичних, соціальних, етнічних та релігійних репресій тоталітарних режимів проти населення, яке мешкало на території України.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Memorial-Museum-of-totalitarian-regimes-Territory-of-terror/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Memorial-Museum-of-totalitarian-regimes-Territory-of-terror/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Memorial-Museum-of-totalitarian-regimes-Territory-of-terror/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Memorial-Museum-of-totalitarian-regimes-Territory-of-terror/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Memorial-Museum-of-totalitarian-regimes-Territory-of-terror/3.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Memorial-Museum-of-totalitarian-regimes-Territory-of-terror/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Memorial-Museum-of-totalitarian-regimes-Territory-of-terror/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Memorial-Museum-of-totalitarian-regimes-Territory-of-terror/3.png'
         ],
         location: "проспект В'ячеслава Чорновола, 45Г",
         date_of_foundation: '2013 р.',
@@ -943,13 +943,13 @@ export default async function handler(
           'Наразі Каплиця Боїмів є відділом Львівської галереї мистецтв.\n' +
           '\n',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Bohima-Chapel/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Bohima-Chapel/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/musehttps://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.372373640146!2d24.0310645!3d49.8407083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add69df8cbbc3%3A0x55ed8822b7920a9f!2z0JrQsNC_0LvQuNGG0Y8g0JHQvtGX0LzRltCy!5e0!3m2!1suk!2sua!4v1699825028128!5m2!1suk!2suaums/Museum-of-Bohima-Chapel/5.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Bohima-Chapel/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Bohima-Chapel/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Bohima-Chapel/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Bohima-Chapel/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/musehttps://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10292.372373640146!2d24.0310645!3d49.8407083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add69df8cbbc3%3A0x55ed8822b7920a9f!2z0JrQsNC_0LvQuNGG0Y8g0JHQvtGX0LzRltCy!5e0!3m2!1suk!2sua!4v1699825028128!5m2!1suk!2suaums/Museum-of-Bohima-Chapel/5.png'
         ],
         location: 'вулиця Катедральна, 1',
         date_of_foundation: '1609-1615 рр.',
@@ -971,12 +971,12 @@ export default async function handler(
           '\n' +
           'Квитки можна завчасно придбати онлайн.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Lviv-Museum-is-ancient/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Lviv-Museum-is-ancient/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Lviv-Museum-is-ancient/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Lviv-Museum-is-ancient/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Lviv-Museum-is-ancient/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Lviv-Museum-is-ancient/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Lviv-Museum-is-ancient/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Lviv-Museum-is-ancient/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Lviv-Museum-is-ancient/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Lviv-Museum-is-ancient/4.png'
         ],
         location: 'вулиця Краківська, 21',
         date_of_foundation: '2020 р.',
@@ -995,13 +995,13 @@ export default async function handler(
           '\n' +
           'Головну таємницю аптеки охороняє єдиний у світі Лев-аптекар. Історію "Таємної аптеки" відвідувачі відкривають для себе у легкому форматі відео-екскурсії з елементами театрального перформансу та дегустацією "аптечного еліксиру щастя та довголіття".',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-is-a-secret-pharmacy/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Museum-is-a-secret-pharmacy/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-is-a-secret-pharmacy/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-is-a-secret-pharmacy/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-is-a-secret-pharmacy/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-is-a-secret-pharmacy/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-is-a-secret-pharmacy/5.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Museum-is-a-secret-pharmacy/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Museum-is-a-secret-pharmacy/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Museum-is-a-secret-pharmacy/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Museum-is-a-secret-pharmacy/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Museum-is-a-secret-pharmacy/5.png'
         ],
         location: 'площа Соборна, 1',
         date_of_foundation: '2012 р.',
@@ -1022,9 +1022,9 @@ export default async function handler(
           '\n' +
           'Крім закладу у Львові, також працює музей "Третя після опівночі" у Києві.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-third-after-midnight/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-third-after-midnight/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-third-after-midnight/1.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-third-after-midnight/1.png'
         ],
         location: 'вулиця Личаківська, 8',
         date_of_foundation: '2023 р.',
@@ -1041,15 +1041,15 @@ export default async function handler(
           '\n' +
           'В експозиції представлена багата колекція кераміки, фарфору та фаянсу, виробів із художнього скла. Колекція годинників XVI-XX століття налічує близько 350 екземплярів.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Ethnography-and-Artistic-Crafts/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/5.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/6.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Ethnography-and-Artistic-Crafts/7.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Ethnography-and-Artistic-Crafts/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Ethnography-and-Artistic-Crafts/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Ethnography-and-Artistic-Crafts/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Ethnography-and-Artistic-Crafts/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Ethnography-and-Artistic-Crafts/5.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Ethnography-and-Artistic-Crafts/6.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Ethnography-and-Artistic-Crafts/7.png'
         ],
         location: 'проспект Свободи, 15',
         date_of_foundation: '1951 р.',
@@ -1074,11 +1074,11 @@ export default async function handler(
           '\n' +
           'Відвідування музею можливе лише з екскурсійним супроводом і за попереднім записом.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Electrification-History-of-Lviv-Region/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Electrification-History-of-Lviv-Region/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Electrification-History-of-Lviv-Region/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Electrification-History-of-Lviv-Region/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-Electrification-History-of-Lviv-Region/3.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Electrification-History-of-Lviv-Region/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Electrification-History-of-Lviv-Region/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-Electrification-History-of-Lviv-Region/3.png'
         ],
         location: 'вулиця Юрія Мушака, 56',
         date_of_foundation: '2018 р.',
@@ -1097,12 +1097,12 @@ export default async function handler(
           '\n' +
           'Два стенди в музеї присвячені зброї різних періодів. На експозиції представлено 18 зразків зброї, починаючи з ХVIII cтоліття. Частина матеріалів представлена в мультимедійній формі на інтерактивній панелі, яка була презентована під час відкриття оновленої експозиції 2022 року.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Lyceum-named-after-Krut-Heroes/4.png'
         ],
         location: 'вулиця Пасічна, 68',
         date_of_foundation: '2022 р.',
@@ -1123,12 +1123,12 @@ export default async function handler(
           '\n' +
           'Також на виставці експонуються приватні колекції автомоделей та американських номерних автомобільних знаків.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-and-Technology-Retro-Garage/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-and-Technology-Retro-Garage/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-and-Technology-Retro-Garage/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-and-Technology-Retro-Garage/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-and-Technology-Retro-Garage/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-and-Technology-Retro-Garage/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-and-Technology-Retro-Garage/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-and-Technology-Retro-Garage/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-and-Technology-Retro-Garage/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-and-Technology-Retro-Garage/4.png'
         ],
         location: 'вулиця Дмитра Вітовського, 57А',
         date_of_foundation: '2018 р.',
@@ -1147,9 +1147,9 @@ export default async function handler(
           '\n' +
           'Експозицію завершує зала, присвячена Чорнобильській катастрофі.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-of-Fire-Branch-History/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Museum-of-Fire-Branch-History/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/The-Museum-of-Fire-Branch-History/1.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/The-Museum-of-Fire-Branch-History/1.png'
         ],
         location: 'вулиця Підвальна, 6',
         date_of_foundation: '',
@@ -1166,15 +1166,15 @@ export default async function handler(
           '\n' +
           'Зараз у "Массарівській кам’яниці" розміщено історичну експозицію, де представлено понад 2100 пам’яток історії України від найдавніших часів до початку ХХ століття: неолітичні знаряддя та музичні інструменти, трипільська кераміка, золотий скіфський скарб, давньоруські хрести-енколпіони, катівські мечі середньовічного Львова, маґнатське жіноче і чоловіче вбрання, козацька зброя, астрономічний настільний годинник XVIII століття, колекції стародруків і творів живопису. Досі зберігає таємниці портрет молодої Роксолани – дівчини Насті Лісовської з Рогатина, турецької бранки, яка стала дружиною султана Сулеймана II.\n',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/5.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/6.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/7.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/5.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/6.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-of-History-of-Ukraine-Massarivska-Kruzhnitsa/7.png'
         ],
         location: 'площа Ринок, 24',
         date_of_foundation: 'XV ст.',
@@ -1189,12 +1189,12 @@ export default async function handler(
           '\n' +
           'В експозиції представлено 14 карет різних типів: ландо, фіакр, фаетон, тарантас, візаві тощо. Також "Каретний двір" пропонує іпотерапію, навчання верховій їзді, кінний туризм та екскурсію вулицями старого Львова на кареті.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-carriage-carriage-yard/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-carriage-carriage-yard/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-carriage-carriage-yard/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-carriage-carriage-yard/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-carriage-carriage-yard/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/museums/Museum-carriage-carriage-yard/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-carriage-carriage-yard/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-carriage-carriage-yard/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-carriage-carriage-yard/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/museums/Museum-carriage-carriage-yard/4.png'
         ],
         location: 'вулиця Винниця, 43',
         date_of_foundation: '2022 р.',
@@ -1213,12 +1213,12 @@ export default async function handler(
         description:
           'Парк культури та відпочинку імені Богдана Хмельницького розташований у центральній частині Львова, на схилі пагорба між вулицями Стрийською, Героїв Майдану, Вітовського та Зарицьких. Зона відпочинку та розваг існувала тут ще у XIX столітті. Сучасний парк був закладений у 1951 році та облаштований за радянськими традиціями створення типових парків культури та відпочинку трудящих. З тих часів збереглася центральна алея довжиною понад 800 метрів, колонада центрального входу та приміщення кінотеатру "Дружба". У 1970 році центральний вхід прикрасили фонтани. З 1984 року Парк культури має статус пам\'ятки садово-паркового мистецтва місцевого значення. На території функціонують дитяча зона розваг "Жу-Жу Парк" і парк рухомих фігур динозаврів. Працюють вуличні кафе та ресторан. Регулярно проводяться різноманітні фестивалі та ярмарки.\n',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Bogdan-Khmelnitsky-Park-and-Recreation-Park/4.png'
         ],
         location: 'вулиця Дмитра Вітовського, 51',
         date_of_foundation: '1951 р.',
@@ -1241,14 +1241,14 @@ export default async function handler(
           '\n' +
           'Вхід вільний.\n',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Stryi-Park/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/3.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/4.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/5.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Stryi-Park/6.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Stryi-Park/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Stryi-Park/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Stryi-Park/3.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Stryi-Park/4.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Stryi-Park/5.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Stryi-Park/6.png'
         ],
         location: 'вулиця Стрийська, 15',
         date_of_foundation: '1879 р.',
@@ -1266,12 +1266,12 @@ export default async function handler(
           "Знаходиться парк за адресою вул. Листопадового чину, С. Крушельницької. Сьогодні у парку ім. Івана Франка знаходиться будинок почесного консульства Болгарії у Львові, будиночок  садівника, альтанка та дитячий майданчик з гойдалками та дитячими гірками. Парк ім. І. Франка - пам'ятка садово-паркового мистецтва і занесений до Списку світової культурної спадщини ЮНЕСКО.\n" +
           'Сьогодні  цей  "зелений оазис" у середмісті Львова – справжнє сучасне європейське місце відпочинку.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Franko-Park/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Ivan-Franko-Park/1.jpg',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Franko-Park/1.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Franko-Park/2.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Franko-Park/3.jpeg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Franko-Park/4.jpeg'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Ivan-Franko-Park/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Ivan-Franko-Park/2.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Ivan-Franko-Park/3.jpeg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Ivan-Franko-Park/4.jpeg'
         ],
         location: 'вул. Листопадового чину',
         date_of_foundation: 'XVI століття',
@@ -1286,12 +1286,12 @@ export default async function handler(
           'Парк „Високий замок”, що велично височіє над віковічним Львовом, поєднує в собі старовину із сучасністю. Закладений він у 1838 році на ділянці двох гір – Княжої і Замкової та видолинку, що їх з’єднує. Княжа гора була облюбована князем Данилом Романовичем для свого західного форпосту (ХІІІ ст.). Збереглись залишки мурів замку, який втративши своє оборонне значення поступово руйнується.\n' +
           "Розташований парк на Замковій горі. Перша згадка про Львів пов'язана з цією горою. Тут є грот з левами, тераса, яка відкриває красивий вид на місто, алеї, телевізійна вежа, кургани, монумент Максима Кривоноса і красива природа. Займає більше 30 га. парку гарний сад який налічує понад 45 видів деревних і чагарникових порід. Пам’ятник-камінь козацькому полковникові Максиму Кривоносу, грот – альтанка із двома кам’яними левами перенесеними сюди в 1874 році від міської ратуші. В кінці ХІХ століття насипаний копець (зараз оглядовий майданчик), з якого видно панораму Львова (висота 411 м). Телевізійна вежа. ",
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/High-Castle-Park/1.jpeg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/High-Castle-Park/1.jpeg',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/High-Castle-Park/1.jpeg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/High-Castle-Park/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/High-Castle-Park/3.jpeg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/High-Castle-Park/4.jpg'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/High-Castle-Park/1.jpeg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/High-Castle-Park/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/High-Castle-Park/3.jpeg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/High-Castle-Park/4.jpg'
         ],
         location: 'вулиця Високий Замок, 1',
         date_of_foundation: '',
@@ -1304,10 +1304,10 @@ export default async function handler(
         description:
           'Стара назва парку „Дружба”, однойменну назву мав стадіон (з 1990р. – стадіон Україна). Був розбитий на місці глиняних кар’єрів у 1959 – 1963 рр. і займає площу 60 га. Мережа алей і доріжок прокладена з таким розрахунком, щоб краще розкрити характерні краєвиди парку, а також домогтися максимальної пропускної спроможності під час масового відвідування найбільшого стадіону міста, який розташований у центральній частині парку і розрахований на 30 тисяч місць.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Snopkivsky-Park/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Snopkivsky-Park/1.jpg',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Snopkivsky-Park/1.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Snopkivsky-Park/2.jpeg'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Snopkivsky-Park/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Snopkivsky-Park/2.jpeg'
         ],
         location: 'вулиця Василя Стуса, 47',
         date_of_foundation: '1959 – 1963 рр.',
@@ -1321,9 +1321,9 @@ export default async function handler(
           'Створений парк в 1905р. Зелений куточок недалеко від центру. У парку є багато джерел води з великим вмістом заліза, це і стало причиною виникнення назви парку. Площа його близько 20га. Адреса: вул. Стуса, Мишуги, Тернопільська та Ярославенка. Закладений у 1905 році на схилах яру ріки Полтви.Розташований між вулицями Стуса, Мішуги, Тернопільською і Ярославенко. \n' +
           "Пересічений рельєф місцевості, хвилясті узгір'я і яри, – все це додає парку дуже мальовничий і своєрідний вигляд. Тут бере свій початок річка Полтва. Основа парку – столітній буковий ліс.",
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Iron-water-park/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Iron-water-park/1.jpg',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Iron-water-park/1.jpg'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Iron-water-park/1.jpg'
         ],
         location: 'вул. Стуса',
         date_of_foundation: '1894-1905 р.',
@@ -1338,12 +1338,12 @@ export default async function handler(
           'Сквер розташований у Сихівському районі Львова біля греко-католицької церкви Різдва Пресвятої Богородиці та на місці зустрічі Папи Римського Івана Павла II-го з українською молоддю в 2001 році.\n' +
           'Це перший в Україні парк, закладений після здобуття нею незалежності. Ініціатором заснування Парку, був громадський діяч Андрій Рожнятовський.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Paul-II-Square/1.jpeg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Ivan-Paul-II-Square/1.jpeg',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Paul-II-Square/1.jpeg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Paul-II-Square/2.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Paul-II-Square/3.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/parks/Ivan-Paul-II-Square/4.jpg'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Ivan-Paul-II-Square/1.jpeg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Ivan-Paul-II-Square/2.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Ivan-Paul-II-Square/3.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/parks/Ivan-Paul-II-Square/4.jpg'
         ],
         location: 'проспект Червоної Калини',
         date_of_foundation: '',
@@ -1366,9 +1366,9 @@ export default async function handler(
           '\n' +
           "Спорудження монумента тривало п'ять років, він був відкритий 30 жовтня 1904 року. Вважається одним з найкращих пам'ятників Міцкевичу в світі.",
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Adam-Mickiewicz/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/monuments/Monument-to-Adam-Mickiewicz/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Adam-Mickiewicz/1.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/monuments/Monument-to-Adam-Mickiewicz/1.png'
         ],
         location: 'площа Адама Міцкевича',
         date_of_foundation: '1904 р.',
@@ -1386,10 +1386,10 @@ export default async function handler(
           '\n' +
           "Проєкт пам'ятника розробили скульптори Ярич та Романович, а також архітектор Чурилик. Пам'ятник є кінною фігурою з бронзи на гранітному п'єдесталі.",
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Danilov-Halytsky/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/monuments/Monument-to-Danilov-Halytsky/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Danilov-Halytsky/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Danilov-Halytsky/2.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/monuments/Monument-to-Danilov-Halytsky/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/monuments/Monument-to-Danilov-Halytsky/2.png'
         ],
         location: 'площа Галицька',
         date_of_foundation: '2001 р.',
@@ -1407,11 +1407,11 @@ export default async function handler(
           '\n' +
           'Пам\'ятник виготовили в Аргентині. Урочисте відкриття відбулося на річницю ухвалення декларації незалежності України. Через 4 роки було відкрито другий елемент пам\'ятника – 12-метрова бронзова "Хвиля Національного Відродження".',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Taras-Shevchenko/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/monuments/Monument-to-Taras-Shevchenko/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Taras-Shevchenko/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Taras-Shevchenko/2.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/monuments/Monument-to-Taras-Shevchenko/3.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/monuments/Monument-to-Taras-Shevchenko/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/monuments/Monument-to-Taras-Shevchenko/2.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/monuments/Monument-to-Taras-Shevchenko/3.png'
         ],
         location: 'проспект Свободи',
         date_of_foundation: '1992 р.',
@@ -1435,13 +1435,13 @@ export default async function handler(
           '\n' +
           '   Головна зала театру, яка у формі ліри, уміщує біля тисячі відвідувачів. У ложах, поміж якими і колишня імператорська, сценічне дійство можуть оглядати особливо шановані відвідувачі. По всьому периметру залу оздоблено каріатидами та гермами, а її окрасою є плафон із алегоріями та завіса «Парнас», виконана за ескізами Генрика Семирадського',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/1.jpg',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/1.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/2.jpeg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/3.jpeg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/4.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/5.jpg'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/2.jpeg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/3.jpeg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/4.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Opera-and-Ballet-Theatre.Solomiya-Krushelnytska/5.jpg'
         ],
         location: 'проспект Свободи, 28',
         date_of_foundation: '1897-1900 рр.',
@@ -1455,12 +1455,12 @@ export default async function handler(
         description:
           'Марія Заньковецька була відомою актрисою, яка привернула увагу та прихильність Костянтина Станіславського, батька “методу акторської гри” – стилю акторської майстерності, який практикують відомі сьогодні актори театру. Національний академічний український драматичний театр ім. М. Заньковецької відкрився у 1842 році відомим графом Станіславом Скарбеком. Збудований у неокласичному стилі він був однією з трьох найбільших будівель у тогочасній Центральній Європі. З того часу будівля збільшилась, а її класичний драматичний репертуар та музичні концерти продовжували залучати задоволених глядачів. Гарне фойє, Глядацька зала та Колонна зала використовуються як особливі локації для зустрічей та виставок.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/1.jpg',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/1.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/2.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/3.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/4.png'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/2.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/3.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/National-Academic-Ukrainian-Drama-Theater-named-after-Maria-Zankovetskaya/4.png'
         ],
         location: 'вулиця Лесі Українки, 1',
         date_of_foundation: '1842 р.',
@@ -1479,14 +1479,14 @@ export default async function handler(
           'Критика називає цей колектив унікальним театральним явищем, бо він повернув українській сцені інтелектуальний престиж, створив свою методологічну школу і поєднав багатогранну сценічну практику з процесом пізнання Людини.\n' +
           'Репертуар театру складається тільки з високохудожніх класичних і сучасних творів. На таких творах актори-курбасівці, театральні педагоги, виховали не одне покоління своїх учнів.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/1.jpg',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/1.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/2.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/3.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/4.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/5.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/6.jpg'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/2.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/3.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/4.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/5.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Les-Kurbas-Academic-Theater-Lviv-Academic-Theater/6.jpg'
         ],
         location: 'вулиця Леся Курбаса, 3',
         date_of_foundation: '1988 р.',
@@ -1504,14 +1504,14 @@ export default async function handler(
           '\n' +
           'Так однією з топ-інсценізацій  є вистава «Баба Пріся», головна героїня якої є стара українська баба, яка головує в сім’ї. Події відбуваються у Чорнобильській зоні відчуження, тому сама баба дуже цікава особа, яка є не зовсім простою жінкою. Вистава багатогранна, комедійна, за якою криється трагедія. Вона торкається різних струн душі, викликаючи то сльози,то сміх. ',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/1.jpg',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/1.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/2.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/3.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/4.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/5.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/6.jpg'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/2.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/3.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/4.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/5.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Lesya-Ukrainka-Lviv-Drama-Theater/6.jpg'
         ],
         location: 'вулиця Городоцька, 36',
         date_of_foundation: '1931 p.',
@@ -1526,12 +1526,12 @@ export default async function handler(
         description:
           'Львівський академічний духовний театр  “Воскресіння” був заснований у 1990 році режисером Ярославом Федоришиним, який закінчив Харківський інститут театрального мистецтва ім.. І.Котляревського в класі Всеволода Цвєткова та Московський Державний інститут театрального мистецтва в класі Анатолія Ефроса та групою акторів, які були запрошені в театр з різних театрів України. 19 грудня 1990 року театр вийшов на суд глядача з новою роботою “Чудо Св. Отця Миколая над Половчином” С. Перського. Це була дипломна робота Ярослава Федоришина. Вистава отримала несподіваний успіх. З цією виставою театр об¢їздив багато місць, навіть такі, як віддалене село Турківського району, де ніколи не бував театр.Потім було “Благовіщення Марії” П. Клоделя, коли актори ледь не півсвіту підняли на ноги, поки отримали переклад Віри Вовк. Першою на Українській сцені була і “Юдита” Ф.-Х. Геббеля, “Каїн” Д. Байрона, “Гірські Велетні” Л. Піранделло. Одні з перших вистав ще 1991 року театр повіз на Міжнародний театральний фестиваль до Ченстохови (Польща). Митці заприязнилися з українським Фондом св. Володимира Великого, який очолює професор Володимир Мокрий. За його сприяння “Воскресіння” запросили до Кракова. Це був перший прорив у світ.Театр „Воскресіння” – це завжди експеримент на сцені і несподіванка  для глядача,тому він має своїх прихильників у різних містах України та за кордоном. “Воскресіння” ставить такі вистави, які ніколи не йшли на українській сцені. Це правило стало традицією театру. Завдяки цьому він має успіх. За короткий час театр завоював прихильність публіки та театральної критики послідовним пошуком виразної театральної мови і конкретної сценічної форми. Відкриваючи українському глядачеві світову драматургію, яка ніколи не бачила світло рампи на Україні, театр крок за кроком розширює театральне світосприйняття публіки та актора. У театральних пошуках “Воскресіння” поєднались традиції психологічного театру та пошуки сучасних театральних форм.З 1992 року на базі театру “Воскресіння” відновлюється театральний фестиваль “Золотий Лев”. В 1994 році цей фестиваль набуває статусу Міжнародного і на сьогоднішній день являється одним з найяскравіших театральних форумів України.На сьогоднішній день театр «Воскресіння» – це один з найяскравіших колективів України, який грає 190 вистав на рік, з них 50-60 вистав – в різних країнах світу. Театр працює як на сцені, так і на вулиці. Вуличні вистави зачаровують своєю атмосферою, акторською грою та різноманітними ефектами, які впливають на глядача і заставляють його задуматись над тим прекрасним, що існує в нас і поза нами.Театр „Воскресіння” єчлеміжнародногєвропейського мітингу (IETM) і асоціації міжнародних театральних фестивалів (IFEA).',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lviv-Academic-Theater-(Resurrection)/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Lviv-Academic-Theater-(Resurrection)/1.jpg',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lviv-Academic-Theater-(Resurrection)/1.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lviv-Academic-Theater-(Resurrection)/2.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lviv-Academic-Theater-(Resurrection)/3.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/Lviv-Academic-Theater-(Resurrection)/4.jpg'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Lviv-Academic-Theater-(Resurrection)/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Lviv-Academic-Theater-(Resurrection)/2.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Lviv-Academic-Theater-(Resurrection)/3.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/Lviv-Academic-Theater-(Resurrection)/4.jpg'
         ],
         location: 'площа Генерала Григоренка, 5',
         date_of_foundation: '1990 р.',
@@ -1547,12 +1547,12 @@ export default async function handler(
           'Але через нестабільну ситуацію, котра виникла у зв’язку з Першою світовою війною, після глибокої фінансової кризи багато приміщень здавалося в оренду, Реміснича палата не була винятком. Підприємець Марек Парізер орендував великий зал Ремісничої палати і 1926-го року облаштував тут кінотеатр “Штука” на 290 глядацьких місць, а у міжвоєнний період великий зал було передано у використання Кінотеатру “Балтик”. До 1941-го змінювались власники залу, але завжди функціонував кінотеатр.\n' +
           'В наші дні, у театрі на стелі досі збереглися фрагменти автентичного вітража у стилі сецесія і неймовірна ковка. За дзеркалом колись також був вітраж. Через ці два вітражі у фойє потрапляло багато денного світла.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-Lviv-Regional-Puppet-Theater/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/The-Lviv-Regional-Puppet-Theater/1.jpg',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-Lviv-Regional-Puppet-Theater/1.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-Lviv-Regional-Puppet-Theater/2.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-Lviv-Regional-Puppet-Theater/3.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-Lviv-Regional-Puppet-Theater/4.jpg'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/The-Lviv-Regional-Puppet-Theater/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/The-Lviv-Regional-Puppet-Theater/2.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/The-Lviv-Regional-Puppet-Theater/3.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/The-Lviv-Regional-Puppet-Theater/4.jpg'
         ],
         location: 'площа Данила Галицького, 1',
         date_of_foundation: '1945 р.',
@@ -1571,11 +1571,11 @@ export default async function handler(
           'нових форм, любов до ляльки — це сьогоднішнє лице ТЕАТРУ\n' +
           '— ДОМУ, бо він став домом і людям, і лялькам.',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-variety-miniature-theater-(both-people-and-dolls)/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/The-variety-miniature-theater-(both-people-and-dolls)/1.png',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-variety-miniature-theater-(both-people-and-dolls)/1.png',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-variety-miniature-theater-(both-people-and-dolls)/2.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/The-variety-miniature-theater-(both-people-and-dolls)/3.jpeg'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/The-variety-miniature-theater-(both-people-and-dolls)/1.png',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/The-variety-miniature-theater-(both-people-and-dolls)/2.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/The-variety-miniature-theater-(both-people-and-dolls)/3.jpeg'
         ],
         location: 'вулиця Олександра Фредра, 6',
         date_of_foundation: '1990 р',
@@ -1588,11 +1588,11 @@ export default async function handler(
         description:
           'Перший академічний український театр для дітей та юнацтва — перший театр в Україні та світі, розрахований на дитячу та юнацьку аудиторію. Заснований 1920 року в Харкові, з 1944 р. перебазований до Львова',
         main_image:
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/First-Ukrainian-Theater-for-Children-and-Youth/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/First-Ukrainian-Theater-for-Children-and-Youth/1.jpg',
         images: [
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/First-Ukrainian-Theater-for-Children-and-Youth/1.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/First-Ukrainian-Theater-for-Children-and-Youth/2.jpg',
-          'https://architectureoflvivblob.blob.core.windows.net/images/theatres/First-Ukrainian-Theater-for-Children-and-Youth/3.jpg'
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/First-Ukrainian-Theater-for-Children-and-Youth/1.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/First-Ukrainian-Theater-for-Children-and-Youth/2.jpg',
+          'https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/theatres/First-Ukrainian-Theater-for-Children-and-Youth/3.jpg'
         ],
         location: 'вулиця Академіка Гнатюка, 11',
         date_of_foundation: '1920 року',
