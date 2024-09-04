@@ -16,6 +16,8 @@ model categories {
   archs      architectural_landmarks[]
   created_at DateTime                  @default(now())
   updated_at DateTime                  @updatedAt
+
+  @@index([id], name: "id")
 }
 
 model architectural_landmarks {
@@ -32,4 +34,7 @@ model architectural_landmarks {
   online_tour_link   String?
   created_at         DateTime   @default(now())
   updated_at         DateTime   @updatedAt
+
+  @@index([category_id], name: "category_id")
+  @@index([name], name: "name")
 }
