@@ -10,7 +10,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'architectureoflvivblob.blob.core.windows.net',
+        hostname: '8y9u0dodlxxf6ihz.public.blob.vercel-storage.com',
         port: '',
         pathname: '/**'
       }
