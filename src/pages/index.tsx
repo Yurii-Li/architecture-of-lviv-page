@@ -54,7 +54,7 @@ export default function Home() {
               </div>
               <div className={styles.architecturalImage}>
                 <Image
-                  src="https://architectureoflvivblob.blob.core.windows.net/images/main-page/St.-Georges-Cathedral.jpg"
+                  src="https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/main-page/St.-Georges-Cathedral.jpg"
                   alt="Собор святого Юра"
                   fill
                   priority
@@ -66,7 +66,7 @@ export default function Home() {
             <div className={styles.architecturalItem}>
               <div className={styles.architecturalImage}>
                 <Image
-                  src="https://architectureoflvivblob.blob.core.windows.net/images/main-page/St.-Andrews-Church.jpg"
+                  src="https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/main-page/St.-Andrews-Church.jpg"
                   alt="Церква святого Андрія"
                   fill
                   priority
@@ -130,7 +130,7 @@ export default function Home() {
               </div>
               <div className={styles.architecturalImage}>
                 <Image
-                  src="https://architectureoflvivblob.blob.core.windows.net/images/main-page/Dominican-Church.jpg"
+                  src="https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/main-page/Dominican-Church.jpg"
                   alt="Домініканський собор"
                   fill
                   priority
@@ -142,7 +142,7 @@ export default function Home() {
             <div className={styles.architecturalItem}>
               <div className={styles.architecturalImage}>
                 <Image
-                  src="https://architectureoflvivblob.blob.core.windows.net/images/main-page/Church-of-Saints-Olga-and-Elizabeth-in-Lviv.jpg"
+                  src="https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/main-page/Church-of-Saints-Olga-and-Elizabeth-in-Lviv.jpg"
                   alt="Церква святих Ольги і Єлизавети"
                   fill
                   priority
@@ -198,7 +198,7 @@ export default function Home() {
               </div>
               <div className={styles.architecturalImage}>
                 <Image
-                  src="https://architectureoflvivblob.blob.core.windows.net/images/main-page/Opera-theatres.jpg"
+                  src="https://8y9u0dodlxxf6ihz.public.blob.vercel-storage.com/main-page/Opera-theatres.jpg"
                   alt="Оперний театр"
                   fill
                   priority
